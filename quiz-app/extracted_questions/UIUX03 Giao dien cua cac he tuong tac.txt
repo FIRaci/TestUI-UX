@@ -1,0 +1,871 @@
+BÀI 3: GIAO DIỆN CỦA CÁC HỆ 
+TƯƠNG TÁC
+I.
+Khái niệm
+II.
+Các kiểu tương tác
+III.
+Giao diện qua các thời kỳ
+IV.
+Công thái học
+V.
+Trải nghiệm người dùng
+2
+Mục tiêu của bài học
+• Giải thích các mô hình tương tác
+• Giải thích ngữcảnh tương tác
+• Giải thích các kĩ thuật tương tác 
+• Sửdụng các mô hình tương tác đểbiểu điễn sửtương 
+tác giữa người và máy trong hệtương tác
+I. KHÁI NIỆM
+1.
+Mô hình tương tác
+2.
+Giao diện
+4
+I. Khái niệm
+1.
+Mô hình tương tác
+2.
+Giao diện
+Mởđầu
+• Tương tác đòi hỏi sựtham gia của người dùng và hệ
+thống
+• Người dùng và hệthống sửdụng ngôn ngữkhác nhau
+• Cảhai đều rất phức tạp và khác nhau theo cách thức mà
+chúng thu nhận, lưu trữ, xửlý và truyền tin 
+• Giao diện thực hiện phép chuyển đổi đểhệtương tác
+và người dùng có thểhiểu nhau nhằm thực hiện một
+tác vụ
+6
+Khái niệm
+• Mô hình là gì ? 
+• Mô tả, biểu diễn vềmột đối tượng, quá trình, v.v. 
+• Ví dụ: 
+• Mô hình tương tác là gì ?  
+• Mô tảbiểu diễn vềquá trình tương tác giữa con người ND và
+máy tính
+• Nghiên cứu mô hình tương tác đểlàm gì? 
+• Hiểu cái gì đang diễn ra trong quá trình tương tác giữa người
+dùng và hệthống
+• Xác định các nguồn gốc, nguyên nhân khó khăn trong quá
+trình tương tác
+7
+Phân loại
+• Theo quan điểm của người dùng: Mô hình chu trình
+thực hiện đánh giá (execution-evaluation cycle) 
+• Mô hình do Donald Norman đềxuất (head of the Apple 
+Research Laboratories, and Professor of Cognitive Science at 
+University of California, San Diego)
+• Theo quan điểm của tương tác: Mô hình khung làm
+việc (framework) 
+• Mô hình do Abowd and Beale đềxuất (Prof at Georgia Tech,)
+8
+1.1. Mô hình chu trình thực hiện -
+đánh giá
+• Tương tác gồm 7 giai
+đoạn:
+• Thiết lập mục đích
+• Hình thành chủý
+• Đặc tảdãy hành động
+• Thực hiện hành động
+• Cảm nhận trạng thái của
+hệthống
+• Phân tích trạng thái của hệ
+thống
+• Đánh giá trạng thái của hệ
+thống với mục đích
+9
+1.1. Mô hình chu trình thực hiện -
+đánh giá
+10
+1.1. Mô hình chu trình thực hiện -
+đánh giá
+11
+Ví dụ: sửdụng trình soạn thảo văn
+bản đểcăn chỉnh một bức thư
+inten%on-1
+inten%on-2
+inten%on-3
+action
+specification
+evaluate-1
+evaluate-2
+evaluate-3
+interpreta%on
+inten%on-4
+evaluate-4
+look be'er
+block para
+.pp->.sp
+execu2on
+percep2on
+get
+forma'ed
+output
+ac%on
+speciﬁca%on
+execu2on
+interpreta%on
+printer
+percep2on
+Ví dụ: sửdụng trình soạn thảo văn
+bản đểcăn chỉnh một bức thư
+1. Mô tảchu trình thực hiện – đánh giá tương ứng với nhiệm vụtrên
+2. Dùng chu trình thực hiện - đánh giá đểkiểm chứng tính dùng
+được ?
+• Người dùng có dễdàng thực hiện các hành động sau hay không ?
+• Xác định các chức năng do hệthống cung cấp
+• Biết được các hành động tương tác có thểthực hiện được
+• Xác định mối quan hệtừý định tương tác đến lựa chọn hành động
+tương tác cụthể
+• Thực hiện hành động tương tác
+• Biết được trạng thái hiện tại của hệthống
+• Xác định ánh xạtừtrạng thái thật của hệthống đến ý nghĩa trạng thái
+mà người dùng hiểu được
+• Xác định hệthống có ở trạng thái mà người dùng mong muốn hay 
+không
+13
+Thếnào là thiết kếtương tác tốt ???
+Bài tập
+• Có 3 bài toán thiết kế sau: 
+• Thiết kế giao tiếp người máy thông qua tiếng nói 
+• Thiết kế giao tiếp người máy thông qua cử chỉ tay
+• Thiết kế giao tiếp thông qua cảm ứng
+• Hãy cụ thể hóa từng bước theo mô hình thực hiện 
+đánh giá của mỗi bài toán trên
+14
+Gestures
+Speech
+Touch
+1.1. Mô hình chu trình thực hiện -
+đánh giá
+• J Ưu điểm: 
+• Gần gũi với sựhiểu biết của chúng ta vềtương tác người
+dùng máy tính
+• Người dùng hình thành kếhoạch hành động
+• Kếhoạch hành động được thực hiện bởi máy tính
+• Trong quá trình thực hiện, người dùng quan sát kết quảtrảvề
+qua giao diện và quyết định các hành động tiếp theo
+• Mô hình Norman là phương tiện hữu ích đểhiểu tương tác: 
+đơn giản, cụthể
+• L Nhược điểm: 
+• Chỉxem xét hệthống theo quan điểm của người dùng, chưa
+chú ý đến giao tiếp với hệthống qua tương tác
+15
+1.2. Mô hình khung tương tác
+• Cung cấp mô tảtương tác hệthống – người dùng hiện
+thực hơn
+• Hệthống gồm 4 thành phần, mỗi thành phần sửdụng
+ngôn ngữriêng: 
+• Hệthống (Core)
+• Người dùng (Task)
+• Đầu vào
+• Đầu ra
+16
+1.2. Mô hình khung tương tác
+17
+Bài tập
+• Các phép dịch chuyển phải có những tính chất gì để
+việc giao tiếp là hiệu quả? 
+18
+Bài tập
+19
+Dễ hiểu, 
+dễ đánh giá
+Phù hợp với việc học và
+việc hiểu của người dùng
+Trực quan, thích nghi, biểu 
+diễn các nhiệm vụ đơn 
+giản, dễ hiểu
+Thu nhận và xử lý các 
+thông Vn đầu vào một 
+cách tối ưu
+Nhận xét
+• Khung tương tác được thểhiện như một công cụhữu
+ích đểđánh giá tính hiệu dụng của một hệthống hoàn
+chỉnh
+• Mọi phân tích được gợi ý trên khung tương tác là độc
+lập trên từng nhiệm vụ
+• Chỉkhi thực hiện nhiệm vụcụthểmới xác định được
+công cụphù hợp nhất sẽsửdụng
+20
+I. Khái niệm
+1.
+Mô hình tương tác
+2.
+Giao diện
+2.1. Giao diện con người
+(Human Interface)
+• Trao đổi thông tin và tương tác giữa con người và hệ
+thống
+• Phương pháp luận hoạt động
+• Trình tựhoạt động
+• Phương pháp hiện thịthông tin
+có tính đến các yếu tốnhư con người, thiết bị, môi trường, 
+xã hội, cộng đồng
+environment
+society
+community
+people
+Interac1on/
+Device(s)
+22
+2.2. Giao diện người dùng (User 
+interface)
+• ISO 9241-110:2006: Giao diện người dùng là tất cả
+các thành phần của hệthống tương tác (phần mềm
+hoặc phần cứng) cung cấp thông tin và điều khiển cho 
+người dùng đểhoàn thành các tác vụcụthểvới hệ
+tương tác.
+Human user
+Information
+InteracVon
+23
+InteracVve system
+Các thành phần chính của giao
+diện người dùng
+• Đầu vào: keyboard, mouse, trackball, one's finger (for 
+touch-sensitive screens), and one's voice (for spoken 
+instructions). 
+• Đầu ra: cách thức máy tính truyền tải thông tin đến
+người sửdụng bằng các phương tiện như
+• Màn hình hiển thị
+• Tiếng nói
+• Âm thanh
+• Việc sửdụng các giác quan: xúc giác, khứu giác chưa
+được khai thác nhiều.
+24
+Ví dụHI, UI
+25
+Vai trò của giao diện người dùng
+• Giao diện người dùng là một trong sốcác thành phần
+quan trọng nhất của bất kỳmột hệthống máy tính nào
+• Vì sao ? 
+• Giao diện người sửdụng cho phép người dùng nghe, nhìn, 
+tiếp xúc hệthống. 
+• Các thiết kếvềchức năng (application core) thường trong
+suốt đối với người dùng, người dùng tiếp xúc trực tiếp với các
+thiết bịgiao tiếp là màn hình, bàn phím và chuột.
+26
+II. CÁC KIỂU TƯƠNG TÁC
+1.
+Dòng lệnh
+2.
+Bảng chọn
+3.
+Ngôn ngữtựnhiên
+4.
+Hỏi đáp và truy vấn
+5.
+Điền mẫu
+6.
+WIMP
+7.
+Điều khiển trực tiếp
+8.
+Thực tếảo
+Mởđầu
+• Việc tương tác được coi như đối thoại giữa người dùng và
+máy tính
+• Việc chọn kiểu giao tiếp ảnh hưởng sâu sắc đến bản chất
+của quá trình đối thoại
+• Có nhiều kiểu tương tác giữa con người và máy tính được
+sửdụng trong thiết kếgiao diện
+• Giao tiếp dòng lệnh
+• Giao tiếp bảng chọn
+• Giao tiếp bằng ngôn ngữtựnhiên
+• Giao tiếp dạng hỏi đáp và truy vấn
+• Dạng form
+• Dạng WIMP
+28
+1. Giao tiếp dòng lệnh
+• Được sửdụng sớm nhất và đến nay vẫn còn khá phổ
+dụng (môi trường VB). 
+• Cung cấp phương tiện biểu diễn lệnh trực tiếp cho
+máy tính thông qua các phím chức năng, ký tựđơn, từ
+viết tắt hay đầy đủ.
+• Ví dụ: 
+• Các lệnh của DOS hay UNIX thường dùng các động từ tiếng 
+Anh viết tắt: Dir » ln của UNIX dùng để xem nội dung ổ đĩa 
+hay thư mục.
+• Có thể có macro lệnh. Truy nhập trực tiếp vào Hệ thống.
+29
+1. Giao tiếp dòng lệnh
+30
+1. Giao tiếp dòng lệnh
+• J Ưu điểm:
+• Thích hợp với nhiệm vụ có tính lặp
+• Thích hợp với ND có kinh nghiệm do tính ngắn gọn, nhanh và 
+dễ hiểu của câu lệnh.
+• L Nhược điểm:
+• Cần phải đào tạo.
+• Sai sót cao. 
+• Khó xửlý tình huống lỗi.
+31
+Làm thếnào để
+giao 1ếp dòng lệnh hiệu quả?
+• Menu là tập các lựa chọn có thểcho ND được hiện
+trên màn hình và được chọn bởi chuột, phím sốhay 
+phím chữcái
+single
+extended 
+linear sequence
+tree-structured
+- hierarchical
+- pull down 
+- pop-up
+- circular
+acyclic network
+cyclic network
+2. Giao tiếp menu
+32
+Ví dụ
+33
+PAYMENT DETAILS
+Please select payment method:
+1. Cash
+2. Cheque
+3. Credit card
+4. Invoice
+2. Giao tiếp menu
+• J Ưu điểm:
+•
+Dễhọc, dễdùng và có nhiều lựa chọn. 
+•
+Có hướng dẫn, ít nhớ. Thích hợp với ND không thường
+xuyên.
+• L Nhược điểm:
+• Tốn không gian nhớtrên màn hình
+• Thông tin có thểbịche dấu ở các menu con
+• Chậm với những người sửdụng thành thạo
+34
+Làm thếnào để
+giao 1ếp menu hiệu quả?
+Khuyến cáo xây dựng menu 
+tuyến tính
+• Nên cung cấp các tuỳchọn sau đây cho người dùng:
+• Người dùng có thểquay lại màn hình trước đó
+• Người dùng có thểkết thúc hoặc bắt đầu lại trình tự
+• Người dùng được cung cấp các lựa chọn theo thứtựphù hợp với
+mong đợi của họ
+• Người dùng biết họđang thực hiện đến bước nào theo trình tự
+Khuyến cáo xây dựng menu hình
+cây
+• Luôn có menu chính hoặc menu chung
+• Sửdụng các thuật ngữliên quan đến
+tác vụngười dùng cần thực hiện
+• Ưu tiên chiều rộng hơn chiều sâu
+• Chiều sâu không quá 3-4 cấp kèm theo
+phân loại hợp lý
+• Giới hạn lựa chọn ở 4-8 mục, các mục
+phải dễphân biệt
+• Với các hệthống lớn, cần cung cấp hệ
+thống chỉmục hoặc bản đồđểđịnh
+hướng người dùng
+• Cải thiện thiết kếsau khi có phản hồi từ
+người dùng.
+tree-structured
+- hierarchical
+- pull down 
+- pop-up
+- circular
+Đọc thêm: các cách tiếp cận cho
+phép truy nhập nhanh vào menu
+• Menus with type ahead 
+• Người dùng nhập vào chuỗi ký tựbiểu diễn các mục trong
+menu
+• Các ký tựđầu tiên của mỗi mục trong menu phải khác nhau. 
+• Menu names and item numbers
+• Người dùng nhập tên hoặc sốthứtựcác mục đểtruy nhập
+vào các mục trong menu
+• Menu macros 
+• Hệthống tựthêm các mục thường dùng vào trong menu
+• Người dùng tựđịnh nghĩa các mục trong menu
+3. Giao tiếp bằng ngôn ngữ tự 
+nhiên
+• Có thểlà phương tiện hấp dẫn nhất trong giao tiếp với
+máy tính vì người dùng khó có thểnhớdòng lệnh hay 
+quên mất các mức phân cấp của menu. 
+• Ngôn ngữtựnhiên với 2 dạng: chữviết, lời nói đều rất
+được quan tâm và nghiên cứu.
+38
+3. Giao tiếp bằng ngôn ngữ tự 
+nhiên
+• J Ưu điểm:
+•
+Tựnhiên, không tốn công đào tạo
+•
+Dễthích ứng, dễsửa lỗi
+• L Nhược điểm:
+• Thiếu chính xác, rõ ràng: cú pháp, cấu trúc câu không rõ
+• Dài, tải cao
+• Nhập nhằng: The man hit the boy with the sticks
+39
+=> Sửdụng ngôn ngữtựnhiên trong
+các lĩnh vực hạn chếthì có thểthành
+công.
+Làm thếnào để
+giao 1ếp hiệu quả?
+4. Giao tiếp bằng hỏi đáp truy vấn
+• Dẫn dắt qua một loạt các câu hỏi
+• Loại SQL: thao tác với CSDL => đòi hỏi phải hiểu cấu
+trúc và cú pháp của CSDL
+40
+Giao tiếp kiểu truy vấn với CSDL (dạng GUI)
+4. Giao tiếp bằng hỏi đáp truy vấn
+• J Ưu điểm:
+• Tựnhiên, dễthiết kế
+• Quen thuộc với người dùng mới, thiếu kinh nghiệm
+• L Nhược điểm:
+• Phức tạp khi tình huống phức tạp
+• Thiếu tính tổng quát
+• Cần nhiều giao tiếp
+41
+5. Giao tiếp điền theo mẫu
+• Điền theo mẫu: (Form fills & 
+Spreadsheets)
+• Chủyếu dùng trong truy xuất dữ
+liệu: nhập, trích rút
+• Màn hình giống như khuôn mẫu
+42
+Các thông tin cần điền
+Các đềmục
+Thông tin phải điền có
+thểchọn/ đánh dấu
+5. Giao tiếp điền theo mẫu
+43
+Một dạng Form nhập liệu trong CSDL
+5. Giao tiếp điền theo mẫu
+44
+Form nhập và trích dữliệu trong ACCESS
+5. Giao tiếp điền theo mẫu
+• J Ưu điểm:
+•
+Tựnhiên, dễthiết kế, có chỉdẫn cần thiết
+•
+Dễdàng thay đổi khi cần
+• L Nhược điểm:
+• Thiếu sáng tạo của người dùng
+• Tải cao với hệthống, mạng
+45
+6. Giao tiếp WIMP
+• Là sựkết hợp của văn bản và đồhọa
+46
+Giao tiếp WIMP - WINDOW
+Một cửa sổtiêu biểu của MS Explorer
+47
+Icons
+Scroll Bar
+Giao tiếp WIMP – Biểu tượng
+(Icons)
+48
+Giao tiếp WIMP - Menu
+49
+a) Menu 2 mức
+b)  Menu nhiều mức
+Giao tiếp WIMP - Pointer
+• Là một thành phần quan trọng trong WIMP vì nó dùng 
+để định vị và lựa chọn
+• Dạng của con trỏ gắn với ý nghĩa và hành động
+50
+Giao tiếp WIMP
+• J Ưu điểm:
+•
+Tốt, dễhọc, dễnhớ
+• Tính chủđộng của người dùng cao, giảm sai sót
+• L Nhược điểm:
+• Khó lập trình
+• Tải cao
+• Màn hình đồhọa
+• Chậm với ND có kinh nghiệm
+• Nhóm các mức trong menu
+51
+7. Điều khiển trực tiếp 
+(WYSIWYG)
+• Sinh động, dễsửdụng
+• Nguy hiểm: cần phân biệt cut/paste đối tượng với
+delete đối tượng vì có khi người dùng chỉcần cut
+52
+(What you see is What you get) 
+Ví dụ: Giao diện ba chiều
+53
+8. Thực tếảo
+• Immersion
+• “looking in” perspective: đóng vai đối tượng trong môi trường
+ảo
+• Cảm giác chủquan vềmôi trường tương tác: 
+• Mũ, kính, găng … hỗtrợcảm nhận thếgiới 3D
+• Trải nghiệm lái xe với các hiệu ứng trên đường đua
+• Desktop 
+• “looking at” perspective: quan sát đối tượng trong môi trường
+ảo
+• Thay đổi môi trường đểchỉra các hoạt động: 
+• Màn hình chung cho đầu vào / đầu ra; hiệu ứng giảlập 3D
+• Chuyển từmàn hình này sang màn hình khác
+III. GIAO DIỆN QUA CÁC THỜI 
+KỲ
+1.Giao diện văn bản (TUI)
+2.Giao diện đồ hoạ (GUI)
+3.Giao diện tự nhiên (NUI)
+4.Giao diện hữu cơ (OUI)
+Graphical
+User Interface
+Natural 
+User Interface
+Giao diện qua các thời kỳ
+Command line
+1985
+PC
+1990
+GUI
+Multiple Windows
+Menus
+1995
+Internet
+Hyperlinks
+Search Engines
+XML
+Web Services
+2000
+2005
+Any place,
+Any time,
+Any device
+Natural Language
+Multimodal (speech, ink…)
+Personal Assistant
+Organic
+User Interf
+Interface 
+disappears
+1. Giao diện văn bản (TUI)
+57
+Command line
+Swith panels
+1985
+PC
+Hardware level
+Programming level
+Terminal level
+Tương tác TUI
+Người dùng là chuyên gia, 
+nhớlại:
+l Có các chức năng nào
+l Làm gì tiếp theo
+l Nhập thông tin gì (theo
+thứtựnào)
+Công nghệTUI
+Dòng lệnh
+l Đầu vào: Bàn phím
+Enables
+2. Giao diện đồhoạ(GUI)
+58
+Tương tác GUI
+Người dùng là chuyên
+gia, nhận biết
+l Có các chức năng nào
+l Làm gì tiếp theo
+l Chọn cái gì (theo thứtự
+nào)
+l Nhập cái gì
+Công nghệGUI
+Điều khiển trực tiếp
+l Đầu vào: Bàn phím / chuột
+l Đầu vào từchuột ánh xạtới
+các cửa sổ, thực đơn
+l Đầu vào từbàn phím ánh xạ
+tới các phím tắt chức năng
+(text index) khi tìm kiếm
+Enables
+1990 GUI
+Multiple Windows
+Menus
+1995 Internet
+Hyperlinks
+Search Engines
+Interac2on dialogue level
+Work seAng level
+Người dùng nói / nhập :
+“Informa2on about Hanoi”
+“I want to travel to Hanoi”
+“Book my ﬂight to Hanoi 
+using TripAdvisor”
+Công nghệNUI
+Ngôn ngữtựnhiên / cửchỉ/ …
+1.
+Lắng nghe người dùng
+Typed, spoken, wriden
+3. Giao diện tựnhiên (NUI)
+59
+Enables
+Tương tác NUI
+2.
+Hiểu họmuốn gì
+Analyze text
+Consider context
+Clarify using dialog
+3.
+Làm cái người dùng muốn
+Broker and execute by
+ﬁnding content / services
+4. Giao diện hữu cơ
+60
+Text
+Công nghệOUI
+l Thông tin được giao tiếp
+qua các vật dùng thường
+ngày thay vì văn bản hay 
+đồhoạ
+l Hình dạng hiện thịcó thể
+thay đổi tuỳthuộc đầu
+vào
+l Không phân biệt các thiết
+bịđầu vào và đầu ra
+Tương tác OUI
+Người dùng hỏi và làm
+theo cách thường làm
+l Tương tác giống như cách
+người dùng tương tác trong
+thếgiới thực (cào, gấp, hoặc
+các cửchỉkhác ..)
+Enables
+IV. CÔNG THÁI HỌC
+1.
+Mục đích
+2.
+Sắp xếp các điều khiển và hiện thị
+3.
+Môi trường vật lý của tương tác
+4.
+Vấn đềsức khoẻvà an toàn của người dùng
+5.
+Màu sắc
+1. Mục đích
+• Nghiên cứu về các đặc tính vật lý của tương tác
+• Sử dụng trong việc định nghĩa các tiêu chuẩn, các chỉ 
+dẫn để ràng buộc cách thiết kế giao diện của hệ tương 
+tác trên các khía cạnh khác nhau
+• Ví dụ: 
+• Cách sắp xếp các điểu khiển và hiển thị 
+• Môi trường xung quanh 
+• Vấn đề sức khỏe người dùng
+• Sử dụng màu sắc
+62
+2. Sắp xếp các điều khiển và hiển 
+thị
+• Tổ chức vật lý phù hợp
+• theo chức năng
+• theo kiểu tuần tự
+• theo tần số xuất hiện
+63
+3. Môi trường vật lý của tương tác
+• Hệ thống sẽ được sử dụng ở đâu? 
+• Ai sẽ sử dụng hệ thống? 
+• Người sử dụng sẽ ngồi ở vị trí cố định hay di chuyển?
+64
+4. Vấn đề sức khoẻ và sự an toàn 
+của người dùng
+• Một số nhân tố trong môi trường vật lý không chỉ ảnh 
+hưởng đến sức khoẻ và sự an toàn của người sử 
+dụng mà còn trực tiếp ảnh hưởng đến chất lượng 
+tương tác và hiệu quả làm việc của người sử dụng.
+• Vị trí vật lý 
+• Nhiệt độ
+• Ánh sáng
+• Tiếng ồn 
+• Thời gian
+65
+5. Màu sắc
+• Sử dụng theo quy ước chung và theo mong muốn của 
+người dùng.
+66
+Ví dụ: vận dụng công thái học để
+có thiết kếtốt
+• Có vấn đềgì với thiết kếthiết
+bịđiều khiển từxa hiệu Apex?
+• Tại sao nói thiết bịđiều khiển
+từxa hiệu TiVo được thiết kế
+tốt hơn?
+• Hình củlạc, vừa tay người
+dùng mọi độtuổi, dễcầm
+• Thứtựhiện thịhợp lý, có quan
+tâm đến việc sửdụng màu sắc
+đểmô tảngữnghĩa của các
+chức năng, các cụm phím dễ
+phân biệt
+• Dễđịnh vịcác phím
+67
+V. TRẢI NGHIỆM NGƯỜI DÙNG
+1.
+Thảo luận
+2.
+Khái niệm
+3.
+So sánh
+68
+1. Thảo luận: Ngữcảnh tương tác
+• Yếu tốcon người: Sựxuất hiện của người khác trong môi trường
+làm việc ảnh hưởng thếnào đến hiệu suất công việc ? 
+• Đồng nghiệp: tạo sựcạnh tranh => gia tăng hiệu suất
+• Others: gây mất tập trung => giảm hiệu suất
+• Yếu tốhệthống: Hệthống phải có khảnăng thúc đẩy người sử
+dụng ? 
+• Không gây khó chịu đối với người dùng
+• Cung cấp sựphản hồi cho người dùng đểcho họbiết mức độthành
+công mà họđạt được
+• Ảnh hưởng của ngữcảnh tương tác đến thiết kếtương tác ?
+• Chất lượng tương tác phụthuộc ngữcảnh tương tác
+• Nếu có nhiều kiểu người dùng, cần đưa vào nhiều kiểu tương tác
+69
+1. Thảo luận: Yếu tốchủquan
+• Các đặc tính cá nhân của người dùng ảnh hưởng như
+thếnào ? 
+• Cảm xúc
+• Động cơ
+• Giá trịcá nhân
+à Dịch chuyển từtính dùng được sang trải nghiệm
+người dùng
+70
+Dịch chuyển từtính dùng được
+sang  trải nghiệm người dùng
+Trải nghiệm người dùng: 
+nhận thức và phản hồi
+của người dùng là kết
+quảcủa việc sửdụng và
+/ hoặc dựkiến sửdụng
+hệthống, sản phẩm
+hoặc dịch vụ
+Tính dùng được: mức
+độmà một hệthống, 
+sản phẩm hoặc dịch vụ
+có thểđược sửdụng
+bởi những người dùng
+cụthểđểđạt được các
+mục tiêu cụthểvới hiệu
+lực, hiệu quảvà sựhài
+lòng trong một bối cảnh
+sửdụng cụthể
+2. Khái niệm
+•
+“User experience is about creating design focused on people's personal growth, so 
+they can live in harmony with each other and with their natural and artificial 
+environment.”
+- By Stefano Marzano, CEO of Philips Design
+•
+“User experience goals differ from the more objective usability goals in that they are 
+concerned with how users experience an interactive product from their perspective
+rather that assessing how useful or productive a system is from its own perspective”
+- Interaction Design (Preece, Rogers, Sharp, 2002)
+•
+“User Experience Design fully encompasses traditional Human-Computer Interaction 
+(HCI) design and extends it by addressing all aspects of a product or service as 
+perceived by users. HCI design addresses the interaction between a human and a 
+computer. In addition, User Experience Design addresses the user's initial 
+awareness, discovery, ordering, fulfilment, installation, service, support, 
+upgrades, and end-of-life activities.”
+- IBM website
+Các thành tốcủa trải nghiệm
+người dùng
+Mo%va%on 
+(Động cơ)
+• What do you 
+expect out of 
+the product ? 
+Expecta%on (Kỳ
+vọng):
+• What 
+previous 
+ideas or 
+percep%ons 
+they have in 
+mind of your 
+product and 
+what they 
+expect from 
+it?
+Perception 
+(Nhận thức):
+• In which way 
+your product 
+aﬀect their 
+senses?
+• How does it 
+make them 
+feel ? 
+Abili%es (Năng
+lực hành vi)
+• How they can 
+interact with 
+your product 
+?
+Flow (Luồng
+thông %n)
+• In what ways 
+the user 
+engages with 
+your product 
+over %mes ?
+Culture
+• In which way 
+does the 
+languages, 
+social norms 
+and beliefs 
+aﬀect your 
+product’s 
+experiences?
+Tác động đến việc sản phẩm tạo ra có đáp ứng hay không nhu cầu người dùng
+3. So sánh: thiết kếsản phẩm và
+thiết kếtrải nghiệm
+•
+Trải nghiệm người dùng: xác định thông qua cách người dùng tương tác với ứng dụng
+•
+Các chức năng mượt mà, trực quan hay rắc rối và khó hiểu?
+•
+Điều hướng ứng dụng có hợp lý hay tùy tiện?
+•
+Người dùng có cảm giác đang hoàn thành hiệu quảcác mục tiêu tương tác, hay giống như đang
+chiến đấu với ứng dụng ? 
+à Tương tác với các phần tửgiao diện là dễhay khó ? 
+74
+Human user
+Information
+InteracVon
+Product (interface) design
+User experience design
+3. So sánh: thiết kếgiao diện và
+thiết kếtrải nghiệm
+75
+Human user
+Information
+Interaction
+Product (interface) design
+User experience design
+•
+How will the user interface look ?
+•
+What are the structure of the interface and 
+the funcVonality? 
+•
+How it’s organized and how all the parts 
+relate to one another ?
+•
+Do interface elements trigger the appropriate 
+acVon on the interface ?
+•
+How the UI operates?
+•
+Is the navigaVon complicated or 
+unintuiVve?
+•
+Do interface element work in the context of 
+what the user is trying to accomplish? 
+Ví dụ
+3. So sánh: thiết kếgiao diện
+(trực quan) và thiết kếtrải nghiệm
+Ánh xạtrải nghiệm người dùng
+Design Components of UX
+Thank you 
+for your 
+a,en.ons!

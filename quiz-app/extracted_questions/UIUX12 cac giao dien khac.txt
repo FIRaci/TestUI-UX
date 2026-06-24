@@ -1,0 +1,331 @@
+BÀI 12. THIẾT KẾ CÁC 
+GIAO DIỆN KHÁC
+Chủđề: Automotive HMI
+Nội dung
+1. Khái quát vềcác hệthống, máy móc cần có giao diện
+2. Sựkhác biệt của một sốHMI điển hình
+3. Các kỹthuật tương tác phổbiến, tân tiến
+4. Các phương pháp đặc tảHMI
+5. Ví dụvà bài tập
+•
+Đặc tả: mô tảthật chi tiết một bộphận đặc biệt tiêu biểu đểlàm nổi bật bản chất của
+toàn thể
+Mục tiêu của bài học
+• Sau khi hoàn thành bài học, người học có khả năng:
+• Hiểu được vềcác hệthống, máy móc cần có giao diện
+• Chỉra sựkhác biệt của một sốHMI điển hình
+• Nắm được các kỹthuật tương tác phổbiến, tân tiến
+Khái quát về các hệ thống, máy móc 
+cần có giao diện
+• Tại sao và khi nào cần có giao diện – ôn lại - ?
+• Giao diện (User interface) cần có đểsửdụng các hệthống
+máy móc, hay đồdùng nếu chúng có nhiều chức năng mà
+người dùng hay điều khiển không thểnhìn thấy hay /nhận ra
+trực tiếp. 
+• Ví dụđiển hình nhất ta chỉcần nhấn vào cái nút đểmởhay tắt
+đèn, nhưng khi dùng điện thoại di động – ngoại trừvài chức
+năng – ta phải làm vài động tác – ví dụ: bấm nút hay lướt
+ngón tay trên màn hình, v.v.. – đểkhởi động giao diện liên
+quan tới chức năng muốn dùng.
+• Sau khi giao diện hiện ra người sửdụng phải lựa chọn cái
+gì mình muốn và „ra lệnh“ cho máy thi hành chức năng đã
+chọn. Quá trình này gọi là tương tác người máy (Man 
+Machine Interaction / Human Machine Interaction). Sau mỗi
+động tác người sửdụng chờđợi kết quảmình mong muốn
+(Feedback / phản hồi). 
+Khái quát về các hệ thống, máy móc 
+cần có giao diện
+1.
+Vật / máy móc / dụng cụđơn giản
+2.
+Giao diện trên mạng Webpage 
+3.
+Giao diện trên / của điện thoại di động
+4.
+Hệthống / máy móc trong xí nghiệp
+5.
+Máy móc y khoa
+6.
+Hệthống đểđiệu kiển máy bay , tầu thủy v.v…
+7.
+Hệthống trong ô tô (festverbaut / Nachrüstgerät)
+8.
+Drohnen
+9.
+V.v….
+Ví dụ
+Máy bán / lấy vé xe lửa hay đặt 
+chỗ ngồi.
+Sử dụng ra sao?
+Máy bán vé xe buýt.
+Ví dụ– máy móc xí nghiệp
+• Hệ thống điều khiển và kiểm tra máy xí nghiệp
+Ví dụ– hàng không
+Hệ thống điều hành không lưu
+Quan sát phi đạo và bãi chờ
+Ground traffic control
+Ví dụ– trong máy bay
+Buồng lái máy bay
+(analog: đồng hồ cơ khí) 
+Buồng lài máy bay
+(digital: điện tử) 
+Ví dụ– buồng lái máy bay
+Automotive HMI / Giao diện ứng dụng
+trong ô tô
+• Giao tiếp liên quan  đến quá trình trao đổi thông tin 
+giữa con người và ô tô thông qua các phương tiện 
+tương tác như giọng nói, cử chỉ, khuôn mặt, AR, màn 
+hình ba chiều và nhận dạng vân tay. 
+• Giao tiếp đã bước vào giai đoạn tương tác đa phương 
+thức (giọng nói, cử chỉ, khuôn mặt, v.v.) và đang 
+hướng tới sự phong phú hóa chức năng và kết hợp đa 
+phương thức. 
+• HMI sẽ chuyển từ tương tác trong xe sang tương tác 
+đa kịch bản, từ “thụ động” sang “chủ động”.
+Ví dụ– giao diện ứng dụng trong ô tô
+Thí dụ: Infotainment systems (Hệ thống thông tin và giải trí)
+- Information + Entertainment -
+•
+Radio
+•
+Telefon: e.g. SMS, cuộc gọi
+•
+Internet: e.g. thời tiết, Youtube, 
+Facebook
+•
+Navigation
+•
+CD
+•
+DVD
+•
+TV
+•
+Game 
+•
+v.v…
+Hệ thống định vị cho xe hơi 
+https://www.kfztech.de/kfztechnik/komfort/navigation/navigation.html
+15
+Thiết bị định vị ô tô là gì? GPS!!!
+Hiểu một cách đơn giản nhất thiết bị định vị ô tô là thiết bị có gắn chip 
+GPS (định vị toàn cầu) và máy tính giúp cho người sử dụng xe ô tô 
+xác định được vị trí chính xác của đối tượng cần định vị.
+https://katavina.com/tin-gps/top-11-thiet-bi-dinh-vi-o-to-gps-tot-nhat-hien-nay.html
+Thiết bị OEM
+(Original Equipment Manufacturer))
+Thiết bị Aftermarket
+Navi App trên Smartphone
+Hệ thống định vị cho xe hơi 
+Sựkhác biệt của một sốHMI điển
+hình
+1. Chức năng là danh mục (List item)
+2. Bấm vào Hardkeys /Softkeys /Buttons / Icons đểkhởi động chức
+năng muốn dùng
+3. Vòng cung BMW / Audi
+4. Multimodality
+Ví dụ giao diện ứng dụng trong ô tô 
+• Audi MMI: Khởi động chức năng qua lựa chọn trên 
+màn hình
+Ví dụgiao diện ứng dụng trong ô tô
+• Porsche Communication Management (PCM) – first
+generation 1997
+• Khởi động chức năng qua “hardkeys”: CC, CD, TEL, 
+NAVI,map …
+Nút „map“
+lợi điểm gì?
+Ví dụ giao diện ứng dụng trong ô tô 
+Audi
+Jaguar
+VW - Golf
+Ví dụgiao diện ứng dụng trong ô tô
+Ví dụ giao diện ứng dụng trong ô tô 
+điện (EV)
+• Bình điện (Pin) còn bao nhiêu năng lượng, chạy còn 
+được bao xa (km)? 
+Nơi sạc pin
+Giao diện ứng dụng trong ô tô cùng 
+với hệ thống định vị
+• Đềtài thảo luận:
+• Bạn phải tìm cách hướng dẫn (hiển thị/visualization và thông
+tin /informing) tài xếtìm chỗnạp pin đểkhỏi phải nằm đường!
+• Gợi ý:
+• Bạn cần gì của ô tô điện?
+• Bạn cần gì của hệthống định vịtrong ô tô?
+Vài giao diện ứng dụng trong ô tô
+• Các hệ thống HMI ô tô của Trung 
+Quốc chủ yếu gồm Geely GKUI, 
+BYD DiLink, GAC ADiGO, SAIC 
+Banma, Chery Lion, NextEV NIO 
+OS, Xpeng Xmart OS, v.v.
+• Geely GKUI đã được nâng cấp 
+lên GKUI2019 với 8 chế độ tương 
+tác qua nút, núm xoay, cảm ứng, 
+giọng nói, điện thoại di động, 
+HUD, nhận dạng khuôn mặt và 
+đồng hồ thông minh, trong đó các 
+tính năng độc đáo là tương tác 
+với đồng hồ (chủ yếu lý tưởng để 
+điều khiển ô tô từ xa và truy vấn 
+thông tin xe như tương tác với 
+điện thoại di động) và nhận dạng 
+khuôn mặt (cài đặt cá nhân hóa 
+FACE ID)
+Khái quát về các hệ thống, máy móc 
+cần có giao diện
+• Thí dụ vài phần tử của giao diện
+•
+Function / Application page  
+Trang/Chương chức năng (ứng dụng)
+•
+Function key    
+Phím chức năng
+•
+Menu item 
+Mục / phần tử menu    
+•
+Application icon    
+Biểu tượng ứng dụng
+•
+Softkey 
+Khóa mềm (có thể thay đổi được)
+•
+Splitscreen
+Màn hình chia đôi
+•
+v.v…   
+Intercultural HMI
+Giao diện đa / liên văn hóa
+Adaptive HMI 
+Giao diện thích nghi / thích ứng)
+Internalisierung / Globalierung / einfache Übersetzung?
+Khái quát về các hệ thống, máy móc 
+cần có giao diện
+• Thí dụ vài phần tử của giao diện
+Lancia Thesis / Continental
+Các kỹ thuật tương tác phổ biến, tân 
+tiến
+1.
+Fernbedienung / remote control
+2.
+Nút (Button / Drehdrucksteller / Turn push buton) / Touchscreen màn hình cảm ứng 
+3.
+Hardkeys / Softkeys 
+4.
+Icons / Menü (Listeneinträge)
+5.
+Handschriftserkennung Giải mã / nhận dạng chữ viết tay
+6.
+Sprachbedienung  Tương tác qua tiếng nói
+7.
+Gesten Tương tác qua cử chỉ của bàn / ngón tay
+8.
+Touch / chạm nhẹ – Multitouch  - Touchpad Bảng xúc giác
+9.
+Braincomputing  / sử dụng qua sự suy nghĩ trong đầu 
+10. Eyetracking  Tương tác qua động tác của mắt
+11. Kombination / Multimodalität : Audi, BMW, Mercedes 
+Các kỹ thuật tương tác phổ biến, tân 
+tiến
+1.
+Fernbedienung / remote control
+2.
+Nút (Button / Drehdrucksteller / Turn push buton) / Touchscreen màn hình cảm ứng 
+3.
+Hardkeys / Softkeys 
+4.
+Icons / Menü (Listeneinträge)
+5.
+Handschriftserkennung Giải mã / nhận dạng chữ viết tay
+6.
+Sprachbedienung  Tương tác qua tiếng nói
+7.
+Gesten Tương tác qua cử chỉ của bàn / ngón tay
+8.
+Touch / chạm nhẹ – Multitouch  - Touchpad Bảng xúc giác
+9.
+Braincomputing  / sử dụng qua sự suy nghĩ trong đầu 
+10. Eyetracking  Tương tác qua động tác của mắt
+11. Kombination / Multimodalität : Audi, BMW, Mercedes 
+Ví dụ vài giao diện ứng dụng trong ô tô 
+• Xem phim và quan sát đểthảo luận sau đó!
+hGps://www.cardesignnews.com/ux/hmi-walk-through-vw-golf-8-gesture-
+controls/40510.arScle
+hGps://www.cardesignnews.com/ux/hmi-walk-through-vw-golf-8-touch-
+slider/40509.arScle
+VW-Golf-8 Touchslider
+VW-Golf-8 GestureControl
+hGps://www.cardesignnews.com/ux/hmi-walk-through-tesla-model-3-central-
+display/38700.arScle
+Tesla-Model3-HMI
+Giao diện phải hội đủ những đòi hỏi gì?
+• Vài đặc điểm khi thiết kếgiao diện:
+1. Historycal principle: Khi từ1 áp dụng (application) này chuyển
+qua áp dụng khác sau đó trởlại áp dụng trước thì phần giao diện
+phải như đã thấy.
+2. Các kỹnăng giống nhau của các áp dụng khác nhau phải nằm vị
+trí như nhau trên các phần giao diện, thí dụmenu item “Back”
+3. Sửdụng chức năng khi xe ngừng, lúc xe chạy
+4. Sửdụng “intuitiv“ , không cần xem/lệch sách hướng dẫn -> xe
+cho thuê (rental car)
+Các kỹ thuật tương tác phổ biến, tân tiến
+Input method / Typewriter
+Phương pháp để nhập dữ liệu
+• Máy đánh chữ (Type writer)
+• Qua bàn phím mẫu tự (nút quay / nhấn turn-push button / rotary button) 
+• Qua tiếng nói (Voice recognition)
+• Đánh vần : H A N O I 
+• Cụm từ Phố Hàng đào số nhà ba mươi
+• Viết tay (Handwriting recognition)
+Câu hỏi: Lợi điểm / Bất điểm là gì?
+Các kỹthuật tương tác phổbiến, tân tiến
+• Ngưỡng của của tương tác
+• Kỹthuật tương tác với môi trường nhậy xúc giác và giải mã
+chữviết tay
+Ngày xửa ngày xưa (2003) !
+EasyCo / Smart EasyCo prototypes 
+Các kỹthuật tương tác phổbiến, tân tiến
+Ngày nay
+BMW - I Drive
+Audi MMI
+Audi Q7
+MB COMAND
+Vài ý kiến và gợi ý về sử dụng chữ viết tay 
+trong giao diện 
+§
+Acoustic feedback for letters: a, b, c… hay „không có“ 
+§
+Phản hồi qua âm thanh
+§
+Dấu hiệu tựtạo (trained symbols), e.g.  home, telefon,web mit @, xóa
+(delete), trởlại (back ß), v.v..
+§
+Viết mẫu tựđầu đểchọn phần tửtrong danh sách
+§
+v.v..
+Trên touchpad hay touch screen
+Ví dụ và bài tập 
+1. Destination input – Nhập địa điểm muốn tới
+2. Speichern der aktuellen Position – Cất giữ/tích trữvịtrí đang có
+3. Sửdụng danh bạđiện thoại (select, call, delete, etc.)
+4. Thiết kếStartscreen ( Laucher screen) cho các ứng dụng: điện
+thoại, navigatio, radio, Internet, etc…
+5. Thiết kếFrontblende: với hardkeys / Softkeys / tổng hợp
+6. Eingabescreen für Handschriftserkennung / Màn ảnh đểviết tay
+7. Thí dụcho Multitouch: đã có delete, spring,scroll…; đềnghịmới?
+8. HMI flow chart (thí dụnhỏ)
+Tổng kết
+• Khái quát vềcác hệthống, máy móc cần có giao diện
+• Sựkhác biệt của một sốHMI điển hình
+• Các kỹthuật tương tác phổbiến, tân tiến
+Tài liệu tham khảo
+• https://tratu.soha.vn/dict/en_vn/
+• https://trid.trb.org/view/1303044
+• https://de.wikipedia.org/wiki/Benutzerschnittstelle
+• The "China Automotive Human-Machine Interaction 
+(HMI) Research Report, 2020" report has been added 
+to ResearchAndMarkets.com's offering.
+•
+Thank you 
+for your 
+a,en.ons!

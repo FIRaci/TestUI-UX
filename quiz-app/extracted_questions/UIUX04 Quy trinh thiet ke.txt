@@ -1,0 +1,231 @@
+BÀI 4. CÁCH TIẾP CẬN VÀ QUY 
+TRÌNH THIẾT KẾ
+I.
+Mục tiêu thiết kế
+II.
+Thiết kếlấy người dùng làm trung tâm
+III.
+ISO 9241-210
+IV.
+Quy trình thiết kếlặp
+V.
+Quy trình thiết kếtrải nghiệm người dùng
+Mục tiêu của bài học
+• Sau khi hoàn tất bài học, người học sẽ
+• Giải thích được mục tiêu thiết kếgiao diện cho các hệtương
+tác
+• Ánh xạđược các nhiệm vụthiết kếlấy người dùng làm trung
+tâm, thiết kếlặp và thiết kếtrải nghiệm người dùng
+I. Mục tiêu thiết kế
+• Thiết kếcác hệtương tác đểhỗtrợngười dùng trong
+cuộc sống và công việc hàng ngày
+• Thiết kếđểngười dùng cùng làm việc với máy tính
+4
+Mục đích của thiết kếgiao diện
+người dùng
+• Đối với người dùng, một giao diện dùng được phải cho 
+phép người dùng có thểlàm việc với máy tính một
+cách dễdàng, hiệu quảvà thích thú: 
+• Giảm hoạt động của thị giác
+• Giảm hoạt động trí não
+• Tăng sự hài lòng
+• Đối với máy tính, một giao diện dùng được phải:
+• Giảm không gian lưu trữcủa bộnhớ
+• Giảm thiểu hoặc loại bỏ mọi gánh nặng công nghệ
+• Tăng năng suất sử dụng
+5
+Ví dụ: Ảnh hưởng của thiết kế
+giao diện tồi đến thời gian xửlý
+6
+Thời gian cần thêm cho một người
+xửlý / một màn hình (giây)
+Thời gian cần thêm cho một 
+người xử lý 4.8 triệu màn 
+hình/năm (năm)
+1
+0.7
+5
+3.6
+10
+7.1
+20
+14.2
+Giao diện sau tốt hay không ?
+7
+Mục đích của thiết kếgiao diện
+người dùng
+• Thiết kếđảm bảo tính dùng được
+• Thiết kếtheo trải nghiệm người dùng
+8
+II. Thiết kếlấy người dùng làm
+trung tâm (UCD)
+User-centered design
+System-centered design
+Thiết kếdựa trên việc tìm hiểu và đặt trọng
+tâm vào người dùng trong quá trình thực hiện:
+•
+Khảnăng, nhu cầu thực tếcủa người dùng
+•
+Mục tiêu
+•
+Công việc, nhiệm vụ
+•
+Môi trường (vật lý, tổchức, xã hội)
+Thiết kếdựa trên việc tìm hiểu và đặt trọng
+tâm vào sản phẩm trong quá trình thực hiện:
+•
+Xây cái gì là dễnhất khi dùng nền tảng này ?
+•
+Có thểtạo ra cái gì với các công cụcó sẵn
+này ? 
+•
+Chức năng nào cần cung cấp cho người
+dùng
+III. ISO 9241 – 210:2019
+Ergonomics of human-system interaction
+Part 210: Human-centred design for interactive systems
+• Human – centered design: Phương pháp tiếp cận thiết
+kếvà phát triển hệthống nhằm mục đích làm cho các
+hệtương tác dễsửdụng hơn bằng cách tập trung vào
+việc sửdụng hệthống và áp dụng các kiến thức và kỹ
+thuật vềcác yếu tốcon người / công thái học và tính
+dùng được
+10
+III. ISO 9241 – 210:2019
+Ergonomics of human-system interaction
+Part 210: Human-centred design for interactive systems
+• 6 nguyên tắc đảm bảo thiết kếlấy người dùng làm
+trung tâm:
+• Thiết kếdựa trên sựhiểu biết rõ ràng vềngười dùng, nhiệm
+vụvà môi trường.
+• Người dùng được tham gia trong suốt quá trình thiết kếvà
+phát triển.
+• Thiết kếđược định hướng và tinh chỉnh bằng đánh giá lấy
+người dùng làm trung tâm.
+• Quá trình này là lặp đi lặp lại.
+• Thiết kếđềcập đến toàn bộtrải nghiệm người dùng.
+• Nhóm thiết kếbao gồm các kỹnăng và quan điểm đa ngành.
+11
+Quy trình thiết kếlặp theo
+ISO 9241 - 210
+12
+IV. Quy trình thiết kếhệtương tác
+What’s wanted
+Analysis
+Design
+Implement and 
+deploy
+Prototype
+Interview
+Ethnography
+what is there 
+vs.
+what is wanted
+Scenario
+Task Analysis
+Guidelines
+Principles
+Precise 
+Specification
+Architectures
+Documentations
+Helps
+Evaluation
+Heuristics
+Dialogs
+Notations
+13
+Hiểu và đặc tảbối cảnh sửdụng
+• Glossary of specialized terms
+• For each user group
+•
+User Profiles
+•
+User Persona (based on 
+profiles)
+•
+User Conceptual 
+models (based on task 
+scenarios)
+à Xác định nhu cầu: người
+dùng muốn gì ?
+à
+Các phương pháp thực
+hiện: Phỏng vấn, 
+Videotaping, Tìm kiếm và
+tra cứu tài liệu vềvấn đề
+liên quan, Quan sát trực
+tiếp
+• For all tasks
+•
+Task Scenarios (of key tasks)
+•
+Abstract Task Models (for 
+each user group)
+à Phân tích: sắp xếp các nhu
+cầu đã xác định theo cách thức
+nào đó đểđưa ra các vấn đề
+chính
+• Các phương pháp: Xây dựng
+kịch bản, Phân tích tác nhiệm
+14
+Đặc tảyêu cầu người dùng
+• Usability requirements (NISTIR 7432 Common Industry 
+Specification for Usability-Requirements)
+15
+•
+Stakeholders
+•
+User groups
+•
+Goals and tasks
+•
+Technical environment 
+(equipment)
+•
+Physical and social environments
+•
+Scenarios of use for the most 
+important goals
+•
+Training (If relevant)
+Thiết kế
+• Wire-frames
+• Initial pencil sketches
+• Wire-frames cleaned up (possibly using software presentation tools)
+• Lo-Fi Prototype
+• Application Style-Guide
+àThiết kế: 
+àMặc dù tất cảquy trình là thiết kế
+àTuy nhiên: đây là khâu trọng yếu của quá trinh
+àCác phương pháp thiết kếdựa trên: Luật tương tác, Nguyên lý
+thiết kế, Guidelines
+16
+Đánh giá
+• Prototyping Session Report (for feedback to Activity 3)
+• Evaluation Report (for completed implementation, ISO/IEC 25062 
+Common Industry Format for Usability Test Reports)
+à Vòng lặp và thiết kếmẫu thử: 
+• Con người là phức tạp
+• Chúng ta không chờđợi có thểcó một thiết kếhoàn hảo ngay
+lần đầu tiên
+• Vì thếcần phải đánh giá đểxem sản phẩm mẫu đạt được như
+thếnào và chỗnào có thểcải thiện được
+Các phương pháp dựa trên:
+• Kỹthuật đánh giá
+• Thu nhận thông tin phản hồi từngười dùng thử
+17
+Cài đặt và triển khai
+• Cài đặt và khai thác:
+• Sau khi đã hài lòng với việc thiết kếchúng ta đi vào cài đặt và
+triển khai sản phẩm
+• Các công việc cần thực hiện
+• Lập trình
+• Chếtạo phần cứng
+• Viết tài liệu, hướng dẫn sửdụng
+18
+V. Quy trình thiết kếtrải nghiệm
+người dùng
+Thank you 
+for your 
+attentions!

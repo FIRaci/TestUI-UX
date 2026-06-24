@@ -1,0 +1,181 @@
+BÀI 5. Yêu cầu người 
+dùng
+Nội dung
+• Giới thiệu
+• Các kĩ thuật thu thập yêu cầu người dùng
+• Mô hình người dùng
+Phân cấp yêu cầu người dùng
+• Hài lòng: dùng được + 
+có lợi + cảm xúc tốt
+• Dùng được: hoạt động 
+được + dễdùng
+• Hoạt động được: chức 
+năng tối thiểu đểhoàn 
+thành nhiệm vụ
+Đặc tảyêu cầu  người dùng
+• Thu thập yêu cầu:
+• Người dùng là ai
+• Mục đích của họlà gì
+• Nhiệm vụnào họmuốn hoàn thành
+• Thiết lập yêu cầu: làm rõ các nhu cầu của người dùng và xác định các 
+yêu cầu không khảthi, còn thiếu, nhập nhằng hay mơ hồ
+Biểu diễn bài toán với hệthống hiện tại
+Biểu diễn các yêu cầu mới của hệthống mới
+II. Các kỹthuật thu thập yêu cầu 
+người dùng
+1. Đặt câu hỏi
+2. Quan sát
+3. Phỏng vấn
+4. Nhóm tập trung
+5. Nghiên cứu tài liệu
+Các loại yêu cầu cần thu thập
+Được 
+quan tâm 
+khi xây 
+dựng các 
+HTTT
+Được 
+quan tâm 
+khi xây 
+dựng các 
+HTTT
+1. Đặt câu hỏi
+• Thiết kếtrước tập câu hỏi đểyêu cầu người dùng 
+làm rõ các thông gn
+• Loại câu hỏi (đóng):
+• Có/Không
+• Biết trước tập câu trảlời
+Phỏng vấn
+• Tìm hiểu các vấn đềphát sinh thông qua tập câu 
+hỏi (mở)
+• Có sửdụng: phỏng vấn theo tập câu hỏi thiết lập sẵn
+• Không cấu trúc: không thiết lập sẵn tập câu hỏi
+• Bán cấu trúc: chỉra các chủđềcần khám phá và thuận 
+theo câu trảlời của người dùng đểđặt câu hỏi
+• Kiểu:
+• Phỏng vấn giáp mặt
+• Phỏng vấn nhiều người cùng lúc
+3. Nhóm tập trung và hội thảo
+• Nhóm tập trung
+• Nhóm liên quan (4-12) được hỏi vềtrải nghiệm và ý kiến 
+vềcác chủđềcụthể
+• Sửdụng quy trình phỏng vấn bán cấu trúc
+• Hội thảo:
+• Một dạng nhóm tập trung
+• Yêu cầu đạt được sựđồng thuận vềnội dung thảo luận
+4. Quan sát tựnhiên
+• Quan sát các bên liên quan thực hiện các nhiệm vụ
+hàng ngày
+• Chỉquan sát công việc đang diễn ra chứkhông can 
+thiệp
+5. Nghiên cứu tài liệu
+• Đọc hướng dẫn đểnắm được quy trình và quy định
+• Các bước thực hiện một hành động
+• Quy định cần tuân thủkhi thực hiện nhiệm vụ
+So sánh
+III. Mô hình người dùng
+• Mô hình hóa yêu cầu  người dùng
+• OSTA
+• USTA
+• Đa cách nhìn
+• Mô hình nhận thức
+Mởđầu
+• Nhận biết và hiểu người dùng hệthống: cần gì, có
+thểlàm gì
+• Người dùng tương tác với máy lnh như thếnào
+• Các nhân tốcon người ảnh hưởng đến thiết kếhệthống
+• Mức độhiểu biết và kinh nghiệm của người dùng
+• Các đặc trưng vềnhu cầu, công việc và nhiệm vụcủa 
+người dùng
+• Đặc trưng vật lý của người dùng
+• Các thức người dùng trau dồi kiến thức
+1. Mô hình hóa yêu cầu người 
+dùng
+• Thiết kếgiao gếp người dùng – máy |nh thường 
+được mô tảbằng tài liệu: văn bản, tranh, sơ đồ, 
+nhằm giảm thiểu yêu cầu/cơ hội cho cài đặt.
+• Mô hình hình thức
+• Mô hình phi hình thức:
+• Triết lý thiết kếvới các thành phần như đối tượng, hành động;
+• mô tảchi Oết vềngữnghĩa các chức năng.
+ØCung cấp đầu vào cho hệthống quản lý các giao 
+gếp người dùng – UIMS, trao đổi với các nhóm 
+khác.
+1. Mô hình hóa yêu cầu người 
+dùng
+• Nhằm mô tảcác khía cạnh khác nhau của người 
+dùng: hiểu biết, chú ý và xửlý
+• Các dạng chung: năng lực và hiệu suất
+• Các  mô hình:
+• Phân lch hệthống mở(Open System Task Analysis –
+OSTA)
+• Phân lch kỹnăng và nhiệm vụngười dùng (User Skills 
+and Task Analysis)
+• Mô hình hệthống mềm (Soy System methodology)
+• Mo hình đa cách nhìn (Mulzview)
+• Mô hình dựđoán: GOMS, KEYSTROKE
+2. Mô hình kỹthuật xã hội OSTA
+• Cách thức làm việc với người dùng trong quá trình thiết 
+kế: thiết kếthành viên và thiết kếxã hội.
+• Thiết kếthành viên: người dùng tham gia vào các công đoạn 
+phân lch yêu cầu, lập kếhoạch
+• Thiết kếxã hội: tập trung phát triển đầy đủvà nhất quán hệ
+thống
+• Nhiệm vụchính: xác định
+• Yêu cầu công việc: nhiệm vụ cho từng nhóm, đầu vào nhiệm 
+vụ, môi trường bên ngoài
+• Hệ thống thực thi công việc: hệ thống xã hội, hệ thống kỹ
+thuật
+• Các đặc tính khác: mức độ thỏa mãn về hiệu năng, chức
+năng, tính dùng được, tính chấp nhận được
+Các bước thực hiện theo OSTA
+• Liệt kê các nhiệm vụ chính
+• Xác định đầu vào của các nhiệm vụ (bên ngoài hệthống)
+• Thiết lập môi trường bên ngoài
+• Mô tả quá trình biến đối từ đầu vào thành đầu ra
+• Phân tích hệ thống xã hội: vai trò, đặc tính, chất lượng
+• Phân tích hệ thống kỹ thuật: cũ và mới, hiệu quả làm việc
+• Đặc tả yêu cầu về mức độ hiệu năng thỏa mãn
+• Đặc tả yêu cầu về chức năng, tính dùng được, tính chấp nhận 
+được cho hệ thống kỹ thuật mới
+3. USTA
+• Mô tả yêu cầu của mọi người có quyền lợi và nghĩa vụ liên 
+quan đến hệ thống cần phát triển
+• Người dùng hệ thống.
+• Người không sử dụng trực tiếp hệ thống song có nhận thông tin từ 
+đầu ra hệ thống
+• Không thuộc hai loại trên song có chịu tác động từ sựthành công 
+hay thất bại của hệ thống.
+• Người tham gia vào quá trình thiết kế, phát triển và bảo
+trì hệ thống.
+ØLập bảng câu hỏi sao cho câu trả lời của người dùng luôn 
+nằm trong tập các câu trả lời được định nghĩa sẵn
+4. Mô hình đa cách nhìn
+• Là một cách tiếp cận tổ hợp nhiều
+cách tiếp cận trong 1 giai đoạn, có
+phương pháp kiểm tra.
+•
+PTM: Mô hình các nhiệm vụ chinh
+•
+FM: Mô hình chức năng
+•
+EM: Mô hình thực thể (mô hình khái niệm)
+•
+RS: các vai trò
+•
+PT: các nhiệm vụ của người dùng
+•
+CTR: Yêu cầu các nhiệm vụ của máy
+tinh
+• Tiếp cận đa cách nhìn nhấn mạnh
+vào thứ tự hoạt động => không
+thích hợp.
+5. Mô hình nhận thức
+• Biểu diễn các tình huống thực tế hoặc tưởng tượng
+• Xây dựng từ nhận thức, trí tưởng tượng hay cách phiên dịch
+các hội thoại của người dùng
+• Đại diện cho những gì được cho là đúng, không đại diện cho
+những gì được cho là sai
+Thank you 
+for your 
+a1en3ons!

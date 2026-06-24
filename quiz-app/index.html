@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On tap HCI - Kiem tra kien thuc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="js/quiz-data.js"></script>
+    <script src="js/knowledge.js"></script>
+    <style>
+        :root {
+            --primary: #f97316;
+            --primary-dark: #ea580c;
+            --secondary: #ef4444;
+            --bg: #fef2f2;
+            --surface: #ffffff;
+            --text: #1f2937;
+            --text-secondary: #6b7280;
+            --border: #fecaca;
+            --success: #22c55e;
+            --error: #ef4444;
+            --shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            --radius: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .dark {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --border: #334155;
+            --shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            transition: var(--transition);
+        }
+        .screen { display: none; animation: fadeIn 0.4s ease; }
+        .screen.active { display: flex; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideIn { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes scaleIn { from { transform: scale(0.9); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+        @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+        @keyframes progress { from { width: 0; } to { width: var(--progress); } }
+        .card {
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+        .card:hover { box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15); }
+        .btn {
+            padding: 12px 28px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn:active { transform: scale(0.97); }
+        .btn-primary { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(249,115,22,0.3); }
+        .btn-secondary { background: var(--surface); color: var(--text); border: 2px solid var(--border); }
+        .btn-secondary:hover { border-color: var(--primary); color: var(--primary); }
+        .btn-success { background: linear-gradient(135deg, #22c55e, #16a34a); color: white; }
+        .btn-danger { background: linear-gradient(135deg, #ef4444, #dc2626); color: white; }
+        .btn-sm { padding: 8px 16px; font-size: 13px; border-radius: 8px; }
+        .option-btn {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 2px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            font-size: 15px;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .option-btn:hover:not(.disabled) { border-color: var(--primary); background: rgba(249,115,22,0.05); }
+        .option-btn.selected { border-color: var(--primary); background: rgba(249,115,22,0.1); }
+        .option-btn.correct { border-color: var(--success); background: rgba(34,197,94,0.1); }
+        .option-btn.wrong { border-color: var(--error); background: rgba(239,68,68,0.1); }
+        .option-btn.disabled { cursor: default; opacity: 0.7; }
+        .option-letter {
+            width: 30px; height: 30px;
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 14px;
+            background: var(--bg); color: var(--text-secondary);
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+        .option-btn.selected .option-letter { background: var(--primary); color: white; }
+        .option-btn.correct .option-letter { background: var(--success); color: white; }
+        .option-btn.wrong .option-letter { background: var(--error); color: white; }
+        .progress-bar {
+            height: 8px;
+            background: var(--bg);
+            border-radius: 99px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 99px;
+            transition: width 0.5s ease;
+        }
+        .badge {
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .badge-chapter { background: rgba(249,115,22,0.15); color: var(--primary); }
+        .knowledge-item {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        .knowledge-item:hover { border-color: var(--primary); }
+        .knowledge-header {
+            padding: 16px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            user-select: none;
+        }
+        .knowledge-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .knowledge-body.open { max-height: 1000px; }
+        .knowledge-content { padding: 0 20px 20px; }
+        .toggle-dark {
+            position: fixed; bottom: 24px; right: 24px;
+            width: 48px; height: 48px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px;
+            z-index: 100;
+            transition: var(--transition);
+            box-shadow: var(--shadow);
+        }
+        .toggle-dark:hover { transform: scale(1.1); }
+        select, input[type="checkbox"] {
+            cursor: pointer;
+        }
+        .form-select {
+            padding: 10px 16px;
+            border-radius: 10px;
+            border: 2px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            font-size: 14px;
+            font-family: 'Inter', sans-serif;
+            transition: var(--transition);
+        }
+        .form-select:focus { outline: none; border-color: var(--primary); }
+        .timer {
+            font-variant-numeric: tabular-nums;
+            font-weight: 700;
+            font-size: 16px;
+        }
+        .review-item {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: var(--transition);
+        }
+        .review-item:hover { border-color: var(--primary); }
+        .question-number {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            display: inline-flex; align-items: center; justify-content: center;
+            font-size: 13px; font-weight: 700;
+            margin: 3px; cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid var(--border);
+            background: var(--surface);
+        }
+        .question-number:hover { transform: scale(1.1); }
+        .question-number.answered { border-color: var(--primary); background: rgba(249,115,22,0.1); }
+        .question-number.correct { border-color: var(--success); background: rgba(34,197,64,0.1); color: var(--success); }
+        .question-number.wrong { border-color: var(--error); background: rgba(239,68,68,0.1); color: var(--error); }
+        .question-number.current { transform: scale(1.15); box-shadow: 0 0 0 3px rgba(249,115,22,0.3); }
+        @media (max-width: 640px) {
+            .btn { padding: 10px 20px; font-size: 14px; }
+            .option-btn { padding: 12px 14px; font-size: 14px; }
+            .card { border-radius: 12px; }
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
+    </style>
+</head>
+<body>
+    <div id="app" class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="py-4 px-6 flex items-center justify-between border-b" style="border-color: var(--border); background: var(--surface);">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-graduation-cap text-2xl" style="color: var(--primary);"></i>
+                <span class="font-bold text-lg hidden sm:inline" style="color: var(--text);">On tap HCI</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <span id="timerDisplay" class="timer hidden" style="color: var(--primary);">
+                    <i class="fas fa-stopwatch mr-1"></i><span id="timerText">00:00</span>
+                </span>
+                <button id="themeToggle" class="btn btn-sm btn-secondary" onclick="toggleTheme()">
+                    <i id="themeIcon" class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="flex-1 p-4 md:p-8 max-w-4xl mx-auto w-full">
+            <!-- ==================== SCREEN: HOME ==================== -->
+            <div id="screenHome" class="screen active flex-col items-center justify-center gap-8" style="min-height: 70vh;">
+                <div class="text-center">
+                    <div class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6" style="background: linear-gradient(135deg, rgba(249,115,22,0.2), rgba(239,68,68,0.2));">
+                        <i class="fas fa-laptop-code text-4xl" style="color: var(--primary);"></i>
+                    </div>
+                    <h1 class="text-3xl md:text-4xl font-extrabold mb-3" style="color: var(--text);">Kiem tra kien thuc HCI</h1>
+                    <p class="text-base md:text-lg" style="color: var(--text-secondary);">On tap tuong tac Nguoi-May tinh & Thiet ke giao dien</p>
+                </div>
+
+                <div class="card w-full max-w-lg p-6 md:p-8 flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <label class="text-sm font-medium" style="color: var(--text-secondary);">Chon chuong</label>
+                        <select id="homeChapterFilter" class="form-select" onchange="updateHomeFilter()">
+                            <option value="0">Tat ca (109 cau)</option>
+                            <option value="1">Chuong 1: Tong quan ve HCI</option>
+                            <option value="2">Chuong 2: Con nguoi va May tinh</option>
+                            <option value="3">Chuong 3: Giao dien he tuong tac</option>
+                            <option value="4">Chuong 4: Quy trinh thiet ke</option>
+                            <option value="5">Chuong 5: Yeu cau nguoi dung</option>
+                            <option value="6">Chuong 6: Phan tich nhiem vu</option>
+                            <option value="7">Chuong 7: Thiet ke giao dien</option>
+                            <option value="8">Chuong 8: Tao mau thu</option>
+                            <option value="9">Chuong 9: Kiem tra danh gia</option>
+                            <option value="10">Chuong 10: Thiet ke Web</option>
+                            <option value="11">Chuong 11: Thiet ke di dong</option>
+                            <option value="12">Chuong 12: Giao dien khac (HMI)</option>
+                            <option value="13">Chuong 13: UX Tools</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <input type="checkbox" id="randomizeCheck" class="w-4 h-4 accent-orange-500">
+                        <label for="randomizeCheck" class="text-sm" style="color: var(--text-secondary);">Tron ngau nhien cau hoi</label>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <input type="checkbox" id="instantFeedbackCheck" class="w-4 h-4 accent-orange-500">
+                        <label for="instantFeedbackCheck" class="text-sm" style="color: var(--text-secondary);">Xem dap an ngay sau khi chon</label>
+                    </div>
+                    <button class="btn btn-primary w-full justify-center text-base py-4" onclick="startQuiz()">
+                        <i class="fas fa-play"></i> Bat dau lam bai
+                    </button>
+                    <button class="btn btn-secondary w-full justify-center" onclick="showKnowledge()">
+                        <i class="fas fa-book"></i> Xem tong quan kien thuc
+                    </button>
+                </div>
+
+                <div class="text-center text-sm" style="color: var(--text-secondary);">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    <span id="questionCountDisplay">109 cau hoi</span> &bull; Nhieu chu de &bull; Co giai thich chi tiet
+                </div>
+            </div>
+
+            <!-- ==================== SCREEN: QUIZ ==================== -->
+            <div id="screenQuiz" class="screen flex-col gap-6">
+                <div class="card p-4 md:p-6 flex flex-col gap-4">
+                    <div class="flex items-center justify-between gap-4 flex-wrap">
+                        <div class="flex items-center gap-4 flex-wrap">
+                            <select id="quizChapterFilter" class="form-select text-sm" onchange="changeChapter()">
+                                <option value="0">Tat ca</option>
+                                <option value="1">Chuong 1</option>
+                                <option value="2">Chuong 2</option>
+                                <option value="3">Chuong 3</option>
+                                <option value="4">Chuong 4</option>
+                                <option value="5">Chuong 5</option>
+                                <option value="6">Chuong 6</option>
+                                <option value="7">Chuong 7</option>
+                                <option value="8">Chuong 8</option>
+                                <option value="9">Chuong 9</option>
+                                <option value="10">Chuong 10</option>
+                                <option value="11">Chuong 11</option>
+                                <option value="12">Chuong 12</option>
+                                <option value="13">Chuong 13</option>
+                            </select>
+                            <span class="badge badge-chapter" id="chapterBadge">Tat ca</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-sm font-medium" style="color: var(--text-secondary);">
+                                <span id="currentQNum">1</span>/<span id="totalQNum">0</span>
+                            </span>
+                            <span class="badge" id="multiBadge" style="background: rgba(59,130,246,0.15); color: #3b82f6; display: none;">
+                                <i class="fas fa-list mr-1"></i>Nhieu dap an
+                            </span>
+                            <span id="instantModeLabel" class="badge hidden" style="background: rgba(249,115,22,0.15); color: var(--primary);">
+                                <i class="fas fa-bolt mr-1"></i>Instant
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <div id="questionArea" class="card p-6 md:p-8">
+                    <div id="questionText" class="text-lg md:text-xl font-semibold mb-6 leading-relaxed"></div>
+                    <div id="optionsContainer" class="flex flex-col gap-3"></div>
+                    <div id="checkMultiBtn" class="mt-4 hidden">
+                        <button class="btn btn-primary w-full justify-center" onclick="checkMultiAnswer()">
+                            <i class="fas fa-check"></i> Kiem tra dap an
+                        </button>
+                    </div>
+                    <div id="explanationBox" class="mt-4 p-4 rounded-xl hidden" style="background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.3);">
+                        <p class="font-semibold text-sm mb-1" style="color: var(--success);"><i class="fas fa-lightbulb mr-1"></i>Giai thich:</p>
+                        <p id="explanationText" class="text-sm leading-relaxed" style="color: var(--text);"></p>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between gap-4 flex-wrap">
+                    <button class="btn btn-secondary" id="prevBtn" onclick="prevQuestion()">
+                        <i class="fas fa-arrow-left"></i> Truoc
+                    </button>
+                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">
+                        Tiep <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-success hidden" id="submitBtn" onclick="submitQuiz()">
+                        <i class="fas fa-check-circle"></i> Nop bai
+                    </button>
+                    <button class="btn btn-success hidden" id="endQuizBtn" onclick="endInstantQuiz()">
+                        <i class="fas fa-flag-checkered"></i> Ket thuc
+                    </button>
+                    <button class="btn btn-secondary" id="quitBtn" onclick="quitQuiz()">
+                        <i class="fas fa-times"></i> Thoat
+                    </button>
+                </div>
+            </div>
+
+            <!-- ==================== SCREEN: RESULT ==================== -->
+            <div id="screenResult" class="screen flex-col items-center justify-center gap-8" style="min-height: 70vh;">
+                <div class="card w-full max-w-lg p-8 text-center">
+                    <div id="resultIcon" class="text-6xl mb-4">
+                        <i class="fas fa-trophy" style="color: #fbbf24;"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-2" id="resultTitle">Hoan thanh!</h2>
+                    <div class="text-5xl font-extrabold mb-2" style="color: var(--primary);">
+                        <span id="resultScore">0</span><span class="text-2xl">/</span><span id="resultTotal" class="text-2xl">0</span>
+                    </div>
+                    <div class="text-lg font-medium mb-4" id="resultPercent">0%</div>
+                    <div class="text-base mb-6" id="resultMessage" style="color: var(--text-secondary);"></div>
+
+                    <div class="flex flex-col gap-3">
+                        <button class="btn btn-primary w-full justify-center" onclick="showReview()">
+                            <i class="fas fa-eye"></i> Xem lai cau tra loi
+                        </button>
+                        <button class="btn btn-secondary w-full justify-center" onclick="showHome()">
+                            <i class="fas fa-home"></i> Lam lai
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== SCREEN: KNOWLEDGE ==================== -->
+            <div id="screenKnowledge" class="screen flex-col gap-6">
+                <div class="flex items-center justify-between">
+                    <h2 class="text-xl font-bold">Tong quan kien thuc</h2>
+                    <button class="btn btn-secondary btn-sm" onclick="showHome()">
+                        <i class="fas fa-arrow-left"></i> Quay lai
+                    </button>
+                </div>
+                <div id="knowledgeContainer" class="flex flex-col gap-4"></div>
+            </div>
+
+            <!-- ==================== SCREEN: REVIEW ==================== -->
+            <div id="screenReview" class="screen flex-col gap-6">
+                <div class="flex items-center justify-between flex-wrap gap-3">
+                    <div>
+                        <h2 class="text-xl font-bold">Xem lai cau tra loi</h2>
+                        <p class="text-sm" style="color: var(--text-secondary);">
+                            <span id="reviewCorrectCount">0</span> dung / <span id="reviewWrongCount">0</span> sai
+                        </p>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn btn-secondary btn-sm" onclick="showResult()">
+                            <i class="fas fa-arrow-left"></i> Quay lai
+                        </button>
+                        <button class="btn btn-primary btn-sm" onclick="showHome()">
+                            <i class="fas fa-redo"></i> Lam lai
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-1 mb-2" id="reviewNav"></div>
+
+                <div id="reviewContainer" class="flex flex-col gap-4"></div>
+            </div>
+        </main>
+
+        <!-- Theme toggle FAB -->
+        <button class="toggle-dark" onclick="toggleTheme()" title="Chuyen giao dien">
+            <i id="fabThemeIcon" class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <script>
+        // ==================== STATE ====================
+        const state = {
+            currentScreen: 'home',
+            questions: [],
+            shuffledQuestions: [],
+            currentIndex: 0,
+            answers: {},
+            chapterFilter: 0,
+            randomize: false,
+            instantFeedback: false,
+            instantResults: {},
+            submitted: false,
+            timer: 0,
+            timerInterval: null,
+            darkMode: localStorage.getItem('hciQuizDark') === 'true',
+            reviewedAnswers: {}
+        };
+
+        // ==================== INIT ====================
+        function init() {
+            if (state.darkMode) document.documentElement.classList.add('dark');
+            state.questions = [...quizData];
+            updateQuestionCount();
+            showScreen('home');
+            loadProgress();
+            document.addEventListener('keydown', handleKeydown);
+        }
+
+        // ==================== THEME ====================
+        function toggleTheme() {
+            state.darkMode = !state.darkMode;
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('hciQuizDark', state.darkMode);
+            updateThemeIcons();
+        }
+        function updateThemeIcons() {
+            const icon = state.darkMode ? 'sun' : 'moon';
+            document.getElementById('themeIcon').className = `fas fa-${icon}`;
+            document.getElementById('fabThemeIcon').className = `fas fa-${icon}`;
+        }
+
+        // ==================== SCREEN MANAGEMENT ====================
+        function showScreen(name) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            const screen = document.getElementById(`screen${name.charAt(0).toUpperCase() + name.slice(1)}`);
+            if (screen) screen.classList.add('active');
+            state.currentScreen = name;
+            const timerEl = document.getElementById('timerDisplay');
+            timerEl.classList.toggle('hidden', name !== 'quiz');
+        }
+
+        function showHome() {
+            stopTimer();
+            showScreen('home');
+            updateQuestionCount();
+        }
+
+        function showKnowledge() {
+            showScreen('knowledge');
+            renderKnowledge();
+        }
+
+        function showResult() {
+            showScreen('result');
+        }
+
+        function showReview() {
+            showScreen('review');
+            renderReview();
+        }
+
+        // ==================== QUESTION COUNT ====================
+        function updateQuestionCount() {
+            const filter = parseInt(document.getElementById('homeChapterFilter').value);
+            const filtered = filter === 0 ? state.questions : state.questions.filter(q => q.chapter === filter || q.chapter == null);
+            document.getElementById('questionCountDisplay').textContent = `${filtered.length} cau hoi`;
+        }
+
+        function updateHomeFilter() {
+            updateQuestionCount();
+        }
+
+        // ==================== QUIZ ====================
+        function startQuiz() {
+            const filter = parseInt(document.getElementById('homeChapterFilter').value);
+            const randomize = document.getElementById('randomizeCheck').checked;
+            const instantFeedback = document.getElementById('instantFeedbackCheck').checked;
+            state.chapterFilter = filter;
+            state.randomize = randomize;
+            state.instantFeedback = instantFeedback;
+            document.getElementById('quizChapterFilter').value = filter;
+
+            let pool = filter === 0 ? [...state.questions] : state.questions.filter(q => q.chapter === filter || q.chapter == null);
+            if (pool.length === 0) {
+                alert('Chuong nay chua co cau hoi!');
+                return;
+            }
+
+            if (randomize) {
+                for (let i = pool.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [pool[i], pool[j]] = [pool[j], pool[i]];
+                }
+            }
+
+            state.shuffledQuestions = pool;
+            state.currentIndex = 0;
+            state.answers = {};
+            state.instantResults = {};
+            state.submitted = false;
+            state.reviewedAnswers = {};
+
+            showScreen('quiz');
+            renderQuestion();
+            startTimer();
+            saveProgress();
+        }
+
+        function changeChapter() {
+            const filter = parseInt(document.getElementById('quizChapterFilter').value);
+            state.chapterFilter = filter;
+            document.getElementById('homeChapterFilter').value = filter;
+
+            let pool = filter === 0 ? [...state.questions] : state.questions.filter(q => q.chapter === filter || q.chapter == null);
+            if (pool.length === 0) { alert('Chuong nay chua co cau hoi!'); return; }
+
+            if (state.randomize) {
+                for (let i = pool.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [pool[i], pool[j]] = [pool[j], pool[i]];
+                }
+            }
+
+            state.shuffledQuestions = pool;
+            state.currentIndex = 0;
+            state.answers = {};
+            state.instantResults = {};
+            state.submitted = false;
+            state.reviewedAnswers = {};
+
+            renderQuestion();
+            saveProgress();
+        }
+
+        function renderQuestion() {
+            const q = state.shuffledQuestions[state.currentIndex];
+            if (!q) return;
+
+            const total = state.shuffledQuestions.length;
+            document.getElementById('currentQNum').textContent = state.currentIndex + 1;
+            document.getElementById('totalQNum').textContent = total;
+            document.getElementById('progressFill').style.width = `${((state.currentIndex + 1) / total) * 100}%`;
+
+            const isMulti = q.correctAnswers.length > 1;
+            const multiBadge = document.getElementById('multiBadge');
+            multiBadge.style.display = isMulti ? 'inline-flex' : 'none';
+
+            const chapterInfo = chapterKnowledge[q.chapter];
+            const badge = document.getElementById('chapterBadge');
+            badge.textContent = chapterInfo ? chapterInfo.title : (q.chapter ? `Chuong ${q.chapter}` : 'Tat ca');
+
+            const instantLabel = document.getElementById('instantModeLabel');
+            if (instantLabel) {
+                instantLabel.style.display = state.instantFeedback ? 'inline-flex' : 'none';
+            }
+
+            document.getElementById('questionText').innerHTML = `<span class="text-sm font-medium mr-2" style="color: var(--primary);">Cau ${state.currentIndex + 1}:</span> ${q.question}`;
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+            const letters = 'ABCDEFGHIJK';
+            const saved = state.answers[state.currentIndex] || [];
+            const result = state.instantResults ? state.instantResults[state.currentIndex] : null;
+            const isAnswered = !!result;
+            const isInst = state.instantFeedback;
+
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                let cls = '';
+                if (isAnswered) {
+                    if (q.correctAnswers.includes(idx)) cls = 'correct';
+                    else if (result.selected.includes(idx)) cls = 'wrong';
+                    cls += ' disabled';
+                } else if (saved.includes(idx)) {
+                    cls = 'selected';
+                }
+                btn.className = `option-btn ${cls}`;
+                btn.innerHTML = `<span class="option-letter">${letters[idx]}</span><span>${opt}</span>`;
+                btn.onclick = () => !isAnswered && selectOption(idx);
+                btn.dataset.index = idx;
+                container.appendChild(btn);
+            });
+
+            const checkBtn = document.getElementById('checkMultiBtn');
+            if (checkBtn) {
+                if (isInst && isMulti && !isAnswered && saved.length > 0) {
+                    checkBtn.classList.remove('hidden');
+                } else {
+                    checkBtn.classList.add('hidden');
+                }
+            }
+
+            const explBox = document.getElementById('explanationBox');
+            if (isAnswered) {
+                explBox.classList.remove('hidden');
+                const isCorrect = result.correct;
+                explBox.style.background = isCorrect
+                    ? 'rgba(34,197,94,0.1)'
+                    : 'rgba(239,68,68,0.1)';
+                explBox.style.borderColor = isCorrect
+                    ? 'rgba(34,197,94,0.3)'
+                    : 'rgba(239,68,68,0.3)';
+                document.getElementById('explanationText').textContent = q.explanation || ('Dap an: ' + q.correctAnswers.map(i => letters[i]).join(', '));
+            } else {
+                explBox.classList.add('hidden');
+            }
+
+            const isLast = state.currentIndex === total - 1;
+            if (isInst) {
+                document.getElementById('nextBtn').classList.toggle('hidden', isLast);
+                document.getElementById('submitBtn').classList.add('hidden');
+                const endBtn = document.getElementById('endQuizBtn');
+                endBtn.classList.toggle('hidden', !isLast);
+            } else {
+                document.getElementById('nextBtn').classList.toggle('hidden', isLast);
+                document.getElementById('submitBtn').classList.toggle('hidden', !isLast);
+                const endBtn = document.getElementById('endQuizBtn');
+                if (endBtn) endBtn.classList.add('hidden');
+            }
+            document.getElementById('prevBtn').style.visibility = state.currentIndex === 0 ? 'hidden' : 'visible';
+        }
+
+        function selectOption(idx) {
+            if (state.submitted) return;
+            const q = state.shuffledQuestions[state.currentIndex];
+            if (!q) return;
+            const isMulti = q.correctAnswers.length > 1;
+
+            let current = state.answers[state.currentIndex] || [];
+
+            if (isMulti) {
+                const pos = current.indexOf(idx);
+                if (pos > -1) { current.splice(pos, 1); }
+                else { current.push(idx); }
+            } else {
+                current = [idx];
+            }
+
+            state.answers[state.currentIndex] = current;
+
+            const buttons = document.querySelectorAll('#optionsContainer .option-btn');
+            buttons.forEach((btn, i) => {
+                btn.classList.toggle('selected', current.includes(i));
+            });
+
+            if (state.instantFeedback) {
+                if (!isMulti) {
+                    checkInstantAnswer();
+                } else {
+                    const checkBtn = document.getElementById('checkMultiBtn');
+                    checkBtn.classList.toggle('hidden', current.length === 0);
+                }
+            }
+
+            saveProgress();
+        }
+
+        function checkInstantAnswer() {
+            const q = state.shuffledQuestions[state.currentIndex];
+            const userAns = state.answers[state.currentIndex] || [];
+            const sortedUser = [...userAns].sort((a, b) => a - b);
+            const sortedCorrect = [...q.correctAnswers].sort((a, b) => a - b);
+            const isCorrect = sortedUser.length === sortedCorrect.length &&
+                sortedUser.every((v, idx) => v === sortedCorrect[idx]);
+
+            state.instantResults[state.currentIndex] = { correct: isCorrect, selected: userAns };
+
+            const buttons = document.querySelectorAll('#optionsContainer .option-btn');
+            buttons.forEach((btn, i) => {
+                btn.onclick = null;
+                btn.classList.remove('selected');
+                if (q.correctAnswers.includes(i)) {
+                    btn.classList.add('correct');
+                } else if (userAns.includes(i)) {
+                    btn.classList.add('wrong');
+                }
+                btn.classList.add('disabled');
+            });
+
+            const explBox = document.getElementById('explanationBox');
+            explBox.classList.remove('hidden');
+            explBox.style.background = isCorrect
+                ? 'rgba(34,197,94,0.1)'
+                : 'rgba(239,68,68,0.1)';
+            explBox.style.borderColor = isCorrect
+                ? 'rgba(34,197,94,0.3)'
+                : 'rgba(239,68,68,0.3)';
+            document.getElementById('explanationText').textContent = q.explanation || ('Dap an: ' + q.correctAnswers.map(i => 'ABCDEFGHIJK'[i]).join(', '));
+
+            const checkBtn = document.getElementById('checkMultiBtn');
+            if (checkBtn) checkBtn.classList.add('hidden');
+        }
+
+        function checkMultiAnswer() {
+            checkInstantAnswer();
+        }
+
+        function nextQuestion() {
+            if (state.currentIndex < state.shuffledQuestions.length - 1) {
+                const q = state.shuffledQuestions[state.currentIndex];
+                const ans = state.answers[state.currentIndex] || [];
+                if (q.correctAnswers.length > 1 && ans.length === 0) {
+                    if (!confirm('Ban chua chon dap an nao. Tiep tuc?')) return;
+                }
+                state.currentIndex++;
+                renderQuestion();
+            }
+        }
+
+        function prevQuestion() {
+            if (state.currentIndex > 0) {
+                state.currentIndex--;
+                renderQuestion();
+            }
+        }
+
+        function endInstantQuiz() {
+            if (!confirm('Ket thuc bai kiem tra?')) return;
+            state.submitted = true;
+            stopTimer();
+
+            let correct = 0;
+            state.reviewedAnswers = {};
+            state.shuffledQuestions.forEach((q, i) => {
+                const r = state.instantResults[i];
+                const userAns = r ? r.selected : (state.answers[i] || []);
+                if (r) {
+                    if (r.correct) correct++;
+                }
+                state.reviewedAnswers[i] = { correct: r ? r.correct : false, selected: userAns };
+            });
+
+            const total = state.shuffledQuestions.length;
+            const answered = Object.keys(state.instantResults).length;
+            const percent = Math.round((correct / total) * 100);
+
+            document.getElementById('resultScore').textContent = correct;
+            document.getElementById('resultTotal').textContent = total;
+            document.getElementById('resultPercent').textContent = `${percent}%`;
+
+            const icon = document.getElementById('resultIcon');
+            let msg;
+            if (percent >= 80) {
+                icon.innerHTML = '<i class="fas fa-trophy" style="color: #fbbf24;"></i>';
+                msg = 'Xuat sac! Ban da nam vung kien thuc HCI.';
+            } else if (percent >= 60) {
+                icon.innerHTML = '<i class="fas fa-star" style="color: #fbbf24;"></i>';
+                msg = 'Kha tot! Hay on lai nhung cau sai de cai thien.';
+            } else if (percent >= 40) {
+                icon.innerHTML = '<i class="fas fa-book" style="color: #f97316;"></i>';
+                msg = 'Tam duoc! Can on lai nhieu hon nhe.';
+            } else {
+                icon.innerHTML = '<i class="fas fa-sad-tear" style="color: #ef4444;"></i>';
+                msg = 'Can co gang nhieu hon! Hay doc lai phan kien thuc.';
+            }
+            const unansCount = state.shuffledQuestions.length - answered;
+            if (unansCount > 0) msg += ` (${unansCount} cau chua tra loi)`;
+            document.getElementById('resultMessage').textContent = msg;
+
+            const pass = percent >= 50;
+            document.getElementById('resultTitle').textContent = pass ? 'Chuc mung! Da hoan thanh' : 'Rat tiec!';
+
+            showScreen('result');
+        }
+
+        function quitQuiz() {
+            if (confirm('Ban co chac muon thoat? Tien do se khong duoc luu.')) {
+                stopTimer();
+                showHome();
+            }
+        }
+
+        function submitQuiz() {
+            const unanswered = [];
+            state.shuffledQuestions.forEach((q, i) => {
+                const ans = state.answers[i] || [];
+                if (ans.length === 0) unanswered.push(i + 1);
+            });
+
+            if (unanswered.length > 0) {
+                if (!confirm(`Con ${unanswered.length} cau chua tra loi (cau ${unanswered.join(', ')}). Ban co muon nop bai?`)) return;
+            } else {
+                if (!confirm('Ban co chac muon nop bai?')) return;
+            }
+
+            state.submitted = true;
+            stopTimer();
+
+            let correct = 0;
+            state.reviewedAnswers = {};
+            state.shuffledQuestions.forEach((q, i) => {
+                const userAns = state.answers[i] || [];
+                const sortedUser = [...userAns].sort((a, b) => a - b);
+                const sortedCorrect = [...q.correctAnswers].sort((a, b) => a - b);
+                const isCorrect = sortedUser.length === sortedCorrect.length &&
+                    sortedUser.every((v, idx) => v === sortedCorrect[idx]);
+                if (isCorrect) correct++;
+                state.reviewedAnswers[i] = { correct: isCorrect, selected: userAns };
+            });
+
+            const total = state.shuffledQuestions.length;
+            const percent = Math.round((correct / total) * 100);
+
+            document.getElementById('resultScore').textContent = correct;
+            document.getElementById('resultTotal').textContent = total;
+            document.getElementById('resultPercent').textContent = `${percent}%`;
+
+            const icon = document.getElementById('resultIcon');
+            let msg;
+            if (percent >= 80) {
+                icon.innerHTML = '<i class="fas fa-trophy" style="color: #fbbf24;"></i>';
+                msg = 'Xuat sac! Ban da nam vung kien thuc HCI.';
+            } else if (percent >= 60) {
+                icon.innerHTML = '<i class="fas fa-star" style="color: #fbbf24;"></i>';
+                msg = 'Kha tot! Hay on lai nhung cau sai de cai thien.';
+            } else if (percent >= 40) {
+                icon.innerHTML = '<i class="fas fa-book" style="color: #f97316;"></i>';
+                msg = 'Tam duoc! Can on lai nhieu hon nhe.';
+            } else {
+                icon.innerHTML = '<i class="fas fa-sad-tear" style="color: #ef4444;"></i>';
+                msg = 'Can co gang nhieu hon! Hay doc lai phan kien thuc.';
+            }
+            document.getElementById('resultMessage').textContent = msg;
+
+            const pass = percent >= 50;
+            document.getElementById('resultTitle').textContent = pass ? 'Chuc mung! Da hoan thanh' : 'Rat tiec!';
+
+            showScreen('result');
+        }
+
+        // ==================== TIMER ====================
+        function startTimer() {
+            state.timer = 0;
+            document.getElementById('timerText').textContent = '00:00';
+            clearInterval(state.timerInterval);
+            state.timerInterval = setInterval(() => {
+                state.timer++;
+                const m = String(Math.floor(state.timer / 60)).padStart(2, '0');
+                const s = String(state.timer % 60).padStart(2, '0');
+                document.getElementById('timerText').textContent = `${m}:${s}`;
+            }, 1000);
+        }
+
+        function stopTimer() {
+            clearInterval(state.timerInterval);
+        }
+
+        // ==================== KNOWLEDGE ====================
+        function renderKnowledge() {
+            const container = document.getElementById('knowledgeContainer');
+            container.innerHTML = '';
+            Object.keys(chapterKnowledge).forEach(key => {
+                const ch = chapterKnowledge[key];
+                const item = document.createElement('div');
+                item.className = 'knowledge-item';
+                item.innerHTML = `
+                    <div class="knowledge-header" onclick="toggleKnowledge(this)">
+                        <span><span class="badge badge-chapter mr-2">Chuong ${key}</span>${ch.title}</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </div>
+                    <div class="knowledge-body">
+                        <div class="knowledge-content">
+                            <p class="text-sm leading-relaxed mb-3" style="color: var(--text-secondary);">${ch.summary}</p>
+                            <div class="flex flex-col gap-1.5">
+                                ${ch.keyPoints.map(kp => `
+                                    <div class="flex items-start gap-2 text-sm">
+                                        <i class="fas fa-check-circle mt-0.5" style="color: var(--success); font-size: 12px;"></i>
+                                        <span>${kp}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        function toggleKnowledge(header) {
+            const body = header.nextElementSibling;
+            const icon = header.querySelector('i');
+            body.classList.toggle('open');
+            icon.style.transform = body.classList.contains('open') ? 'rotate(180deg)' : '';
+        }
+
+        // ==================== REVIEW ====================
+        function renderReview() {
+            const container = document.getElementById('reviewContainer');
+            const nav = document.getElementById('reviewNav');
+            container.innerHTML = '';
+            nav.innerHTML = '';
+
+            let correctCount = 0, wrongCount = 0;
+
+            state.shuffledQuestions.forEach((q, i) => {
+                const r = state.reviewedAnswers[i];
+                if (r) {
+                    if (r.correct) correctCount++;
+                    else wrongCount++;
+                }
+                const num = document.createElement('span');
+                num.className = 'question-number';
+                num.textContent = i + 1;
+                if (r) {
+                    num.classList.add(r.correct ? 'correct' : 'wrong');
+                }
+                num.onclick = () => {
+                    document.getElementById(`review-${i}`).scrollIntoView({ behavior: 'smooth' });
+                };
+                nav.appendChild(num);
+            });
+
+            document.getElementById('reviewCorrectCount').textContent = correctCount;
+            document.getElementById('reviewWrongCount').textContent = wrongCount;
+
+            const letters = 'ABCDEFGHIJK';
+            state.shuffledQuestions.forEach((q, i) => {
+                const r = state.reviewedAnswers[i] || { correct: false, selected: [] };
+                const div = document.createElement('div');
+                div.className = 'review-item';
+                div.id = `review-${i}`;
+
+                const statusIcon = r.correct
+                    ? '<i class="fas fa-check-circle" style="color: var(--success);"></i>'
+                    : '<i class="fas fa-times-circle" style="color: var(--error);"></i>';
+
+                const chapterInfo = chapterKnowledge[q.chapter];
+                const chapterLabel = chapterInfo ? chapterInfo.title : (q.chapter ? 'Chuong ' + q.chapter : '');
+                let optionsHtml = q.options.map((opt, idx) => {
+                    let cls = '';
+                    if (q.correctAnswers.includes(idx)) cls = 'correct';
+                    else if (r.selected.includes(idx) && !q.correctAnswers.includes(idx)) cls = 'wrong';
+                    const mark = q.correctAnswers.includes(idx) ? '<i class="fas fa-check mr-1" style="color: var(--success);"></i>' : '';
+                    const xmark = (r.selected.includes(idx) && !q.correctAnswers.includes(idx)) ? '<i class="fas fa-times mr-1" style="color: var(--error);"></i>' : '';
+                    return `<div class="option-btn disabled ${cls} mt-1"><span class="option-letter">${letters[idx]}</span><span>${mark}${xmark} ${opt}</span></div>`;
+                }).join('');
+
+                div.innerHTML = `
+                    <div class="flex items-start justify-between gap-3 mb-2">
+                        <div>
+                            <span class="font-semibold text-sm">Cau ${i + 1}</span>
+                            ${chapterLabel ? `<span class="badge badge-chapter ml-2">${chapterLabel}</span>` : ''}
+                        </div>
+                        ${statusIcon}
+                    </div>
+                    <p class="text-base font-medium mb-3">${q.question}</p>
+                    ${optionsHtml}
+                    <div class="mt-3 p-3 rounded-lg text-sm" style="background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.2);">
+                        <span class="font-semibold" style="color: var(--success);"><i class="fas fa-lightbulb mr-1"></i>Giai thich:</span>
+                            <span style="color: var(--text);">${q.explanation || 'Dap an: ' + q.correctAnswers.map(i => letters[i]).join(', ')}</span>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // ==================== KEYBOARD ====================
+        function handleKeydown(e) {
+            if (state.currentScreen === 'quiz' && !state.submitted) {
+                if (e.key >= '1' && e.key <= '5') {
+                    const idx = parseInt(e.key) - 1;
+                    const btns = document.querySelectorAll('#optionsContainer .option-btn');
+                    if (btns[idx] && !btns[idx].classList.contains('disabled')) { btns[idx].click(); e.preventDefault(); }
+                }
+                if (e.key === 'Enter') {
+                    const checkBtn = document.getElementById('checkMultiBtn');
+                    if (checkBtn && !checkBtn.classList.contains('hidden')) {
+                        checkMultiAnswer(); e.preventDefault();
+                    }
+                }
+                if (e.key === 'ArrowRight') { nextQuestion(); e.preventDefault(); }
+                if (e.key === 'ArrowLeft') { prevQuestion(); e.preventDefault(); }
+            }
+        }
+
+        // ==================== PROGRESS SAVE/LOAD ====================
+        function saveProgress() {
+            try {
+                const data = {
+                    chapterFilter: state.chapterFilter,
+                    randomize: state.randomize,
+                    instantFeedback: state.instantFeedback,
+                    currentIndex: state.currentIndex,
+                    answers: state.answers,
+                    instantResults: state.instantResults,
+                    questionIds: state.shuffledQuestions.map(q => q.id),
+                    timer: state.timer
+                };
+                localStorage.setItem('hciQuizProgress', JSON.stringify(data));
+            } catch(e) {}
+        }
+
+        function loadProgress() {
+            try {
+                const saved = localStorage.getItem('hciQuizProgress');
+                if (!saved) return;
+                const data = JSON.parse(saved);
+                if (!data.questionIds || data.questionIds.length === 0) return;
+
+                const pool = data.chapterFilter === 0
+                    ? [...state.questions]
+                    : state.questions.filter(q => q.chapter === data.chapterFilter || q.chapter == null);
+
+                const shuffled = data.questionIds.map(id => pool.find(q => q.id === id)).filter(Boolean);
+                if (shuffled.length === 0) return;
+
+                if (shuffled.length !== data.questionIds.length) {
+                    localStorage.removeItem('hciQuizProgress');
+                    return;
+                }
+
+                if (confirm('Phat hien tien do cu. Ban co muon tiep tuc?')) {
+                    state.chapterFilter = data.chapterFilter;
+                    state.randomize = data.randomize;
+                    state.instantFeedback = data.instantFeedback || false;
+                    state.shuffledQuestions = shuffled;
+                    state.currentIndex = data.currentIndex;
+                    state.answers = data.answers || {};
+                    state.instantResults = data.instantResults || {};
+                    state.timer = data.timer || 0;
+
+                    document.getElementById('homeChapterFilter').value = data.chapterFilter;
+                    document.getElementById('quizChapterFilter').value = data.chapterFilter;
+                    document.getElementById('randomizeCheck').checked = data.randomize;
+                    document.getElementById('instantFeedbackCheck').checked = state.instantFeedback;
+
+                    if (state.currentIndex < state.shuffledQuestions.length) {
+                        showScreen('quiz');
+                        startTimer();
+                        renderQuestion();
+                    }
+                } else {
+                    localStorage.removeItem('hciQuizProgress');
+                }
+            } catch(e) {
+                localStorage.removeItem('hciQuizProgress');
+            }
+        }
+
+        // ==================== START ====================
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

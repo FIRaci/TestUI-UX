@@ -1,0 +1,287 @@
+BÀI 8. 
+TẠO MẪU THỬ
+Nội dung
+1.
+Giới thiệu chung
+2.
+Các kỹthuật tạo lập mẫu thửđộtin cận thấp
+3.
+Ví dụvà bài tập
+4.
+Các kỹthuật tạo lập mẫu thửđộtin cậy cao
+5.
+Công cụtạo lập mẫu thử
+6.
+Ví dụvà bài tập
+1. Giới thiệu chung
+• Cấu trúc, hoạt động của giao diện người 
+dùng theo cách mà mọi người có thể, 
+muốn hoặc cần làm việc
+Thiết kếlấy người dung làm
+trung tâm
+• Mẫu thử là thiết kế thử nghiệm (chưa 
+hoàn thiện), được phát triển nhanh và rẻ.
+Mẫu thử
+• Hoạt động tạo phiên bản tương tác về ý 
+tưởng của nhà thiết kế để người dùng có 
+thể đánh giá thiết kế một cách hiệu quả
+Tạo mẫu thử
+Khái quát
+• Hoạt động thiết kế lấy người dùng làm trung tâm
+• Thiết kế dựa trên người dùng
+• Khả năng và nhu cầu thực sự
+• Cần cho sản phẩm hữu ích và hữu ích
+• Bối cảnh (vật lý, tổ chức, xã hội)
+• Mục tiêu
+• Nhiệm vụ
+Hoạt động thiết kế lấy người dùng 
+làm trung tâm
+• Quy tắc vàng của thiết kế giao diện: Biết người dùng
+Các phương pháp lấy người dùng làm 
+trung tâm
+Phương pháp
+Giá thành
+Lúc sử dụng
+Tập trung vào nhóm
+Thấp
+Tập hợp yêu cầu
+Kiểm thử tính dùng được
+Cao
+Thiết kế và đánh giá
+Tạo mẫu thử
+Thấp
+Thiết kế và đánh giá
+Thiết kế cộng tác
+Thấp
+Thiết kế
+Bảng câu hỏi
+Thấp
+Tập hợp yêu cầu
+Phỏng vấn
+Cao
+Tập hợp yêu cầu và đánh giá
+Tạo mẫu thử
+• Giới thiệu
+• Độ tin cậy của mẫu thử
+• Các kĩ thuật tạo mẫu thử độ tin cậy thấp
+• Các kĩ thuật tạo mẫu thử độ tin cậy cao
+2.1. Giới thiệu
+• Thiết kế lặp sử dụng mẫu thử
+• Tạo ra mẫu thử thiết kế, ví dụ thiết kế ban đầu từ các hướng dẫn và 
+nguyên tắc.
+• Đánh giá thiết kế
+• Thiết kế lại để hiệu chỉnh các lỗi
+• Xây dựng mẫu thử mới
+Tại sao tạo mẫu thử
+• Lấy phản hồi nhanh và rẻ hơn
+• Thử nghiệm với các lựa chọn thay thế
+• Sau đó, sử dụng những phát hiện này để thúc đẩy việc phát 
+triển và thiết kế
+• Thử nghiệm với các lựa chọn thay thế
+• Quan trọng là không cam kết với các ý tưởng thiết kế
+• Tự do sáng tạo
+Độ tin cậy của mẫu thử
+• Tương tự như thế nào đối với giao diện đã hoàn 
+thành?
+• Sự xuất hiện của sản phẩm, tức là mẫu thử giao diện
+• Tương tác của sản phẩm, tức là mẫu thử tương tác
+Độ tin cậy của mẫu thử
+• Lo-Hi là một dạng mẫu thử giao diện đã bỏ qua các 
+chi tiết
+• Được xây dựng nhanh chóng để mô tả các khái niệm, lựa 
+chọn thay thế thiết kế và bố cục màn hình, thay vì để mô hình 
+hóa tương tác của người dùng với hệ thống
+• Cung cấp hạn chế chức năng (hoặc không có)
+Độ tin cậy của mẫu thử
+• Giao diện + mẫu thử tương tác trông giống như thành 
+phẩm
+• Hoàn toàn tương tác
+• Mô phỏng nhiều chức năng trong sản phẩm cuối cùng
+Độ tin cậy của mẫu thử
+• Bản phác thảo trên giấy (sketches)
+• Bảng phân cảnh trên giấy (storyboards)
+• Bản phác thảo / bảng phân cảnh có sựhỗtrợcủa máy tính
+• Phù thuỷxứOz (Wizards of Oz) / trình chiếu / tạo mẫu video
+• Mô phỏng kịch bản dựa trên máy tính
+• Mô phỏng ngang dựa trên máy tính
+• Mô phỏng dọc dựa trên máy tính
+• Mô phỏng đầy đủchức năng dựa trên máy tính
+Lo-FI
+Hi-FI
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+1. Tạo bản phác thảo (Sketching)
+2. Tạo phân cảnh (Storyboarding)
+2.3 Các kỹ thuật tạo nguyên mẫu 
+độ tin cậy thấp
+Sketching
+Sketch là một bản mô phỏng trên giấy hoặc có sự hỗ trợ của 
+máy tính về hình dáng bên ngoài của hệ thống tương tác dự 
+kiến: giao diện, cảm nhận, về mặt chức năng
+Mục đích
+1.
+Nghĩ về các biểu diễn
+2.
+Khơi gợi phản ứng của người dùng
+3.
+Gợi ý các sửa đổi / đề xuất của người dùng
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+• Sketching – ví dụ
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+• Sketching – ví dụ
+2.3 Các kỹ thuật tạo mẫu thử độ tin cậy 
+thấp
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+Tạo phân cảnh
+Cung cấp ảnh chụp nhanh (khung chính dưới dạng phác thảo) 
+của giao diện tại các điểm cụ thể trong tương tác
+Mục đích
+1.
+Bảng phân cảnh đại diện cho các chức năng và trình tự của 
+hệ thống
+2.
+Người dùng có thể nhanh chóng đánh giá hướng mà giao 
+diện đang hướng tới
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+2.3 Các kỹ thuật tạo mẫu thử độ 
+tin cậy thấp
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+1. Mô phỏng dựa trên máy tính
+2. Phù thủy xứOz
+3. Trình chiếu và tạo mẫu video
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+Tạo mẫu thửdựa trên máy tính
+•
+Mô phỏng một số (nhưng không phải tất cả) tính năng của 
+giao diện
+•
+Thu hút người dùng cuối
+Mục đích
+•
+Cung cấp kịch bản phức tạp nhưng hạn chế để người dùng 
+thử
+•
+Có thể kiểm tra các vấn đề thiết kế tinh tế hơn
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+Mô phỏng dựa trên máy tính
+Mô phỏng hoặc tạo hoạt ảnh cho một số nhưng không phải tất 
+cả các tính năng của hệ thống dự kiến
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+Mô phỏng dựa trên máy tính
+Ba cách tiếp cận để hạn chế chức năng của mẫu thử
+• Mẫu thử dọc
+• Bao gồm chức năng chuyên sâu chỉ cho một số tính năng được 
+chọn
+• Các ý tưởng thiết kế chung có thể được kiểm tra chuyên sâu
+• Mẫu thử ngang
+• Toàn bộ giao diện bề mặt không có chức năng cơ bản
+• Một mô phỏng; không có công việc thực sự có thể được thực 
+hiện
+• Kịch bản
+• Tập lệnh của các mục đích sử dụng cố định cụ thể của hệ 
+thống; không được phép sai lệch
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+Phù thuỷ xứ OZ
+• Phương pháp kiểm tra cho hệ thống không tồn tại
+• Thêm chức năng mô phỏng phức tạp
+• Thử nghiệm các ý tưởng tương lai
+• "Trình hướng dẫn" của con người mô phỏng quá trình phản 
+hồi của hệ thống
+• Phiên dịch đầu vào của người dùng theo một thuật toán
+• Điều khiển máy tính để mô phỏng đầu ra phù hợp
+• Sử dụng giao diện thực hoặc giả
+• Các bước đôi khi hiển thị, đôi khi ẩn
+2.4 Các kỹ thuật tạo mẫu thử độ 
+tin cậy cao
+Trình chiếu và tạo mẫu video
+•
+Các kỹ thuật này sử dụng các phương tiện truyền thông để 
+tạo điều kiện cho việc tạo mẫu
+•
+Trang trình bày các trang trình bày tạo thành một mẫu thử 
+đơn giản ngang hoặc dọc
+• Mẫu thử bảng phân cảnh được mã hóa trên máy tính với các 
+công cụ phần mềm.
+• Quá trình chuyển đổi cảnh được kích hoạt bằng thao tác nhập 
+đơn giản của người dùng
+2.4 Các kỹ thuật tạo nguyên mẫu 
+độ tin cậy cao
+Mẫu thử
+Ưu điểm
+Nhược điểm
+Mẫu thử độ tin 
+cậy thấp
+-
+Chi phí phát triển thấp
+-
+Đánh giá nhiều khái niệm
+thiết kế
+•
+Giới hạn kiểm tra lỗi- liên 
+hệ điều hướng và luồng
+Mẫu thử độ tin 
+cậy cao
+-
+Hoàn toàn tương tác
+-
+Nhìn và cảm nhận sản 
+phẩm cuối cùng
+-
+Xác định rõ ràng lược đồ 
+điều hướng
+•
+Phát triển nhiều hơn
+•
+Tốn thời gian để xây dựng
+•
+Các nhà phát triển không 
+muốn thay đổi thứ gì đó 
+mà họ đã tạo ra trong thời 
+gian dài
+2.4 Các kỹ thuật tạo mẫu thử độ tin cậy 
+cao
+Nghĩ về các biểu diễn khác nhau
+Chọn một biểu điễn
+Phong cách giao diện thô sơ
+Hướng dẫn và thiết kế lại tập trung vào nhiệm 
+vụ
+Tinh chỉnh giao diện, thiết kế màn hình
+Đánh giá và thiết kế lại theo kinh nghiệm
+Kiểm tra tính sử dụng được và thiết kế lại
+Thử nghiệm hiện trường hạn chế
+Thử nghiệm Alpha / Beta
+Bản phác thảo & nguyên mẫu giấy có
+độtrung thực thấp
+Mẫu thửcó độtrung thực trung bình
+Mẫu thửcó độtrung thực cao
+Hệthống làm việc
+Thiết kế muộn
+Thiết kế sớm
+2.4 Các kỹ thuật tạo mẫu thử độ tin cậy 
+cao
+Tạo mẫu thửcó độtin cậy cao & độtin cậy thấp
+6. Các công cụtạo mẫu thử
+• https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-
+used-1c804fab33a6
+• https://blog.prototypr.io/top-20-prototyping-tools-for-ui-and-ux-
+designers-2017-46d59be0b3a9
+Tổng kết
+• Thiết kếcần lấy người dùng làm trung tâm
+• Mẫu thửcho phép người dùng tiếp cận với thiết kếvà
+đềxuất các thay đổi cần thiết.
+• Mẫu thửcàng gần với giao tiếp cuối thì độtin cậy càng
+cao.
+• Thiết kếcó sựtham gia của người dùng là một cách
+làm tốt đểcó thểtạo ra nhiều ý tưởng.
+Thank you 
+for your 
+a,en.ons!

@@ -1,0 +1,418 @@
+BÀI 7. NGUYÊN LÝ THIẾT KẾ 
+GIAO DIỆN
+I.
+Các nguyên tắc thiết kếcủa Norman
+II. Các nguyên tắc thiết kếcủa Shneiderman
+Mục tiêu bài học
+• Sau khi hoàn tất bài học, người học sẽ:
+• Nhớđược các nguyên tắc thiết kếgiao diện cho các hệ
+tương tác
+I. Các nguyên tắc thiết kế
+giao diện của Norman
+1. Trực quan (Visibility)
+2. Phản hồi (Feedback)
+3. Ràng buộc (Constraints)
+4. Ánh xạ(Mapping)
+5. Nhất quán (Consistency)
+6. Thếchỗ(Affordances)
+Ý nghĩa
+• Visibility – Can I see it?
+• Feedback – What is it doing now?
+• Constraints – Why can’t I do that?
+• Mapping – Where am I and where can I go?
+• Consistency – Do I think I have seen this before?
+• Affordance – How do I use it?
+• Mental/conceptual models – Do I think I know how 
+this operates?
+1. Trực quan
+• Tính trực quan: các chức năng càng trực quan thì người
+dùng lại càng có thêm khảnăng nhận biết việc cần làm
+tiếp theo là gì. 
+• Ngược lại, nếu các chức năng của hệthống bịche khuất
+thì người dùng khó có thểtìm thấy và biết dùng. 
+• Các cấp độcủa trực quan:
+• Mức 0: Nếu chức năng bịche khuất không trực quan
+• Mức 1: Nếu chức năng ko bịche khuất (chỉnhận diện được)
+• Mức 2: Nếu có chỉdẫn chức năng đấy đểlàm gì
+• Mức 3: Nếu có chỉdẫn làm thếnào đểsửdụng chức năng đó
+• Mức 4: Nếu cho xem trước kết quả
+Ví dụ
+•
+This is a control panel for an elevator.  How does it work?
+•
+Push a button for the floor you want? Nothing happens. 
+•
+Push any other button? Still nothing. 
+•
+What do you need to do?
+It is not visible as to what to do!
+How would you make this action more visible ???
+-
+make the card reader more obvious
+-
+provide an auditory message, that says what to do (which 
+language?)
+-
+provide a big label next to the card reader that flashes when 
+someone enters
+-
+make relevant parts visible
+-
+make what has to be done obvious
+www.baddesigns.com
+Hints: To get the elevator to work , you must insert 
+your room card in the slot nearby the buttons!
+2. Phản hồi
+• Phản hồi: thông tin trảvềtừhệthống về
+• hành động người dùng đã làm, và
+• kết quảcông việc hệthống đã thực hiện. 
+Giúp người dùng có thểđánh giá đúng trạng thái hệ
+thống, trên cơ sởđó thực hiện công việc tiếp theo. 
+• Có nhiều cách thiết kếphản hồi: âm thanh, hiệu
+ứng nhấn mạnh, hình ảnh động, các cửchỉ, thông
+điệp viết, hoặc phối hợp các cách này.
+Ví dụ
+• When screen button clicked on: 
+• provide sound, or 
+• highlight feedback
+Button
+Button
+Button
+“ccclichhk”
+3. Ràng buộc
+• Các cách giới hạn loại tương tác người dùng có thể
+thực hiện tại một thời điểm
+• Hạn chếcác hành động người dùng được phép thực
+hiện
+• Ngăn chặn các sai sót từphía người dùng.
+• 3 kiểu ràng buộc chính: 
+• Ràng buộc vật lý
+• Ràng buộc vềvăn hóa
+• Ràng buộc vềlogic thực hiện
+Ràng buộc vật lý
+• Dùng các đối tượng vật lý đểhạn chếsựdịch chuyển của các
+đồvật
+• Ví dụ: chỉcó thểcắm chìa theo 1 cách duy nhất đểmởkhóa
+• Có bao nhiêu cách đểnhét đĩa CD/ DVD vào một đầu đọc ? 
+• Hành động này bịhạn chếnhư thếnào ? 
+• Khác gì so với việc cắm cáp VGA/HDMI vào các cổng tương ứng ? 
+Ràng buộc logic
+• Dùng các quy ước đểhạn chếcác thao tác
+• Sửdụng đểtrợgiúp hoặc lôi kéo sựchú ý của
+người dùng khi thực hiện các nhiệm vụ.  
+• Ví dụ: 
+• Nhét đĩa CD/DVD vào đầu đọc như thếnào ? 
+Ví dụ: 
+Logical or ambiguous design?
+• Where do you plug the 
+mouse? 
+• Where do you plug the 
+keyboard?
+• top or bottom connector?
+• Do the colour coded icons 
+help?
+From: www.baddesigns.com
+More Logically Constrained
+• Provides direct adjacent 
+mapping between icon 
+and connector
+• Provides color coding to 
+associate the connectors 
+with the labels
+From: www.baddesigns.com
+4. Ràng buộc văn hóa
+• Quy ước mang tính ngẫu
+hứng, nhưng có thểhữu
+ích, trên toàn cầu hoặc
+liên quan đến một nền
+văn hóa cụthể
+• Có thểmâu thuẫn hoặc
+nhập nhằng khi sửdụng
+• “X” nghĩa là chọn hay 
+không chọn ? 
+Which are universal ? 
+Which are culturally-specific?
+5. Ánh xạ
+• Quan hệgiữa các điều khiển và chuyển động của
+chúng với kết quảtương tác
+• Ánh xạtốt: tương đồng về
+• Bốcục
+• Hành vi
+• Ý nghĩa
+• Ví dụ: ánh xạtốt của các mũi tên
+Ví dụ
+• Why is this a poor mapping of control buttons?
+• Why is this a better mapping?
+The control buttons are mapped better onto the sequence of actions of fast 
+rewind, rewind, play and fast forward
+•
+Is this a logical mapping (in most people’s minds)?
+•
+Is there a mapping that makes more sense?
+6. Nhất quán
+• Thiết kế giao diện để có các thao tác tương tự 
+nhau, và sử dụng các phần tử tương tự nhau để 
+thực hiện các nhiệm vụ tương tự nhau
+• Giao diện nhất quán là giao diện tuân thủhết các quy
+tắc thiết kế. 
+• Ví dụ:
+• Các ứng dụng của hệđiều hành Windows luôn luôn sửdụng
+• Thao tác (Ctrl A) đểchọn tất cảcác đối tượng
+• Định nghĩa phím nóng của một thao tác bằng tổ hợp phím ctrl và
+phím chữcái đầu tiên của câu lệnh tương ứng – ctrl+C, ctrl+S, 
+ctrl+O
+• Lợi ích: giao diện nhất quán dễhọc, dễdùng
+• Khi nào thì có thểvi phạm nguyên tắc này ?
+Khi nào không áp dụng tính nhất
+quán ?
+• Cho quy tắc định nghĩa phím nóng cho câu lệnh: CTR + 
+phím chữcái bắt đầu của câu lệnh
+• Nếu có nhiều lệnh cùng bắt đầu bằng một chữcái (ví dụsave, 
+spelling, select, style), phải định nghĩa phím nóng như thế
+nào ?
+• Có thểthay chữcái bắt đầu bằng chữcái khác hoặc tổhợp chữcái
+khác, ví dụ: ctrl+S, ctrl+Sp, ctrl+shift+L không nhất quán
+• Người dùng có muốn thếkhông ? Có vi phạm nguyên
+tắc thiết kê không ? 
+• Có thể làm tăng gánh nặng học tập cho người dùng
+• Có thể khiến họ dễ mắc lỗi hơn
+• Có thể mang lại lợi ích cho người dùng thường xuyên 
+hoặc có kinh nghiệm
+Nhất quán trong và nhất quán
+ngoài
+• Nhất quán trong: các thao tác, phần tửgiao diện
+phải nhất quán trong phạm vi của một ứng dụng
+• Khó thực hiện với các giao diện phức tạp
+• Nhất quán ngoài: các thao tác, giao diện tương 
+tự nhau cho các thiết bị và ứng dụng khác 
+nhau
+• Rất hiếm khi xảy ra trường hợp này, tùy thuộc vào 
+sở thích của nhà thiết kế khác nhau
+• Thành công nhất trong các dòng sản phẩm (ví dụ: 
+MS Office)
+• Các nhà cung cấp hệ điều hành có thể xác định các 
+nguyên tắc về phong cách thiết kế
+Ví dụ: Thiết kếbàn phím số
+• A case of external inconsistency
+1
+2
+3
+4
+5
+6
+7
+8
+9
+7
+8
+9
+4
+5
+6
+1
+2
+3
+0
+0
+(a) phones, remote controls
+(b) calculators, computer 
+keypads
+7. Thếchỗ
+• Thuộc tính của đối tượng cho phép biết làm thếnào sử
+dụng đối tượng đó
+• Một cái gì đó trông như thế nào cho biết nó có thể được 
+sử dụng như thế nào? 
+• Các loại thếchỗ: 
+• Thếchỗvật lý (Physical affordance): dùng thuộc tính vật lý
+của đối tượng
+• Thếchỗđược nhận thức (Perceived affordance) == give a 
+clue: trường hợp không có thuộc tính vật lý, cần thiết kếgiao
+diện sao cho người dùng nhận thức được tính thếchỗ
+• Các quy ước mà người dùng đã học về ánh xạ tùy ý giữa 
+hành động và hiệu ứng tại giao diện
+• Một số ánh xạ tốt hơn những ánh xạ khác
+Ví dụ: tính thếchỗcủa các đối
+tượng vật lý
+• How do the following physical objects afford? Are 
+they obvious?
+Ví dụ: tính thếchỗcủa các đối
+tượng ảo
+• How do the following screen objects afford?
+• What if you were a novice user?
+• Would you know what to do with them? 
+Bài tập: phân biệt thếchỗvật lý và thế
+chỗđược nhận thức
+• Take a cell phone, digital camera, or PDA
+• Have laptop?  Open a fancy software application: Word, 
+Eclipse, etc.
+• Work in pair (or in a small group)
+• Identify any physical affordances the device has
+• Identify any perceived or visual affordances the software 
+user interface has
+• Write these down, be prepared to share or turn in
+Exercise: Web Links
+• What are the conventions that help you recognize a 
+link?
+• Would you are argue this is an affordance?
+• Hint: convention of a mapping between action and 
+effect is a kind of perceived affordance. Does the 
+convention you identify “afford” clicking on it?
+• Examples of problems with this?
+Bài tập
+• Với mỗi nguyên tắc, tìm
+• Ví dụvềtuân thủ
+• Ví dụvềvi phạm
+• Cách thức dựkiến áp dụng cho BTL
+• Điền thông tin theo mẫu
+• Tên ứng dụng, version
+• Tên chức năng tuân thủ/ vi phạm
+• Mô tảchi tiết vềtình huống tuân thủ/ vi phạm
+(link đến tài liệu chứa ảnh chụp màn hình / giải thích chi 
+tiết)
+• Đềxuất hướng khắc phục (nếu có)
+I. Các nguyên tắc thiết kế
+giao diện của
+Schneiderman
+1.
+Nhận thức sựkhác biệt của người dùng (Recognize User Diversity)
+2.
+8 quy tắc vàng (Eight Golden Rules)
+a.
+Strive for consistency
+b.
+Enable frequent users to use shortcuts
+c.
+Offer informative feedback
+d.
+Design dialog to yield closure
+e.
+Offer simple error handling
+f.
+Permit easy reversal of actions
+g.
+Support internal locus of control
+h.
+Reduce short-term memory load
+3.
+Ngăn chặn lỗi (Prevent Errors) 
+1. Recognize User Diversity
+• Thực hiện trước khi thiết kế
+• Các khái niệm cơ bản để cấu trúc vấn đề
+• Cách sửdụng (Usage profiles) 
+• Different types of users: novice user, knowledgeable but 
+intermittent user, and expert frequent user. 
+• Different types of usage scenarios: novices needing extensive help, 
+experts wanting to get where they want to go as quickly as 
+possible. 
+• Dependent on the situation of the user 
+• Example: including both menu or icon choices as well as 
+commands
+• Nhiệm vụ(Task profiles) 
+• What is the goal of the user? 
+• How does the user want to achieve the goal?
+Example: How to apply this 
+principle in web design ?
+• Make your main navigation area fast loading for 
+repeat users
+• Provide a detailed explanation of your topics, 
+symbols, and navigation options for new users
+• Provide a text index for quick access to all pages of 
+the site
+• Ensure your pages 
+• are readable in many formats, 
+• to accommodate users who are blind or deaf, users with 
+old versions of browsers, lynx users, users on slow 
+modems or those with graphics turned off
+2. Eight golden rules of interface 
+design
+• Hướng tới sự nhất quán
+• consistent sequences of actions should be required in 
+similar situations
+• identical terminology should be used in prompts, 
+menus, and help screens 
+• consistent color, layout, capitalization, fonts, and so on 
+should be employed throughout.
+• Cung cấp phím tắt cho người dùng thường xuyên
+• to increase the pace of interaction, use abbreviations, 
+special keys, hidden commands, and macros
+Eight golden rules of interface 
+design
+• Cung cấp thông tin phản hồi cho tất cả các hành động của
+người dùng bằng nhiều cách:
+• For frequent actions it should be modest, peripheral 
+• For infrequent actions it should be more substantial
+• Web design example: using DHTML, a button will make a clicking 
+sound or change color when clicked to show the user something 
+has happened
+• Thiết kế hội thoại đảm bảo tính đóng
+• Sequences of actions should be organized into groups with a 
+beginning, middle, and end. 
+• The informative feedback at the completion of a group of actions 
+shows the user their activity has completed successfully
+• Example: 
+• A sequence menu for booking a flight
+• A downloading progress bar
+Eight golden rules of interface 
+design
+• Cung cấp phương thức xử lý lỗi đơn giản
+• Design the user interfaces so that users cannot make a serious 
+error:
+• Example:  prefer menu selection to form fill-in and do not allow alphabetic 
+characters in numeric entry fields
+• Detect errors or possible errors: 
+• Example: if users make an error, instructions should be written to detect 
+the error and offer simple, constructive, and specific instructions for 
+recovery
+• Provide safety for users: 
+• Example: segment long forms and send sections separately so that the 
+user is not penalized by having to fill the form in again - but make sure you 
+inform the user that multiple sections are coming up
+• Cho phép dễdàng hủy bỏ các hành động đã thực hiện
+• All actions should be reversible
+• Example: provide Undo functions for an action or a group of actions
+Eight golden rules of interface 
+design
+• Hỗtrợngười dùng tập trung kiểm soát hệthống
+• Experienced users want to be in charge. 
+• Users should initiate actions
+• The system should be predictable
+• Surprising system actions, tedious sequences of data entries, 
+inability or difficulty in obtaining necessary information, and 
+inability to produce the action desired all build anxiety and 
+dissatisfaction
+• Giảm tải của bộ nhớ làm việc.
+• The system should remember, not the user
+• Interface design have to be simple and helpful to comply with 
+human memory
+• Example: You can reduce short term memory load by designing 
+screens where options are clearly visible, or using pull-down 
+menus and icons, because humans can store only 7 +/-2 pieces of 
+information in their short term memory.
+3. Ngăn chặn lỗi
+• Ngăn chặn lỗi ngay khi có thể
+• Steps can be taken to design so that errors are less likely to occur. 
+Example:
+• organizing screens and menus functionally, 
+• designing screens to be distinctive and 
+• making it difficult for users to commit irreversible actions. 
+• Expect users to make errors, try to anticipate where they will go 
+wrong and design with those actions in mind. Example: 
+• Auto correct matching pairs of brackets {} by 
+•
+inserting both of them in one action; or 
+•
+remind of missing bracket 
+• Assistance to complete a sequence of actions to perform a task
+•
+Wizards
+•
+Auto save
+• Prevent users entering incorrect commands 
+•
+Helpful error messages 
+•
+Menus instead of commands
+Q
+Thank you 
+for your 
+attentions!
