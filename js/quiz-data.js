@@ -960,7 +960,7 @@ const quizData = [
   },
   {
     "id": 70,
-    "question": "Bước nào sau đây là một trong sáu bước thực hiện theo USTM?",
+    "question": "Bước nào sau đây là một trong sáu bước thực hiện theo USTM? (1)",
     "chapter": 5,
     "options": [
       "Xác định và mô tả các nhóm làm việc, kể cả các nhóm chính thức và không chính thức",
@@ -1040,7 +1040,7 @@ const quizData = [
   },
   {
     "id": 79,
-    "question": "Bước nào sau đây là một trong sáu bước thực hiện theo USTM?",
+    "question": "Bước nào sau đây là một trong sáu bước thực hiện theo USTM? (2)",
     "chapter": 5,
     "options": [
       "Định nghĩa mô hình khái niệm",
@@ -2175,7 +2175,7 @@ const quizData = [
   },
   {
     "id": 160,
-    "question": "Dau khong phai la khuyen cao khi thiet ke giao dien cho cac tro choi tren thiet bi di dong?",
+    "question": "Dau khong phai la khuyen cao khi thiet ke giao dien cho cac tro choi tren thiet bi di dong? (1)",
     "chapter": 11,
     "options": [
       "Cung cap mot giai phap day du nhat co the.",
@@ -2191,7 +2191,7 @@ const quizData = [
   },
   {
     "id": 162,
-    "question": "Dau khong phai la khuyen cao khi thiet ke giao dien cho cac tro choi tren thiet bi di dong?",
+    "question": "Dau khong phai la khuyen cao khi thiet ke giao dien cho cac tro choi tren thiet bi di dong? (2)",
     "chapter": 11,
     "options": [
       "Loai bo cac chuc nang luu va tam dung.",
