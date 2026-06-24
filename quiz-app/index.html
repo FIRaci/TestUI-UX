@@ -245,7 +245,7 @@
                     <div class="flex flex-col gap-2">
                         <label class="text-sm font-medium" style="color: var(--text-secondary);">Chon chuong</label>
                         <select id="homeChapterFilter" class="form-select" onchange="updateHomeFilter()">
-                            <option value="0">Tat ca (109 cau)</option>
+                            <option value="0">Tat ca</option>
                             <option value="1">Chuong 1: Tong quan ve HCI</option>
                             <option value="2">Chuong 2: Con nguoi va May tinh</option>
                             <option value="3">Chuong 3: Giao dien he tuong tac</option>
@@ -279,7 +279,7 @@
 
                 <div class="text-center text-sm" style="color: var(--text-secondary);">
                     <i class="fas fa-info-circle mr-1"></i>
-                    <span id="questionCountDisplay">109 cau hoi</span> &bull; Nhieu chu de &bull; Co giai thich chi tiet
+                    <span id="questionCountDisplay">115 cau hoi</span> &bull; Nhieu chu de &bull; Co giai thich chi tiet
                 </div>
             </div>
 
@@ -500,6 +500,8 @@
             const filter = parseInt(document.getElementById('homeChapterFilter').value);
             const filtered = filter === 0 ? state.questions : state.questions.filter(q => q.chapter === filter || q.chapter == null);
             document.getElementById('questionCountDisplay').textContent = `${filtered.length} cau hoi`;
+            const opt = document.getElementById('homeChapterFilter').options[0];
+            if (opt) opt.text = `Tat ca (${state.questions.length} cau)`;
         }
 
         function updateHomeFilter() {
