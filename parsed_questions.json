@@ -1,0 +1,4260 @@
+[
+  {
+    "id": 113,
+    "question": "Phát biểu nào sau đây là đúng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* * Con người có hai loại tế bào cảm quang",
+      "Con người có ba loại bộ nhớ",
+      "* * Độ tương phản giữa màu chữ và màu nền nhà làm cho văn bản dễ đọc  (Ghi chú: Lỗi đánh máy trong đề, chữ \"nhà\" thường là \"nhỏ\")",
+      "Con người có năm kiểu lập luận",
+      "Đĩa cứng là một dạng bộ nhớ ngắn hạn của máy tính"
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Mắt người có hai tế bào cảm quang là tế bào hình que (nhạy cảm với ánh sáng) và hình nón (nhận diện màu sắc). Con người có 3 loại bộ nhớ: cảm giác, ngắn hạn và dài hạn. Độ tương phản nhỏ làm văn bản khó đọc, con người thường có 3 kiểu lập luận chính (diễn dịch, quy nạp, loại suy), và đĩa cứng là bộ nhớ dài hạn, không phải ngắn hạn.\n---"
+  },
+  {
+    "id": 115,
+    "question": "Các thành phần chính của giao diện là:",
+    "chapter": null,
+    "options": [
+      "* Đầu vào, đầu ra",
+      "* * Con người, hệ thống",
+      "Con người, máy tính, bối cảnh sử dụng và quy trình phát triển",
+      "Người dùng, hệ thống, đầu vào, đầu ra",
+      "Con người, máy tính và giao diện"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Bản thân \"giao diện\" (Interface) là phương tiện giao tiếp giữa người và máy, được cấu thành cốt lõi bởi các kênh nhận thông tin (đầu vào - input) và hiển thị phản hồi (đầu ra - output).\n---"
+  },
+  {
+    "id": 116,
+    "question": "Các thành phần chính của hệ tương tác là:",
+    "chapter": null,
+    "options": [
+      "* Con người, mày tính, bối cảnh sử dụng và quy trình phát triển",
+      "* * Con người, máy tính và giao diện",
+      "Con người, hệ thống",
+      "Người dùng, hệ thống, đầu vào, ra",
+      "Đầu vào, đầu ra"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Một \"hệ tương tác\" hoàn chỉnh không chỉ bao gồm con người và máy tính, mà còn phải xét đến bối cảnh/môi trường nơi tương tác diễn ra và quy trình thiết kế/phát triển ra hệ thống đó.\n---"
+  },
+  {
+    "id": 117,
+    "question": "Các yếu tố chính của ngữ cảnh tương tác là:",
+    "chapter": null,
+    "options": [
+      "* Con người, hệ thống",
+      "* * Con người, máy tính và giao diện",
+      "Đầu vào, đầυ τα",
+      "Con người, máy tỉnh, bối cảnh sử dụng và quy trình phát triển",
+      "Người dùng, hệ thống, đầu vào, đầu ra"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Ngữ cảnh tương tác (Context of Interaction) thường xoay quanh chủ thể thực hiện (Con người/Người dùng) và đối tượng bị tác động hoặc phản hồi (Hệ thống).\n---"
+  },
+  {
+    "id": 118,
+    "question": "Phát biểu nào sau đây là sai (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Độ tương phản giữa màu chữ và màu nền nhỏ làm cho văn bắn dễ đọc",
+      "Con người có năm kiểu lập luận",
+      "Đĩa cứng là một dạng bộ nhớ ngắn hạn của máy tính",
+      "* * Con người có hai loại tế bào cảm quang",
+      "Con người có ba loại bộ nhớ"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Độ tương phản thấp (nhỏ) làm chữ cực kỳ khó đọc; Con người thường được mô hình hóa với 3 kiểu lập luận cơ bản (diễn dịch, quy nạp, loại suy); Đĩa cứng lưu trữ dữ liệu vĩnh viễn nên nó là bộ nhớ dài hạn.\n---"
+  },
+  {
+    "id": 120,
+    "question": "Mô hình nào cho phép mô tả người dùng làm gì, máy tính làm gì?",
+    "chapter": null,
+    "options": [
+      "* HTA (Hierarchy Task Analysis)",
+      "* * ERD (Entity Relationship Diagrams)",
+      "ATN (Augmented Transition Networks)",
+      "CSP (Communicating Sequential Process)",
+      "PIE"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * HTA (Phân tích nhiệm vụ phân cấp) là phương pháp chia nhỏ công việc thành các tác vụ (task) và tác vụ con (sub-task), mô tả rõ trình tự hành động của người dùng và phản hồi của máy tính để hoàn thành một mục tiêu.\n---"
+  },
+  {
+    "id": 122,
+    "question": "Mô hình nào cho phép phân tích nhiệm vụ người dùng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* * OSTA (Open System Task Analysis)",
+      "HTA (Hierarchy Task Analysis)",
+      "* * PIE",
+      "CSP (Communicating Sequential Process)",
+      "ERD (Entity Relationship Diagrams)"
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * HTA và OSTA đều là các phương pháp tiếp cận cốt lõi trong phân tích tác vụ/nhiệm vụ (Task Analysis) của người dùng trong hệ thống. ERD dùng cho cơ sở dữ liệu.\n---"
+  },
+  {
+    "id": 124,
+    "question": "Định nghĩa tương tác người máy của Baecker và Buxton đề cập đến những yếu tố nào sau đây? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Quá trình",
+      "Giao tiếp",
+      "Hành động",
+      "* * Quy trình",
+      "Đối thoại"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Theo các khái niệm chuẩn, tương tác người máy thường được định nghĩa như một tập hợp các quá trình, giao tiếp và hành động qua lại giữa người dùng và máy tính.\n---"
+  },
+  {
+    "id": 127,
+    "question": "Các yếu tố nào không được xét đến khi mô tả cách thức và bối cảnh sử dụng máy tính? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* * Các kĩ thuật đối thoại",
+      "Các thành phần xử lý của máy tính",
+      "* * Ứng dụng",
+      "Sự phù hợp giữa con người và máy tính",
+      "Môi trường và công việc"
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Bối cảnh sử dụng tập trung vào môi trường bên ngoài, công việc, và con người. Các bộ phận bên trong phần cứng (thành phần xử lý) hay kỹ thuật lập trình đối thoại không thuộc về yếu tố bối cảnh sử dụng.\n---"
+  },
+  {
+    "id": 128,
+    "question": "Đâu là các chủ đề cần nghiên cứu về con người trong tương tác người máy? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Kênh vào ra",
+      "Bộ nhớ",
+      "Lập luận",
+      "* * Phong tục tập quán",
+      "Thói quen"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Khi nghiên cứu HCI theo hướng nhận thức, hệ thống con người được mô hình hóa giống máy tính, bao gồm: Kênh vào/ra (giác quan/vận động), Bộ nhớ (lưu trữ), và Lập luận/Xử lý (nhận thức, tư duy).\n---"
+  },
+  {
+    "id": 129,
+    "question": "Yếu tố nào KHÔNG được đề cập đến như là một bộ phận của máy tính trong tương tác với người dùng?",
+    "chapter": null,
+    "options": [
+      "* Bộ nhớ máy tính",
+      "* * Thiết bị vào ra",
+      "Các kỹ thuật hội thoại",
+      "Kiến trúc đối thoại",
+      "Các loại hội thoại"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Trong tầng \"giao diện tương tác\", bộ nhớ máy tính (RAM/ROM) nằm sâu ở tầng kiến trúc phần cứng, người dùng không trực tiếp giao tiếp với bộ nhớ máy tính mà qua thiết bị I/O và các kỹ thuật/kiến trúc hội thoại của phần mềm.\n---"
+  },
+  {
+    "id": 134,
+    "question": "Đo, đánh giá tính dùng được của các hệ tương tác là đo, đánh giá những gì? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Năng suất",
+      "Hiệu quả",
+      "Mức độ thỏa mãn",
+      "* * Giá thành",
+      "Số chức năng tương tác"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Theo tiêu chuẩn ISO 9241, Tính dùng được (Usability) được đánh giá thông qua 3 yếu tố: Effectiveness (Hiệu quả), Efficiency (Năng suất/Hiệu suất), và Satisfaction (Mức độ thỏa mãn).\n---"
+  },
+  {
+    "id": 135,
+    "question": "Quy trình mô hình hóa yêu cầu người dùng theo OSTA gồm bao nhiêu bước",
+    "chapter": null,
+    "options": [
+      "* 8",
+      "* 02",
+      "07",
+      "14"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * OSTA (Open System Task Analysis) theo lý thuyết nền tảng luôn được định nghĩa là một quy trình gồm 8 bước nhằm ghi nhận các yếu tố xã hội và kỹ thuật của một hệ thống.\n---"
+  },
+  {
+    "id": 137,
+    "question": "Tính dùng được nghĩa là:",
+    "chapter": null,
+    "options": [
+      "* Năng suất, hiệu quả, thỏa mãn",
+      "* * Năng suất, chất lượng, hiệu quả",
+      "Ít động não ít động chân tay",
+      "Ít động não, ít động chân tay, mang lại trải nghiệm thú vị khi tương tác",
+      "Dễ học, dễ dùng"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Tương tự câu 022, đây là định nghĩa chuẩn mực quốc tế của Usability (ISO 9241).\n---"
+  },
+  {
+    "id": 139,
+    "question": "Tương tác theo mô hình chu trình thực hiện đánh giá gồm bao nhiêu giai đoạn?",
+    "chapter": null,
+    "options": [
+      "* 7",
+      "* 5",
+      "2",
+      "8",
+      "14"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Đây là mô hình kinh điển của Don Norman (Seven Stages of Action). Bao gồm 1 Mục tiêu + 3 bước Thực thi (Gulf of Execution) + 3 bước Đánh giá (Gulf of Evaluation) = 7 giai đoạn.\n---"
+  },
+  {
+    "id": 140,
+    "question": "Các tiêu chí nào sau đây dùng để đo đánh giá tính dùng được:",
+    "chapter": null,
+    "options": [
+      "* Năng suất, hiệu quả, thỏa mãn",
+      "* Dễ học, dễ dùng",
+      "Ít động não, ít động chân tay",
+      "Ít động não, ít động chân tay, mang lại trải nghiệm thú vị khi tương tác",
+      "Năng suất, chất lượng, hiệu quả."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Câu này là biến thể lặp lại của Câu 022 và 025 (chuẩn ISO 9241).\n---"
+  },
+  {
+    "id": 141,
+    "question": "Cái gì không phải là thành phần cấu thành hệ tương tác?",
+    "chapter": null,
+    "options": [
+      "* Quá trình sử dụng máy tính",
+      "* * Các đặc tính của hệ thống máy tính và kiến trúc giao diện",
+      "Các đặc tính của con người",
+      "Cách dùng và bối cảnh sử dụng máy tính",
+      "Quy trình phát triển hệ thống"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Đặc tính con người, đặc tính hệ thống, bối cảnh và quy trình phát triển là 4 thành phần thiết lập nên cấu trúc hệ tương tác (như đã hỏi ở câu 004). \"Quá trình sử dụng\" là hành động diễn ra sau đó, không phải là \"thành phần cấu thành\" (component).\n---"
+  },
+  {
+    "id": 142,
+    "question": "Nghiên cứu về công thái học (Ergonomics) giúp người phát triển tạo ra các hệ thống:",
+    "chapter": null,
+    "options": [
+      "* * An toàn và dùng được",
+      "Phù hợp với các đặc tính vật lý của tương tác",
+      "* Có tính bảo mật cao",
+      "Phù hợp với đặc tả chức năng",
+      "Với nhiều chức năng phức tạp và giao diện đồ họa đẹp."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Công thái học tập trung nghiên cứu sự phù hợp về mặt sinh học và vật lý của con người với môi trường/thiết bị nhằm đảm bảo trải nghiệm an toàn, giảm thiểu tổn thương cơ thể và dễ dàng thao tác.\n---"
+  },
+  {
+    "id": 143,
+    "question": "Đâu là đặc trưng của bộ nhớ dài hạn:",
+    "chapter": null,
+    "options": [
+      "* Cấu trúc tuyến tính  *(Ghi chú: Theo kiến thức chuẩn tâm lý học, LTM thường có cấu trúc mạng ngữ nghĩa (semantic network). Nếu giáo trình của bạn đánh dấu đây là đáp án đúng, hãy tuân theo giáo trình để thi).*",
+      "* * Thông tin được lưu theo cách viết đè",
+      "Khả năng nhớ hạn chế 7+/- 2 mục  (Đây là bộ nhớ ngắn hạn)",
+      "Hư hỏng nhanh (200ms)  (Đây là bộ nhớ cảm giác)",
+      "Thời gian truy cập nhanh (700ms)",
+      "---"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "question": "Các thiết bị nào là thiết bị ra? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* Máy in",
+      "Loa.",
+      "* Bàn phím",
+      "Chuột",
+      "Bảng vẽ."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Máy in xuất dữ liệu ra giấy, loa xuất dữ liệu âm thanh. Các thiết bị còn lại dùng để nạp thông tin vào máy tính.\n---"
+  },
+  {
+    "id": 145,
+    "question": "Các thiết bị nào là thiết bị vào? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* Bàn phím",
+      "Chuột",
+      "Bảng vẽ.",
+      "* Máy in",
+      "Loa."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Ngược lại với câu trên, Bàn phím, Chuột, Bảng vẽ số (Tablet) đều lấy tác động từ người dùng làm luồng dữ liệu truyền vào hệ thống.\n---"
+  },
+  {
+    "id": 146,
+    "question": "Khả năng tiếp nhận âm thanh của con người phụ thuộc vào các yếu tố nào sau đây? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* Tần số",
+      "Âm điệu",
+      "Cường độ âm thanh.",
+      "* Độ vang",
+      "Tiếng vọng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Thính giác con người cảm nhận âm thanh chủ yếu qua 3 biến số vật lý: Pitch (Tần số/Độ cao), Loudness (Cường độ/Độ lớn), và Timbre (Âm sắc/Âm điệu).\n---"
+  },
+  {
+    "id": 147,
+    "question": "Người dùng quan tâm những gì khi tương tác với hệ thống?",
+    "chapter": null,
+    "options": [
+      "* Đầu vào và đầu ra của hệ thống.",
+      "* Lỗi của hệ thống",
+      "Hệ thống chạy trên nền tảng nào",
+      "Cách thức hoạt động của hệ thống",
+      "Tốc độ hoạt động của hệ thống."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Người dùng thông thường (End-users) chỉ quan tâm đến việc: Họ cần thao tác gì (Đầu vào) và Hệ thống sẽ trả lại kết quả gì (Đầu ra). Các vấn đề về nền tảng hay cách code hoạt động là mối bận tâm của Developer.\n---"
+  },
+  {
+    "id": 149,
+    "question": "Góc nhìn phụ thuộc vào những yếu tố nào sau đây?",
+    "chapter": null,
+    "options": [
+      "* Kích thước đối tượng và khoảng cách từ đối tượng đến mắt.",
+      "* Kích thước đối tượng",
+      "Độ sáng, kích thước đối tượng và khoảng cách từ đối tượng đến mắt",
+      "Độ sáng",
+      "Khoảng cách từ đối tượng đến mắt."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Góc nhìn (Visual Angle) được tính toán theo công thức lượng giác dựa trên độ lớn vật lý của đối tượng và khoảng cách đo từ vật đến võng mạc mắt.\n---"
+  },
+  {
+    "id": 150,
+    "question": "Đâu là mô thức cho phép người dùng tương tác mà không cần tập trung hình thành chủ ý ?",
+    "chapter": null,
+    "options": [
+      "* Mô thức tính toán khắp nơi (Ubiquitous computing).",
+      "* Mô thức WWW",
+      "Mô thức xử lý theo lô",
+      "Mô thức phân chia thời gian",
+      "Mô thức mạng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Điện toán phổ biến (Ubiquitous computing) nhúng vi xử lý vào các đồ vật thường ngày (IoT). Chúng tự động cảm biến và thực thi tác vụ (như đèn tự sáng khi có người) mà người dùng không cần chủ động ra lệnh trên màn hình.\n---"
+  },
+  {
+    "id": 151,
+    "question": "Lựa chọn nào sau đây không phải là một mức yêu cầu người dùng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* Hiệu quả",
+      "Năng suất.",
+      "* Chức năng",
+      "Hài lòng",
+      "Dùng được."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Khi thu thập \"yêu cầu hệ thống\", ta phân loại thành Yêu cầu chức năng (Functional) và Phi chức năng (tính khả dụng - Dùng được/Hài lòng). Hiệu quả và năng suất là các đại lượng dùng để *đo lường kết quả* sau khi hệ thống đã làm xong, không phải là tập \"yêu cầu\" thu thập ban đầu.\n---"
+  },
+  {
+    "id": 152,
+    "question": "Cần biết những gì về người dùng để xây dựng thành công hệ thống tương tác?",
+    "chapter": null,
+    "options": [
+      "* Khả năng tâm lý, khả năng tâm sinh lý.",
+      "* Hoàn cảnh gia đình",
+      "Khả năng ăn uống",
+      "Giới tính người dùng",
+      "Học vấn của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Xây dựng hệ tương tác (HCI) chủ yếu dựa vào Cognitive Psychology (Tâm lý học nhận thức). Cần biết giới hạn ghi nhớ, giới hạn chú ý, khả năng điều khiển vận động,... để thiết kế UI phù hợp.\n---"
+  },
+  {
+    "id": 153,
+    "question": "Hệ vận động cung cấp các chức năng tích hợp từ các hệ thống nào sau đây? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* Hệ thần kinh",
+      "Hệ cơ",
+      "Hệ khớp.",
+      "* Hệ tuần hoàn",
+      "Hệ tiêu hóa."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Chuyển động (Vận động) của con người được điều khiển qua tín hiệu từ Hệ thần kinh, co dãn từ Hệ cơ và cử động nhờ cấu trúc của Hệ khớp (xương).\n---"
+  },
+  {
+    "id": 154,
+    "question": "Thời gian lưu lại thông tin của bộ nhớ cảm nhận thị giác là bao nhiêu?",
+    "chapter": null,
+    "options": [
+      "* Khoảng 200ms.",
+      "* Khoảng 1500ms",
+      "Khoảng 1200ms",
+      "Khoảng 700ms",
+      "Khoảng 500ms."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Bộ nhớ cảm giác (Sensory memory) có dung lượng lớn nhưng thời gian lưu vết cực ngắn. Cảm nhận thị giác (Iconic memory) phân rã trong khoảng 200ms đến 500ms.\n---"
+  },
+  {
+    "id": 155,
+    "question": "Nghiên cứu về HCI giúp người phát triển tạo ra các hệ thống:",
+    "chapter": null,
+    "options": [
+      "* An toàn và dùng được.",
+      "* Phù hợp với các đặc tính vật lý của tương tác",
+      "Có tính bảo mật cao",
+      "Phù hợp với đặc tả chức năng",
+      "Với nhiều chức năng phức tạp và giao diện đồ họa đẹp."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Mục tiêu tối thượng của HCI (Tương tác Người - Máy) là tối ưu hóa thiết kế sao cho sản phẩm vừa đạt chuẩn an toàn sử dụng, vừa có tính khả dụng cao (dễ dùng).\n---"
+  },
+  {
+    "id": 157,
+    "question": "Những gì ảnh hưởng đến việc lựa chọn các phương pháp thu thập yêu cầu người dùng? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Loại thông tin muốn thu thập",
+      "Nguồn thông tin cần thu thập",
+      "Địa điểm và khả năng tiếp cận các bên liên quan",
+      "* Quy trình nguyên tắc và chuẩn thu thập thông tin",
+      "Nhóm tập trung."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Khi muốn chọn công cụ lấy yêu cầu (Phỏng vấn, Khảo sát online, hay Quan sát hiện trường), bạn phải xét xem bạn muốn loại dữ liệu gì (định lượng/định tính), lấy từ ai, và bạn có thể gặp trực tiếp họ tại địa điểm đó hay không. \"Nhóm tập trung\" (Focus group) bản thân nó đã là một phương pháp, không phải là yếu tố ảnh hưởng.\n---"
+  },
+  {
+    "id": 158,
+    "question": "Yếu tố nào khó để nhận biết nhất đối với hệ thống thị giác?",
+    "chapter": null,
+    "options": [
+      "* Màu sắc.",
+      "* Hình dạng",
+      "Biểu tượng",
+      "Hoa tiết",
+      "Góc nhìn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Trong thiết kế UX, màu sắc là yếu tố ít tin cậy nhất nếu đứng độc lập, do sự sai lệch từ môi trường hiển thị (màn hình lóa, độ sáng) và hạn chế bẩm sinh của mắt người (ví dụ: hội chứng mù màu, rối loạn thị giác màu).\n---"
+  },
+  {
+    "id": 159,
+    "question": "Những yếu tố nào sau đây ảnh hưởng đến nhận thức trực quan của thị giác? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* Khoảng cách",
+      "Kích thước và chiều cao.",
+      "* Sự chuyển động",
+      "Sự thay đổi của độ sáng",
+      "Độ tương phản."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Nhận thức trực quan về hình thể phụ thuộc lớn vào góc tạo ảnh, mà góc tạo ảnh thì biến thiên tuyến tính/phi tuyến tính dựa trên kích thước thật của vật (Kích thước/Chiều cao) và khoảng cách từ mắt đến vật đó (Khoảng cách)."
+  },
+  {
+    "id": 160,
+    "question": "Thời gian lưu lại thông tin của bộ nhớ cảm nhận thính giác là bao nhiêu?",
+    "chapter": null,
+    "options": [
+      "Khoảng 1500ms",
+      "Khoảng 700ms",
+      "Khoảng 200ms",
+      "Khoảng 1200ms",
+      "Khoảng 500ms"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Bộ nhớ cảm giác thính giác (Echoic memory) có khả năng lưu giữ vết âm thanh lâu hơn so với bộ nhớ thị giác (Iconic memory). Trong các giáo trình HCI, mốc thời gian này thường được chuẩn hóa ở mức khoảng 1.5 giây (1500ms) để cho phép não bộ nối ghép các âm tiết thành câu có nghĩa."
+  },
+  {
+    "id": 161,
+    "question": "Da người có thể cảm nhận được các kích thích nào sau đây? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Nhiệt",
+      "Sức căng do áp suất",
+      "Đáp ứng nhanh và chậm (cơ học)",
+      "Ánh sáng",
+      "Tiếng ồn"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Xúc giác của da hoạt động nhờ các thụ thể sinh học chuyên biệt: thụ thể nhiệt (cảm nhận nóng/lạnh) và các thụ thể cơ học (cảm nhận áp suất, độ căng, độ rung). Da không có tế bào quang học để nhận biết ánh sáng hay cấu trúc màng nhĩ để nghe tiếng ồn."
+  },
+  {
+    "id": 162,
+    "question": "Nguyên tắc nào sau đây không phải là nguyên tắc thiết kế của Shneiderman?",
+    "chapter": null,
+    "options": [
+      "Tính ánh xạ",
+      "Thiết kế hội thoại đảm bảo tính đóng",
+      "Cung cấp phím tắt",
+      "Cung cấp thông tin phản hồi cho tất cả các hành động",
+      "Tính nhất quán."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Tính ánh xạ\" (Mapping) là một trong những nguyên tắc thiết kế nền tảng của Don Norman. Ben Shneiderman nổi tiếng với \"8 nguyên tắc vàng\", trong đó bao gồm các yếu tố như nhất quán, phím tắt, phản hồi, và thiết kế hội thoại có điểm kết thúc (tính đóng)."
+  },
+  {
+    "id": 163,
+    "question": "Yêu cầu người dùng được hình dung theo 3 mức cao dần là:",
+    "chapter": null,
+    "options": [
+      "Chức năng >> Sử dụng >> Hài lòng",
+      "Hài lòng >> Sử dụng >> Chức năng",
+      "Sử dụng >> Chức năng >> Hài lòng",
+      "Chức năng >> Hài lòng >> Sử dụng",
+      "Hài lòng >> Chức năng >> Sử dụng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tháp nhu cầu UX bắt đầu từ việc sản phẩm phải có \"Chức năng\" (Functionality - làm được việc cốt lõi), sau đó phải \"Dễ sử dụng\" (Usability - thao tác trơn tru), và đỉnh cao nhất là mang lại sự \"Hài lòng/Thích thú\" (Satisfaction/Pleasure) cho người dùng."
+  },
+  {
+    "id": 164,
+    "question": "Thể thống nhất xuất hiện dựa vào tính tương tự khi nào trong các trường hợp sau đây?",
+    "chapter": null,
+    "options": [
+      "Khi các đối tượng phân biệt có các thuộc tính trực quan tương tự nhau",
+      "Khi các đối tượng chứa các thông tin tương tự với các thông tin đã biết",
+      "Khi đối tượng có các hình ảnh xuất hiện một cách không đầy đủ",
+      "Khi các đối tượng gần nhau",
+      "Khi các đối tượng có một phần tử được nhận biết như là một sự nối dài của phần tử khác."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Theo định luật Tương tự (Law of Similarity) của tâm lý học Gestalt, não bộ con người có xu hướng gộp các phần tử riêng biệt thành một nhóm/thể thống nhất nếu chúng giống nhau về màu sắc, kích thước, hoặc hình dáng."
+  },
+  {
+    "id": 165,
+    "question": "Lập luận phản chứng là:",
+    "chapter": null,
+    "options": [
+      "Tư duy trong trường hợp đối lập so với luận điểm cần chứng minh, từ đó chứng minh điều tư duy là sai dẫn tới điều cần chứng minh là đúng.",
+      "Từ những giả thiết có sẵn dẫn dắt để đi tới điều cần chứng minh là đúng",
+      "Tư duy bằng các phương pháp luân giữa con người và thế giới tự nhiên",
+      "Sử dụng toán học để chứng minh luận điểm",
+      "Dùng những chứng cứ thu thập trong quá trình quan sát để đi tới kết luận."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Đây là định nghĩa chuẩn của phương pháp phản chứng (Reductio ad absurdum). Ta giả sử mệnh đề cần chứng minh là sai, sau đó suy luận để chỉ ra sự mâu thuẫn/vô lý, từ đó khẳng định mệnh đề ban đầu bắt buộc phải đúng."
+  },
+  {
+    "id": 166,
+    "question": "Khi xây dựng hệ tương tác, cần quan tâm đến những khía cạnh nào của các nhiệm vụ cần yêu cầu hệ thống thực hiện?",
+    "chapter": null,
+    "options": [
+      "Cách thức tổ chức và môi trường xung quanh của nhiệm vụ đó.",
+      "Các bước cài đặt nhiệm vụ",
+      "Độ phức tạp về mặt tính toán của nhiệm vụ",
+      "Số lượng môđun cần thiết để cài đặt nhiệm vụ",
+      "Bộ nhớ máy tính cần thiết để thực hiện nhiệm vụ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Trong Tương tác Người - Máy, khi phân tích nhiệm vụ (Task Analysis), khía cạnh quan trọng nhất là hiểu bối cảnh: người dùng làm việc đó như thế nào (tổ chức) và ở đâu (môi trường). Các yếu tố như môđun, bộ nhớ, độ phức tạp tính toán thuộc về lĩnh vực Công nghệ phần mềm/Kỹ thuật máy tính."
+  },
+  {
+    "id": 167,
+    "question": "Phát biểu nào về hệ thống thính giác của con người sau đây là sai?",
+    "chapter": null,
+    "options": [
+      "Con người có thể nghe được những âm thanh trong khoảng 15Hz đến 20 KHz.",
+      "Khả năng tiếp nhận của hệ thống thính giác phụ thuộc vào các yếu tố: độ vang, âm sắc, tần số",
+      "Tần số khác nhau kích thích vùng cảm nhận khác nhau của não gây xung động khác nhau",
+      "Ngưỡng nghe là 0 - 130dB",
+      "Khi cảm nhận thông tin, hệ thống thính giác cần lọc bỏ tạp âm để giữ lại thông tin cần thiết."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Phổ âm thanh nghe được của người bình thường nằm trong dải từ 20 Hz đến 20,000 Hz (20 kHz). Mức 15Hz là hạ âm (infrasound), tai người không thể nghe thấy tiếng động này mà chỉ có thể cảm nhận qua rung động vật lý."
+  },
+  {
+    "id": 168,
+    "question": "Điều nào sau đây đúng khi nói về hiệu ứng Muller-Lyer?",
+    "chapter": null,
+    "options": [
+      "Hiệu ứng Muller-Lyer làm người quan sát cảm nhận kích thước của vật được quan sát lớn hơn (hoặc khác đi so với) kích thước thật.",
+      "Hiệu ứng Muller-Lyer làm biến đổi liên tục màu sắc...",
+      "Làm méo hình dạng...",
+      "Không làm thay đổi cảm nhận về kích thước..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Ảo giác Muller-Lyer là ảo ảnh quang học kinh điển, trong đó hai đoạn thẳng có độ dài bằng nhau nhưng lại bị nhìn nhận là dài ngắn khác nhau do hướng của các mũi tên ở hai đầu (mũi tên quay ra ngoài trông có vẻ dài hơn mũi tên gập vào trong)."
+  },
+  {
+    "id": 169,
+    "question": "Câu nào sau đây là sai khi nói về bộ nhớ dài hạn?",
+    "chapter": null,
+    "options": [
+      "Bộ nhớ dài hạn thường được xử lý thông qua 3 giai đoạn.",
+      "Thời gian nhớ lại của các thông tin ít sử dụng thường lâu hơn các thông tin hay sử dụng",
+      "Dùng để lưu trữ các thông tin của con người",
+      "Khả năng lưu trữ của bộ nhớ dài hạn là vô hạn",
+      "Có 2 loại bộ nhớ dài hạn đó là: bộ nhớ phân đoạn (Episodic) và bộ nhớ ngữ nghĩa (Semantic)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Cấu trúc 3 giai đoạn (Cảm giác -> Ngắn hạn -> Dài hạn) là mô tả của toàn bộ hệ thống trí nhớ con người, chứ không phải là đặc tính xử lý nội bộ của riêng bộ nhớ dài hạn."
+  },
+  {
+    "id": 170,
+    "question": "Các lỗi nào sau đây là sơ suất (slips)? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Người dùng biết dấu X trên cửa sổ là đóng cửa sổ nhưng lại ấn nhầm dấu bên cạnh là ẩn cửa sổ.",
+      "Người dùng có ý định ấn vào nút thu nhỏ cửa sổ nhưng lại ấn nhầm sang nút đóng cửa sổ.",
+      "Nghĩ phím tắt Ctrl+C là dán",
+      "Nghĩ copy cả đoạn văn là Ctrl+X",
+      "Suy nghĩ Ctrl+S là thoát ứng dụng."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Sơ suất (Slip) xảy ra ở tầng thực thi. Người dùng hiểu rất đúng hệ thống, lên kế hoạch đúng, nhưng thao tác tay lại trượt/bấm nhầm. Các đáp án sai thuộc về \"Sai lầm\" (Mistake) do hiểu sai hệ thống ngay từ đầu."
+  },
+  {
+    "id": 171,
+    "question": "Các trường hợp nào sau đây là được coi là sai sót (mistakes) của người dùng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Người dùng dùng Microsoft Word nghĩ phím nhanh Ctrl+C là dán đoạn văn bản.",
+      "Người dùng lầm tưởng nút lưu văn bản là nút in văn bản.",
+      "Các hành động ấn nhầm, trượt tay..."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Trái ngược với câu trên, Sai lầm (Mistake) xảy ra ở mô hình nhận thức. Người dùng đưa ra quyết định sai do thiếu kiến thức hoặc nhầm lẫn tính năng, dù họ thực hiện thao tác đó một cách có chủ đích."
+  },
+  {
+    "id": 172,
+    "question": "Đâu là ưu điểm khi sử dụng cách tương tác bằng ngôn ngữ tự nhiên?",
+    "chapter": null,
+    "options": [
+      "Con người không phải học một cú pháp lệnh hay một phương pháp hoạt động của hệ tương tác.",
+      "Thích hợp với tất cả các thiết bị điện tử hiện tại",
+      "Phù hợp với các công nghệ hiện tại",
+      "Luôn luôn thu hút người dùng hơn màn hình hiển thị",
+      "Thoải mái đối thoại như đối tượng con người thực sự."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Giao diện ngôn ngữ tự nhiên (NLI) giải phóng người dùng khỏi việc phải ghi nhớ các đoạn mã lệnh cứng nhắc. Tuy nhiên, nó vẫn chưa đạt mức hoàn hảo như giao tiếp với người thật hay phù hợp với mọi thiết bị."
+  },
+  {
+    "id": 173,
+    "question": "Kênh vào của hệ thống xử lý thông tin của con người là:",
+    "chapter": null,
+    "options": [
+      "Các cơ quan tiếp nhận các kích thích từ môi trường bên ngoài.",
+      "Kênh ra",
+      "Các giác quan (tùy thuộc giáo trình, nhưng \"cơ quan tiếp nhận kích thích\" là định nghĩa hàn lâm bao quát và chính xác nhất)",
+      "Bất cứ bộ phận nào thực hiện việc hồi đáp",
+      "Các loại bộ nhớ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 174,
+    "question": "Kênh ra của hệ thống xử lý thông tin của con người là:",
+    "chapter": null,
+    "options": [
+      "Bất cứ bộ phận nào của cơ thể thực hiện việc hồi đáp các kích thích từ môi trường bên ngoài."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Cơ chế \"Output\" của con người thể hiện qua hệ vận động: dùng tay để gõ phím, rê chuột, hoặc dùng thanh quản để phát ra giọng nói, nhằm phản hồi lại các tín hiệu đã xử lý."
+  },
+  {
+    "id": 175,
+    "question": "Đâu là mô tả sai về bộ nhớ ngắn hạn:",
+    "chapter": null,
+    "options": [
+      "Thông tin từ bộ nhớ ngắn hạn bị quên hoặc được chuyển dịch sang bộ nhớ cảm nhận.",
+      "Khả năng hạn chế",
+      "Thời gian truy cập nhanh",
+      "Thông tin của bộ nhớ ngắn hạn được lấy từ bộ nhớ cảm nhận",
+      "Hư hỏng nhanh."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Chiều luân chuyển thông tin chỉ đi tới (Cảm nhận -> Ngắn hạn -> Dài hạn). Dữ liệu trong bộ nhớ ngắn hạn nếu không được ôn tập sẽ bị \"quên\" hoặc mã hóa đưa vào bộ nhớ dài hạn, tuyệt đối không bị trôi ngược về bộ nhớ cảm nhận (Sensory memory)."
+  },
+  {
+    "id": 176,
+    "question": "Đáp án nào miêu tả đúng tính trực quan trong nguyên tắc thiết kế giao diện của Norman?",
+    "chapter": null,
+    "options": [
+      "Người dùng có thấy các chức năng của hệ thống cung cấp hay không.",
+      "Giao diện sản phẩm phải rực rỡ",
+      "Phải bắt mắt",
+      "Các icon phải thể hiện được chức năng",
+      "Giao diện tối giản nhất là tốt nhất."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Visibility (Tính trực quan/Tính hiển thị) của Don Norman nhấn mạnh vào việc lộ trình hành động phải rõ ràng. Các nút bấm, thanh điều hướng cần nằm ở nơi dễ nhìn thấy để người dùng ngay lập tức biết họ có những công cụ gì."
+  },
+  {
+    "id": 177,
+    "question": "Tính năng nào sau đây không phải là cung cấp thông tin phản hồi cho hành động người dùng?",
+    "chapter": null,
+    "options": [
+      "Khi có cuộc gọi đến, ngắt các âm thanh từ các ứng dụng như media player đang hoạt động và ưu tiên dành cho âm cuộc gọi.",
+      "Yêu cầu xác nhận lại khi xóa một thứ",
+      "Hiển thị thông báo lỗi",
+      "Sau khi nhấn nút, nút bị mờ đi",
+      "Sau khi nhấn nút, có tiếng kêu phát ra."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Việc ngắt âm thanh media player để nhường chỗ cho cuộc gọi là cơ chế phân bổ tài nguyên và mức độ ưu tiên của hệ điều hành, không phải là phản hồi cho bất kỳ hành động chủ động nào từ phía người dùng vào thời điểm đó."
+  },
+  {
+    "id": 178,
+    "question": "Tính phản hồi được thể hiện trong ví dụ nào sau đây? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Sau khi nhấn nút, có tiếng kêu phát ra.",
+      "Sau khi nhấn nút, nút bị mờ đi.",
+      "Hiển thị thông báo lỗi cho người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Phản hồi (Feedback) là việc hệ thống báo cho người dùng biết thao tác của họ đã được ghi nhận bằng âm thanh (tiếng bíp), thị giác (đổi màu nút), hoặc văn bản (thông báo lỗi/thành công)."
+  },
+  {
+    "id": 179,
+    "question": "Tính gợi ý / Tính chi trả (Affordance) được thể hiện trong ví dụ nào sau đây? (Ghi chú: Trong đề ghi \"Tính thế chỗ\" có thể là lỗi dịch thuật hoặc lỗi đánh máy của giáo trình gốc, xét theo nội dung đáp án thì đây là khái niệm Affordance)",
+    "chapter": null,
+    "options": [
+      "Khi có cuộc gọi đến, nút kéo trên thanh cuộn nằm ở vị trí bên trái, nổi và có hình mũi tên hướng sang phải."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Affordance\" chỉ thuộc tính vật lý hoặc hình thức trực quan của một vật thể tự nó gợi ý cách sử dụng. Nút bấm được vẽ \"nổi\" gợi ý hành động ấn, mũi tên hướng sang phải gợi ý hành động vuốt/kéo sang phải (Slide to answer)."
+  },
+  {
+    "id": 180,
+    "question": "Tính nhất quán vi phạm trong ví dụ nào sau đây?",
+    "chapter": null,
+    "options": [
+      "Biểu tượng hình tin nhắn ở hai màn hình giao diện của cùng ứng dụng lại khác nhau."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tính nhất quán (Consistency) yêu cầu các phần tử giống nhau (cùng chức năng) phải có hình thái hiển thị đồng nhất xuyên suốt toàn bộ hệ thống để người dùng không phải phỏng đoán."
+  },
+  {
+    "id": 181,
+    "question": "Tính ánh xạ (Mapping) bị vi phạm trong ví dụ nào sau đây?",
+    "chapter": null,
+    "options": [
+      "Người dùng vuốt thanh cuộn lên trên mà màn hình lại di chuyển xuống dưới."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Ánh xạ tự nhiên là mối liên hệ logic giữa không gian điều khiển và kết quả trả về. Nếu bạn vuốt tay lên trên (hành động tiến lên) nhưng trang giấy lại tụt xuống dưới (kết quả lùi lại), điều này bẻ gãy ánh xạ tự nhiên của não bộ."
+  },
+  {
+    "id": 182,
+    "question": "Bước nào sau đây là một trong các bước thực hiện theo USTM?",
+    "chapter": null,
+    "options": [
+      "Xác định và mô tả các nhóm làm việc, kể cả các nhóm chính thức và không chính thức.",
+      "Mô tả ngữ cảnh tổ chức."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: USTM (User Skills and Task Match) là một phương pháp luận nhấn mạnh vào sự khớp nối giữa kỹ năng của người dùng và bối cảnh tổ chức doanh nghiệp để xác định yêu cầu hệ thống."
+  },
+  {
+    "id": 186,
+    "question": "Quy tắc vàng của thiết kế giao diện hướng người dùng là gì?",
+    "chapter": null,
+    "options": [
+      "Hiểu người dùng (Know thy user)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Triết lý cốt lõi của toàn bộ ngành HCI/UX là không bao giờ thiết kế dựa trên phỏng đoán của lập trình viên, mà phải thấu hiểu sâu sắc đặc điểm, nhu cầu và giới hạn của đối tượng sử dụng thực tế."
+  },
+  {
+    "id": 188,
+    "question": "Bước nào sau đây không phải là một trong tám bước thực hiện theo OSTA?",
+    "chapter": null,
+    "options": [
+      "Xác định và mô tả các cặp nhiệm vụ - đối tượng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Phân tích cặp Task-Object là đặc trưng của mô hình thiết kế hướng đối tượng (OOD), không thuộc framework Open System Task Analysis."
+  },
+  {
+    "id": 190,
+    "question": "Bước nào sau đây là một trong bảy bước thực hiện theo SSM?",
+    "chapter": null,
+    "options": [
+      "Ghi nhận các vấn đề và bắt đầu phân tích."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: SSM (Soft Systems Methodology) của Checkland bắt đầu bước đầu tiên (Stage 1) bằng việc thâm nhập vào thực địa để \"nhận diện một tình huống có vấn đề\" nhưng chưa cấu trúc hóa nó vội."
+  },
+  {
+    "id": 194,
+    "question": "Đâu là nhược điểm chính của kỹ thuật tạo mẫu thử phác thảo (sketches):",
+    "chapter": null,
+    "options": [
+      "Không thể hình dung trình tự tương tác với hệ thống."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Bản vẽ phác tay (Low-fidelity) trên giấy rất rẻ và nhanh, nhưng nó tĩnh. Người dùng không bấm được vào các nút ảo để thấy màn hình chuyển hướng như thế nào, do đó thiếu đi cảm giác về luồng chuyển động (flow) thực tế."
+  },
+  {
+    "id": 195,
+    "question": "Người dùng tiềm năng của một hệ tương tác được mô hình hóa bởi:",
+    "chapter": null,
+    "options": [
+      "Tri thức, hành vi, năng lực, năng suất, công thái học (hoặc sự tập trung)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Để xây dựng chân dung người dùng (User Persona), ta cần phân tích nền tảng kiến thức hiện có của họ, hành vi thường ngày, giới hạn thể chất/nhận thức (năng lực, công thái học) để đảm bảo hệ thống vừa vặn với họ."
+  },
+  {
+    "id": 196,
+    "question": "Nhận định nào sai về kỹ thuật đặt câu hỏi (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Chỉ nên thiết kế câu hỏi mở cho người dùng.",
+      "Không nên sử dụng kỹ thuật đặt câu hỏi phối hợp với các kỹ thuật khác."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Một bảng câu hỏi tốt luôn kết hợp cả câu hỏi đóng (để thu thập dữ liệu định lượng, gút lại yêu cầu) và câu hỏi mở (để khám phá insight mới). Ngoài ra, luôn nên kết hợp khảo sát với phỏng vấn, quan sát để dữ liệu không bị phiến diện."
+  },
+  {
+    "id": 200,
+    "question": "Đặc trưng của kiểu tương tác dòng lệnh (Command Line) là (chọn 2):",
+    "chapter": null,
+    "options": [
+      "Thích hợp với nhiệm vụ có tính lặp lại.",
+      "Thích hợp với những người có kinh nghiệm."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Giao diện CLI yêu cầu gõ mã lệnh (như CMD, Terminal) đòi hỏi người dùng phải học thuộc cú pháp (phù hợp chuyên gia/có kinh nghiệm). Tuy khó học, nhưng nó vô cùng mạnh mẽ để tự động hóa các tác vụ hàng loạt, lặp đi lặp lại."
+  },
+  {
+    "id": 201,
+    "question": "Khả năng của con người bị giới hạn bởi:",
+    "chapter": null,
+    "options": [
+      "Cảm xúc, trạng thái."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Trong HCI, hiệu năng tương tác của người dùng không cố định mà suy giảm nghiêm trọng khi họ ở trạng thái tâm lý tiêu cực (căng thẳng, tức giận, mệt mỏi) hoặc cảm xúc không ổn định."
+  },
+  {
+    "id": 206,
+    "question": "Để xây dựng thành công các hệ thống tương tác, chúng ta cần biết về: (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Khả năng tâm lý, khả năng tâm sinh lý của người dùng hệ thống.",
+      "Những nhiệm vụ cần yêu cầu hệ thống thực hiện: loại nhiệm vụ, các khía cạnh tổ chức và môi trường.",
+      "Các ràng buộc kỹ thuật của môi trường trong đó hệ thống thực hiện nhiệm vụ."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 207,
+    "question": "Bước nào sau đây là một trong tám bước thực hiện theo OSTA?",
+    "chapter": null,
+    "options": [
+      "Xác định đầu vào của các nhiệm vụ (bên ngoài hệ thống)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 208,
+    "question": "Giao diện nào sau đây là giao diện người dùng hữu cơ (OUI)?",
+    "chapter": null,
+    "options": [
+      "Máy tính bảng dẻo nhận đầu vào từ các hành động miết, gập."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Organic User Interface (OUI) là khái niệm vượt ra khỏi mặt phẳng tĩnh của màn hình cứng. OUI cho phép người dùng bóp, gập, uốn cong các thiết bị có tính vật lý đàn hồi (dẻo) để ra lệnh cho hệ thống."
+  },
+  {
+    "id": 209,
+    "question": "WIMP là viết tắt của:",
+    "chapter": null,
+    "options": [
+      "Windows, Icons, Menus, Pointer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Dịch ra tiếng Việt là Cửa sổ, Biểu tượng, Trình đơn, và Con trỏ. Đây là mô hình kinh điển làm nên sự thành công của các hệ điều hành đồ họa như Windows và macOS hiện đại."
+  },
+  {
+    "id": 178,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Khi có cuộc gọi đến, ngắt các âm thanh từ các ứng dụng như media player đang hoạt động và ưu tiên dành cho âm cuộc gọi",
+      "Yêu cầu xác nhận lại khi xóa một thứ."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 179,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Nút gọi đổi từ màu xanh sang màu đỏ sau khi nhấn",
+      "Khi có cuộc gọi đến, điện thoại ngắt các âm thanh từ các ứng dụng đang hoạt động... và ưu tiên dành cho âm cuộc gọi",
+      "Người dùng vuốt thanh cuộn lên trên mà màn hình lại di chuyển xuống dưới",
+      "Biểu tượng hình tin nhắn ở giao diện lại khác nhau."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 180,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Khi có cuộc gọi đến, điện thoại ngắt các âm thanh...",
+      "Nút gọi đổi từ màu xanh sang màu đỏ sau khi nhấn",
+      "Người dùng vuốt thanh cuộn lên trên mà màn hình lại di chuyển xuống dưới",
+      "Khi có cuộc gọi đến, nút kéo trên thanh cuộn nằm ở vị trí bên trái, nổi và có hình mũi tên hướng sang phải."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 181,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Khi có cuộc gọi đến, điện thoại ngắt các âm thanh...",
+      "Nút gọi đổi từ màu xanh sang màu đỏ sau khi nhấn",
+      "Biểu tượng hình tin nhắn ở giao diện lại khác nhau",
+      "Khi có cuộc gọi đến, nút kéo trên thanh cuộn nằm ở vị trí bên trái, nổi và có hình mũi tên hướng sang phải."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 182,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Liệt kê các nhiệm vụ chính",
+      "Phân tích hệ thống xã hội",
+      "Phân tích hệ thống kỹ thuật",
+      "Thiết lập môi trường bên ngoài",
+      "Ghi nhận các vấn đề và bắt đầu phân tích",
+      "Tạo lập định nghĩa gốc từ quan điểm của một bên liên quan bất kỳ",
+      "Định nghĩa mô hình khái niệm",
+      "Xác định các thay đổi hữu ích cho toàn bộ hệ thống."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 186,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Phục vụ người dùng",
+      "Làm người dùng hài lòng",
+      "Điều chỉnh người dùng",
+      "Thích nghi với người dùng."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 187,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Kiểm thử tính dùng được",
+      "Nhóm tập trung",
+      "Quan sát",
+      "Đặt câu hỏi."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 188,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Liệt kê các nhiệm vụ chính",
+      "Đặc tả yêu cầu về mức độ hiệu năng thỏa mãn",
+      "Đặc tả yêu cầu về chức năng, tính dùng được, tính chấp nhận được cho hệ thống kỹ thuật mới",
+      "Phân tích hệ thống xã hội: vai trò, đặc tính, chất lượng."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 190,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Phân tích hệ thống xã hội",
+      "Đặc tả yêu cầu về chức năng, tính dùng được... cho hệ thống kỹ thuật mới",
+      "Phân tích hệ thống kỹ thuật",
+      "Đặc tả yêu cầu về mức độ hiệu năng thỏa mãn."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 194,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Được tạo ra với chi phí thấp",
+      "Không thể tái sử dụng",
+      "Quá phức tạp và dài dòng",
+      "Không thể hình dung cách bố trí nội dung tương tác."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 195,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Tri thức, hành vi, năng lực, năng suất, công thái học",
+      "Tri thức, hành vi, bộ nhớ, cảm xúc, năng lực, năng suất",
+      "Tri thức, hành vi, kinh nghiệm",
+      "Tri thức, hành vi, sự tập trung. (Lưu ý: Theo đề tick ở đáp án B \"sự tập trung\", các đáp án còn lại là sai)."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 196,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Câu hỏi nên thiết kế ở dạng đóng",
+      "Đặt câu hỏi để tìm ra thông tin người dùng",
+      "Dùng câu hỏi đóng để chốt yêu cầu, câu hỏi mở để tìm hiểu nhu cầu."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 198,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Scenario-based evaluation",
+      "Pencil and paper mock-ups",
+      "Cooperative evaluation",
+      "Remote testing",
+      "Lab-based techniques",
+      "Retrospective testing."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 200,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Không tốn công đào tạo",
+      "Dễ thích ứng dễ sửa lỗi",
+      "Sai sót thấp."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 201,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Phương, chiều, vị trí tương đối của đầu người so với trọng tâm trái đất",
+      "Cảm xúc, sức khỏe",
+      "Môi trường tương tác",
+      "Hưng phấn."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 205,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Lab-based techniques",
+      "Retrospective testing",
+      "Remote testing",
+      "Logging and tracking."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 206,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Trình độ của người dùng hệ thống",
+      "Các thiết bị hỗ trợ tương tác."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 207,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Xác định các nhu cầu của các bên liên quan",
+      "Xác định và mô tả các cặp nhiệm vụ - đối tượng",
+      "Củng cố và kiểm tra các yêu cầu",
+      "Xác định và mô tả các nhóm làm việc, kể cả các nhóm chính thức và không chính thức."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 208,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Chuột chơi game được thiết kế hình dạng đặc biệt",
+      "Tai nghe có thể gập lại làm vòng đeo tay",
+      "Máy tính có thể tách rời bàn phím để tạo thành một máy tính bảng",
+      "Ô tô có khả năng thay đổi hình dạng thành robot."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 209,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Widget, Icons, Menu, Pointer",
+      "Widget, Interaction, Menu, Plugin",
+      "Window, Interface, Mouse, Pointer",
+      "Window, Interaction, Mouse, Pointer."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 230,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Cổng HDMI được thiết kế với một đầu to một đầu nhỏ khiến người dùng không thể cắm ngược",
+      "Đĩa CD có dán nhãn để người dùng không đưa ngược chiều đĩa vào đầu đọc",
+      "Viền đỏ, xanh xung quanh chân cắm của loa tương ứng với màu của dây cắm vào từng vị trí."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 231,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Viền đỏ, xanh xung quanh chân cắm của loa tương ứng với màu của dây cắm vào từng vị trí",
+      "Đĩa CD có dán nhãn để người dùng không đưa ngược chiều đĩa vào đầu đọc",
+      "Ký hiệu tam giác viền đỏ là ký hiệu cảnh báo được sử dụng trên toàn thế giới",
+      "Ký hiệu X được sử dụng là ký hiệu đánh dấu câu trả lời đúng và sai tùy thuộc vào nền văn hóa."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 232,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Cổng HDMI được thiết kế với một đầu to một đầu nhỏ khiến người dùng không thể cắm ngược",
+      "Ký hiệu X được sử dụng là ký hiệu đánh dấu câu trả lời đúng và sai tùy thuộc vào nền văn hóa",
+      "Ký hiệu tam giác viền đỏ là ký hiệu cảnh báo được sử dụng trên toàn thế giới."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 233,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "OSTA",
+      "USTM",
+      "Mô hình hình sao",
+      "Mô hình thác nước."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 234,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Goal Operation Methods Selection",
+      "Goal Option Methods Subtraction",
+      "Go Operator Methods Selection",
+      "Goal Option Methods Selection."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 235,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Teacher Advisor Grammar",
+      "Technical Advisory Group",
+      "Technique Architecture Graph",
+      "Test-Action Grade."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 236,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "tên",
+      "tên:",
+      "biểu thức:",
+      "::=",
+      "tên:",
+      "tên."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 237,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "GOMS",
+      "USTA."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 238,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Quick and Dirty",
+      "Predictive",
+      "Predictive and Quick."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 239,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Trong một trình duyệt, \"X\" ký hiệu nút dùng để thoát khỏi trình duyệt đó",
+      "Hình chiếc loa là biểu tượng gắn trên nút điều chỉnh âm lượng",
+      "\"<-\" là biểu tượng thoát khỏi chương trình",
+      "Biểu tượng ống nghe màu xanh để nhận cuộc gọi, ống nghe màu đỏ để kết thúc cuộc gọi."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 240,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Mô tả cách thức làm việc với người dùng trong quá trình thiết kế",
+      "Là mô hình kỹ thuật xã hội nổi bật nhất để thiết kế hệ thống",
+      "Mô hình này giúp đội thiết kế hiểu và ghi lại yêu cầu người dùng",
+      "Mô hình một số khía cạnh hiểu biết, trí thức, ý định và cách xử lý của người dùng."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 241,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Giải thích các hành động của người dùng, từ đó trưng cầu ý kiến của người dùng thông qua phỏng vấn, bảng câu hỏi",
+      "Dự đoán các vấn đề về tính dùng được",
+      "Xác nhận rằng ý tưởng thiết kế đúng với nhu cầu người dùng, được người dùng ưa chuộng",
+      "Không có đáp án đúng."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 242,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Xung quanh chân cắm loa có các màu đỏ, xanh, tím tương ứng với chân cắm loa của từng thiết bị",
+      "Trên thẻ ATM có mũi tên thể hiện đầu vào tương ứng với đầu đọc thẻ của máy ATM",
+      "Đĩa CD có dán nhãn để người dùng không đưa ngược chiều đĩa vào đầu đọc."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 243,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Biểu tượng nhận cuộc gọi trên máy điện thoại có hình ống nghe màu xanh...",
+      "Trên thẻ ATM có mũi tên thể hiện đầu vào...",
+      "Xung quanh chân cắm loa có các màu đỏ, xanh, tím...",
+      "Đĩa CD có dán nhãn để người dùng không đưa ngược chiều đĩa..."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 244,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Thanh cuộn của chuột máy tính chỉ có thể miết lên trên hoặc xuống dưới...",
+      "Xung quanh chân cắm loa có các màu đỏ, xanh, tím...",
+      "Đĩa CD có dán nhãn để người dùng không đưa ngược chiều đĩa...",
+      "Trên thẻ ATM có mũi tên thể hiện đầu vào..."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 245,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Tính ràng buộc",
+      "Tính ánh xạ",
+      "Tính nhất quán."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 246,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Participatory design",
+      "Workshop",
+      "Questionnaires",
+      "Focus groups."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 247,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Tạo mẫu thử theo khuôn mẫu",
+      "Tạo mẫu thử theo phần cứng máy tính."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 248,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Trong lĩnh vực tương tác người máy, người dùng tạo ra mô hình nhận thức trong khi tương tác với một hệ thống máy tính",
+      "Mô hình nhận thức là một trong 3 cách biểu diễn các tình huống thực tế hoặc tưởng tượng trong ký ức con người",
+      "Một mô hình nhận thức cho phép người dùng mô phỏng hoạt động của hệ thống",
+      "Mô hình nhận thức không phải lúc nào cũng đúng."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 249,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Mẫu thử độ tin cậy thấp bỏ qua các chi tiết thiết kế và thường cung cấp các chức năng hạn chế...",
+      "Mẫu thử độ tin cậy thấp không xét đến khía cạnh tương tác giữa người dùng và hệ thống",
+      "Mẫu thử độ dùng để thử nghiệm bố cục màn hình, các phiên bản thiết kế giao diện hay làm rõ các khái niệm."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 251,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Người dùng có quan sát hết hoạt động website hay không?",
+      "Website có phản hồi tức thì cho người dùng không?",
+      "Người dùng có quan sát mọi thay đổi website không?",
+      "Website có yêu cầu xác nhận sau mỗi hành động không?"
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 252,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Mô phỏng các chức năng khó cài đặt dưới dạng mẫu thử",
+      "Các thử nghiệm và phát triển hệ thống nhận dạng giọng nói",
+      "Chuyển các kịch bản tương tác bằng các tín hiệu do người dùng đưa vào."
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 253,
+    "question": "",
+    "chapter": null,
+    "options": [
+      "Người dùng có quan sát mọi thay đổi website không?",
+      "Người dùng có quan sát hết hoạt động website hay không?",
+      "Website có phản hồi tức thì cho người dùng không?",
+      "Website có yêu cầu xác nhận sau mỗi hành động không?",
+      "Tuyệt vời! Tôi đã nhận được phần cuối cùng của bộ đề (từ câu 142 đến 186). Rút kinh nghiệm từ lần trước, lần này tôi đã đảm bảo bê nguyên 100% tất cả các đáp án sai vào, phân loại rạch ròi và giải thích cặn kẽ từng ngóc ngách của lý thuyết UI/UX cho bro.",
+      "Bro tiếp tục copy toàn bộ nội dung dưới đây và dán nối tiếp vào file tài liệu là hoàn thành xuất sắc cuốn bí kíp ôn thi nhé!",
+      "---",
+      "### TÀI LIỆU ÔN TẬP UI/UX (PHẦN 4 - CUỐI)"
+    ],
+    "correctAnswers": [],
+    "explanation": ""
+  },
+  {
+    "id": 254,
+    "question": "2 thiết kế nào sau đây tuân thủ nguyên tắc \"Cho phép hủy bỏ các hành động đã thực hiện\"?",
+    "chapter": null,
+    "options": [
+      "* * Sau khi mở 1 trang web mới, trình duyệt cho quay về trang cũ.",
+      "Trong khi đang copy một file ta có thể hủy bỏ quá trình copy này.",
+      "* Ứng dụng gửi email cho phép hủy email trước khi gửi nhưng không cho phép hủy sau khi đã gửi mail",
+      "Game sau khi chết có thể chơi lại",
+      "Ứng dụng chụp ảnh sau khi chụp cho phép xóa ảnh đã chụp."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Nguyên tắc \"Cho phép hủy bỏ\" (Undo) đòi hỏi hệ thống phải cho phép người dùng đảo ngược một tiến trình *vừa mới* hoặc *đang* diễn ra để quay về trạng thái an toàn trước đó. Việc \"xóa ảnh đã chụp\" bản chất là một lệnh (action) mới hoàn toàn, không phải là cơ chế Undo."
+  },
+  {
+    "id": 255,
+    "question": "Điều nào sau đây là sai với phương pháp nghiên cứu tài liệu (studying documentation)?",
+    "chapter": null,
+    "options": [
+      "* Không cần làm rõ phạm vi thu thập.",
+      "* Là nguồn dữ liệu tốt về các bước tham gia vào một hoạt động",
+      "Là nguồn dữ liệu tốt về các quy định về nhiệm vụ mà người dùng cần thực hiện",
+      "Cần làm rõ nguồn tài liệu, loại tài liệu cần thu thập",
+      "Thủ tục và quy tắc được viết rõ ràng trong hướng dẫn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Khi thực hiện nghiên cứu tài liệu (desk research), bước tử huyệt quyết định thành bại là phải xác định rõ phạm vi (scope). Nếu không khoanh vùng phạm vi, bạn sẽ bị chết chìm trong biển thông tin vô ích."
+  },
+  {
+    "id": 256,
+    "question": "Chỉ ra 2 lý do cần thiết kế lấy người dùng làm trung tâm (UCD):",
+    "chapter": null,
+    "options": [
+      "* * Cải thiện tính dùng được và tính hữu dụng của sản phẩm.",
+      "Tìm kiếm câu trả lời cho câu hỏi về người dùng, các nhiệm vụ và các mục tiêu tương ứng, từ đó định hướng việc thiết kế và phát triển.",
+      "* Nâng cao hiệu suất của chương trình",
+      "Tránh các lỗi logic trong quá trình phát triển phần mềm",
+      "Giảm chi phí phát triển sản phẩm."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * User-Centered Design (UCD) giải quyết bài toán về \"Trải nghiệm\" (Usability/Utility). Các vấn đề về giảm bug (lỗi logic), tăng tốc độ code (hiệu suất) hay giảm chi phí thuộc về quy trình Quản lý kỹ thuật phần mềm (Software Engineering)."
+  },
+  {
+    "id": 257,
+    "question": "Tính dùng được của website KHÔNG phụ thuộc vào yếu tố nào?",
+    "chapter": null,
+    "options": [
+      "* Người thiết kế.",
+      "* Quy trình thiết kế",
+      "Công nghệ",
+      "Cách đánh giá",
+      "Quản lý dự án."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Tính dùng được (Usability) là một thuộc tính khách quan của sản phẩm. Một sản phẩm tốt hay dở phụ thuộc vào quy trình có chuẩn không, công nghệ có đáp ứng không, và test có kỹ không. Nó không (và không được phép) phụ thuộc vào cảm tính, danh tính hay sở thích cá nhân của \"Người thiết kế\"."
+  },
+  {
+    "id": 258,
+    "question": "Đâu là các nguyên tắc của thiết kế Web? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* Tổ chức",
+      "Tiết kiệm",
+      "Giao tiếp.",
+      "* Chọn lọc và tinh chỉnh",
+      "Thăm dò."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * 3 trụ cột của thiết kế UI trên Web bao gồm: Tổ chức (Organization - bố cục rõ ràng), Tiết kiệm (Economy - tối giản, không thừa thãi), và Giao tiếp (Communication - UI phải tự giải thích được chức năng cho người dùng)."
+  },
+  {
+    "id": 261,
+    "question": "Cái nào không phải là ngôn ngữ thiết kế thông dụng cho các ứng dụng di động hiện nay?",
+    "chapter": null,
+    "options": [
+      "* Thiết kế màn hình (Screen design).",
+      "* Thiết kế hiện đại (Metro design)",
+      "Thiết kế thực tế mô phỏng (Skeuomorph design)",
+      "Thiết kế phẳng (Flat design)",
+      "Thiết kế vật liệu (Material design)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Metro (Microsoft), Skeuomorphic (Apple thời Steve Jobs), Flat (Apple thời Tim Cook) và Material (Google Android) đều là các \"Ngôn ngữ thiết kế\" (Design Systems) lừng danh. \"Screen design\" chỉ là từ vựng chỉ công việc thiết kế mặt màn hình nói chung."
+  },
+  {
+    "id": 262,
+    "question": "Phương án nào thể hiện đúng mối liên hệ giữa sự phát triển phần cứng, giao diện và sự đa dạng của người dùng:",
+    "chapter": null,
+    "options": [
+      "* Phần cứng - Giao diện - Người dùng.",
+      "* Phần cứng - Người dùng - Giao diện",
+      "Người dùng - Giao diện - Phần cứng",
+      "Người dùng - Phần cứng - Giao diện",
+      "Giao diện - Phần cứng - Người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Lịch sử máy tính tiến hóa theo dòng thời gian: Ban đầu bị giới hạn bởi năng lực Phần cứng (máy tính to bằng căn phòng). Khi phần cứng mạnh lên, người ta sáng tạo ra Giao diện đồ họa (GUI). Có giao diện dễ dùng rồi, máy tính mới tiếp cận được tới đại chúng Người dùng đa dạng."
+  },
+  {
+    "id": 263,
+    "question": "Đâu không phải là nguyên lý chính được sử dụng trong thiết kế giao diện di động?",
+    "chapter": null,
+    "options": [
+      "* Thu nhỏ giao diện desktop hiện có.",
+      "* Kiểm soát sự phổ biến của các thiết bị",
+      "Giả lập và mô phỏng",
+      "Tăng cường các ngữ cảnh người dùng",
+      "Tăng cường tính dễ di chuyển."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Việc bê nguyên website trên máy tính bàn (desktop) rồi \"thu nhỏ\" lại nhét vào điện thoại là một sai lầm chết người trong UX. Điện thoại cần triết lý thiết kế riêng (Mobile-first) vì ngón tay người dùng to và màn hình thì quá nhỏ."
+  },
+  {
+    "id": 265,
+    "question": "Thuộc tính cố hữu của mô hình tính toán khắp nơi mà không thể xử lý như xử lý lỗi là:",
+    "chapter": null,
+    "options": [
+      "* Mất kết nối.",
+      "* Thời gian tính toán",
+      "Mô hình tính toán",
+      "Khoảng cách địa lí",
+      "Tốc độ tính toán."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Trong Ubiquitous Computing (Máy tính mọi nơi/IoT), các thiết bị liên tục di chuyển và dùng mạng không dây. Sự cố rớt mạng/mất kết nối xảy ra như cơm bữa (thuộc tính cố hữu), do đó hệ thống phải được thiết kế để tự động đồng bộ lại khi có mạng, chứ không thể coi nó là \"lỗi (bug)\" bắt người dùng tự sửa."
+  },
+  {
+    "id": 266,
+    "question": "Phương pháp đánh giá kèm cặp (coaching method) dùng để làm gì?",
+    "chapter": null,
+    "options": [
+      "* Tìm hiểu nhu cầu thông tin của người dùng để hướng dẫn và cung cấp tài liệu tốt hơn cũng như có thể thiết kế lại giao diện để tránh người dùng thất vọng.",
+      "* Đánh giá về mặt ghi nhớ và mức độ chính xác của người dùng",
+      "Đánh giá tính học được của người dùng khi được theo sát và giải thích",
+      "Đánh giá về mặt cảm xúc, những phản hồi của người dùng",
+      "Đánh giá tương tác giữa người dùng - hệ thống và người dùng - người kèm cặp."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 267,
+    "question": "Phương pháp phát biểu suy nghĩ (think aloud protocol) dùng để làm gì?",
+    "chapter": null,
+    "options": [
+      "* Hiểu mô hình nhận thức của người dùng về hệ thống và các nhiệm vụ, họ gặp khó khăn ở đâu khi tìm hiểu và sử dụng hệ thống.",
+      "* Lấy phản hồi từ người dùng về một chức năng quan trọng hoặc lấy báo cáo định kỳ từ người dùng",
+      "Đánh giá về mặt ghi nhớ và mức độ chính xác của người dùng",
+      "Kiểm thử tính dùng được của các sản phẩm hỗ trợ người dùng làm việc trong môi trường cộng tác",
+      "Đánh giá về mặt cảm xúc, những phản hồi của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Think-aloud yêu cầu người dùng liên tục nói ra những gì họ đang nghĩ trong đầu khi thao tác. Nó giúp Researcher thấu hiểu \"Mental Model\" (Mô hình nhận thức) để biết tại sao user lại bấm vào nút A mà không phải nút B."
+  },
+  {
+    "id": 268,
+    "question": "Phương pháp đặt câu hỏi (question asking protocol) dùng để làm gì?",
+    "chapter": null,
+    "options": [
+      "* Hiểu mô hình nhận thức của người dùng về hệ thống và các nhiệm vụ, họ gặp khó khăn ở đâu khi tìm hiểu và sử dụng hệ thống.",
+      "* Lấy phản hồi từ người dùng...",
+      "Đánh giá về mặt cảm xúc...",
+      "Kiểm thử tính dùng được...",
+      "Đánh giá về mặt ghi nhớ..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Tương tự Think-aloud, Question-asking (liên tục hỏi user \"Tại sao bạn làm vậy?\") cũng là để moi móc luồng tư duy và nhận thức của họ."
+  },
+  {
+    "id": 269,
+    "question": "Mô tả nào sau đây khớp với phương pháp đánh giá kèm cặp (coaching method)?",
+    "chapter": null,
+    "options": [
+      "* Người dùng chuyên gia theo sát người dùng bình thường để chỉ dẫn cho họ cách sử dụng hệ thống.",
+      "* Người kiểm thử theo sát người dùng...",
+      "Một người dùng chuyên gia ngồi cạnh... để giải thích hành vi của người dùng thường cho người kiểm thử",
+      "Người kiểm thử phải đánh giá trên cả hành vi...",
+      "Người kiểm thử theo sát người dùng chuyên gia..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Coaching là phương pháp mà một chuyên gia (hoặc người kiểm thử đóng vai chuyên gia) đứng cạnh để giải đáp ngay lập tức các thắc mắc của người dùng mới, từ đó phát hiện ra giao diện đang thiếu sót thông tin gì."
+  },
+  {
+    "id": 270,
+    "question": "Mô tả nào sau đây khớp với phương pháp đánh giá từ xa (remote testing)?",
+    "chapter": null,
+    "options": [
+      "* Có phần mềm tự động hướng dẫn người dùng thực hiện các nhiệm vụ và ghi lại các hoạt động của người dùng.",
+      "* Người dùng chuyên gia theo sát...",
+      "Người kiểm thử hỏi trực tiếp...",
+      "Người kiểm thử theo sát...",
+      "Người kiểm thử phải đánh giá..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 271,
+    "question": "Mô tả nào sau đây khớp với phương pháp kiểm thử hồi tưởng (retrospective testing)?",
+    "chapter": null,
+    "options": [
+      "* Người kiểm thử cùng xem lại các phiên kiểm thử đã được ghi lại với người dùng, hỏi lại người dùng về những gì đã xảy ra.",
+      "* Người dùng chuyên gia theo sát...",
+      "Người kiểm thử theo sát người dùng chuyên gia...",
+      "Người kiểm thử phải đánh giá trên cả hành vi...",
+      "Người kiểm thử theo sát người dùng để quan sát..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * \"Hồi tưởng\" nghĩa là sau khi test xong, Researcher bật lại video quay màn hình lúc nãy và hỏi user \"Lúc này tại sao bạn lại khựng lại?\". Nó khắc phục nhược điểm của Think-aloud là không làm gián đoạn việc sử dụng tự nhiên của user."
+  },
+  {
+    "id": 272,
+    "question": "Đâu không phải là khuyến cáo khi thiết kế giao diện cho các trò chơi trên thiết bị di động?",
+    "chapter": null,
+    "options": [
+      "* * Cung cấp một giải pháp đầy đủ nhất có thể.",
+      "Loại bỏ các chức năng lưu và tạm dừng.",
+      "* Phải hỗ trợ các chức năng lưu và tạm dừng",
+      "Bảo đảm tính nhất quán",
+      "Phải tạo ra danh sách người chơi có điểm cao nhất",
+      "Phải có cấu trúc bảng chọn rõ ràng",
+      "Sử dụng các phím điều khiển có sẵn trên thiết bị",
+      "Cung cấp một giải pháp tối giản."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Chơi game trên Mobile thường bị gián đoạn (có tin nhắn, cuộc gọi), nên tuyệt đối không được \"loại bỏ chức năng Pause/Save\". Đồng thời, màn hình nhỏ yêu cầu thiết kế UI game phải Tối giản, không được tham lam nhồi nhét \"đầy đủ nhất có thể\" làm rối mắt."
+  },
+  {
+    "id": 275,
+    "question": "Phương pháp cùng khám phá (co-discovery learning method) dùng để làm gì?",
+    "chapter": null,
+    "options": [
+      "* Kiểm thử tính dùng được của các sản phẩm hỗ trợ người dùng làm việc trong môi trường cộng tác.",
+      "* Đánh giá về mặt cảm xúc...",
+      "Đánh giá về mặt ghi nhớ...",
+      "Hiểu mô hình nhận thức...",
+      "Lấy phản hồi từ người dùng..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 276,
+    "question": "Điều gì sau đây là đúng với phương pháp đánh giá heuristic?",
+    "chapter": null,
+    "options": [
+      "* Một nhóm các chuyên gia đánh giá khả năng sử dụng một giao diện người dùng theo một tập hợp các nguyên tắc chung.",
+      "* Một nhóm người dùng tiến hành thử nghiệm...",
+      "Một nhóm các nhà tâm lí học xây dựng...",
+      "Một nhóm các chuyên gia đánh giá... theo một danh sách kiểm tra chi tiết",
+      "Các thành viên trong nhóm thiết kế thực hiện đánh giá..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Đánh giá Heuristic là việc thuê các chuyên gia UX về \"soi lỗi\" giao diện. Họ không dùng checklist quá chi tiết, mà dùng các \"Nguyên tắc kinh nghiệm chung\" (Ví dụ: 10 nguyên tắc Heuristic của Jakob Nielsen)."
+  },
+  {
+    "id": 277,
+    "question": "Mô tả nào sau đây tương ứng với giao diện đồ họa (GUI)?",
+    "chapter": null,
+    "options": [
+      "* Cho phép người dùng giao tiếp với máy tính thông qua các biểu tượng, biểu trưng trực quan và thiết bị trỏ.",
+      "* Tận dụng các quy ước thiết kế hiện có...",
+      "Là giao diện người dùng mà đầu ra được biểu diễn dưới dạng văn bản",
+      "Là giao diện người dùng hiển thị trên những màn hình không phẳng",
+      "Tham chiếu tới giao diện người dùng ẩn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 278,
+    "question": "Mô tả nào tương ứng với nguyên tắc thiết kế web \"Tiết kiệm\"? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* * Tận dụng các quy ước thiết kế hiện có, chỉ thay đổi khi người thiết kế chắc chắn ý tưởng của họ tốt hơn.",
+      "Người dùng làm đc nhiều việc nhất với ít yếu tố thị giác nhất.",
+      "* Cung cấp cho người dùng một cấu trúc rõ ràng nhất quán",
+      "Biểu diễn nội dung phù hợp với khả năng của người dùng",
+      "Giúp người dùng hoàn thành các nhiệm vụ một cách dễ dàng, thoải mái."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 279,
+    "question": "Mô tả nào tương ứng với nguyên tắc thiết kế web \"Giao tiếp\"?",
+    "chapter": null,
+    "options": [
+      "* Biểu diễn nội dung phù hợp với khả năng của người dùng.",
+      "* Cung cấp cho người dùng một cấu trúc rõ ràng nhất quán",
+      "Người dùng làm đc nhiều việc nhất với ít yếu tố thị giác nhất",
+      "Giúp người dùng hoàn thành các nhiệm vụ một cách dễ dàng, thoải mái",
+      "Tận dụng các quy ước thiết kế hiện có..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 280,
+    "question": "Mô tả nào tương ứng với nguyên tắc thiết kế web \"Tổ chức\"?",
+    "chapter": null,
+    "options": [
+      "* Cung cấp cho người dùng một cấu trúc rõ ràng nhất quán.",
+      "* Tận dụng các quy ước thiết kế hiện có...",
+      "Biểu diễn nội dung phù hợp với khả năng của người dùng",
+      "Giúp người dùng hoàn thành các nhiệm vụ một cách dễ dàng, thoải mái",
+      "Người dùng làm đc nhiều việc nhất với ít yếu tố thị giác nhất."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 281,
+    "question": "Yêu cầu về môi trường tương tác bao gồm:",
+    "chapter": null,
+    "options": [
+      "* Yêu cầu về bối cảnh sử dụng, xã hội, mức độ người dùng hỗ trợ thực hiện nhiệm vụ và các công nghệ liên quan.",
+      "* Yêu cầu về bối cảnh sử dụng, xã hội, mức độ người dùng...",
+      "Yêu cầu về bối cảnh sử dụng, xã hội, các công nghệ...",
+      "Mức độ người dùng hỗ trợ...",
+      "Yêu cầu về bối cảnh sử dụng, mức độ người dùng hỗ trợ..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Đáp án đúng là câu dài nhất vì nó liệt kê đầy đủ 4 yếu tố cấu thành môi trường: Bối cảnh vật lý, Bối cảnh xã hội, Sự hỗ trợ của user khác, và Nền tảng công nghệ."
+  },
+  {
+    "id": 282,
+    "question": "Với mô thức đánh giá quick and dirty (nhanh và thô), cần:",
+    "chapter": null,
+    "options": [
+      "* Tranh luận không chính thức với người dùng ở bất cứ khi nào khi sử dụng được mẫu thử.",
+      "* Sử dụng sự hiểu biết của các chuyên gia...",
+      "Đánh giá mà không cần sự có mặt của người dùng",
+      "Đến chỗ người dùng phỏng vấn hay quan sát...",
+      "Quan sát người dùng và ghi lại hiệu suất..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * \"Quick and Dirty\" là kiểu túm lấy một đồng nghiệp hoặc khách hàng bất kỳ ngoài hành lang, chìa bản vẽ ra và tranh luận góp ý nhanh, không cần quy trình bài bản phức tạp."
+  },
+  {
+    "id": 283,
+    "question": "Với mô thức đánh giá field studies (nghiên cứu thực địa), cần:",
+    "chapter": null,
+    "options": [
+      "* Đến chỗ người dùng phỏng vấn hay quan sát việc sử dụng mẫu thử.",
+      "* Tranh luận không chính thức...",
+      "Sử dụng sự hiểu biết của các chuyên gia...",
+      "Đánh giá mà không cần sự có mặt của người dùng",
+      "Quan sát người dùng và ghi lại hiệu suất... (trong lab)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 284,
+    "question": "Với mô thức đánh giá predictive (dự đoán), cần: (chọn 2)",
+    "chapter": null,
+    "options": [
+      "* * Đánh giá mà không cần sự có mặt của người dùng.",
+      "Sử dụng sự hiểu biết của các chuyên gia về người dùng để dự đoán các vấn đề về tính dùng được.",
+      "* Tranh luận không chính thức...",
+      "Đến chỗ người dùng phỏng vấn...",
+      "Quan sát người dùng và ghi lại hiệu suất..."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: * Mô thức Dự đoán (như Heuristic hay Cognitive Walkthrough) chỉ cần các UX Expert ngồi vào máy, dựa theo kinh nghiệm tự suy luận lỗi, không cần tốn tiền mời user thật đến test."
+  },
+  {
+    "id": 285,
+    "question": "Với mô thức đánh giá usability testing (kiểm thử tính khả dụng), cần:",
+    "chapter": null,
+    "options": [
+      "* Quan sát người dùng và ghi lại hiệu suất người dùng khi thực hiện các nhiệm vụ.",
+      "* Đánh giá mà không cần sự có mặt của người dùng",
+      "Sử dụng sự hiểu biết của chuyên gia...",
+      "Đến chỗ người dùng phỏng vấn...",
+      "Tranh luận không chính thức...",
+      "---",
+      "(Lưu ý: Đối với loạt câu hỏi từ 174 đến 180 dưới đây, phần tick đáp án trong đề có những sự đặc thù quy ước riêng của giáo trình, tôi tổng hợp đúng nguyên văn kết quả hệ thống đã chọn)*"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 286,
+    "question": "Có thể áp dụng phương pháp phát biểu suy nghĩ (think aloud protocol) vào giai đoạn nào... kết quả đánh giá là định lượng hay định tính?",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở bất cứ giai đoạn nào, kết quả là định tính.",
+      "* Áp dụng ở giai đoạn phân tích yêu cầu, kết quả là định tính",
+      "Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng",
+      "Áp dụng ở giai đoạn thiết kế giao diện, kết quả là định tính",
+      "Áp dụng ở giai đoạn thiết kế giao diện và chức năng, kết quả là định lượng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 287,
+    "question": "Có thể áp dụng phương pháp theo sát như hình với bóng (shadowing method) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng. *(Theo đáp án được tick trong ảnh)*.",
+      "* Áp dụng ở giai đoạn thiết kế giao diện, kết quả là định tính",
+      "Áp dụng ở giai đoạn phân tích yêu cầu, kết quả là định tính",
+      "Áp dụng ở giai đoạn thiết kế giao diện và chức năng, kết quả là định lượng",
+      "Áp dụng ở bất cứ giai đoạn nào, kết quả là định tính."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 288,
+    "question": "Có thể áp dụng phương pháp đo hiệu năng (performance measurement) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng.",
+      "* Áp dụng ở giai đoạn phân tích yêu cầu...",
+      "Áp dụng ở bất cứ giai đoạn nào...",
+      "Áp dụng ở giai đoạn thiết kế... định lượng",
+      "Áp dụng ở giai đoạn thiết kế... định tính."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 289,
+    "question": "Có thể áp dụng phương pháp hướng dẫn (teaching method) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định tính.",
+      "* Áp dụng ở giai đoạn phân tích...",
+      "Áp dụng ở giai đoạn thiết kế...",
+      "Áp dụng ở bất cứ giai đoạn nào...",
+      "Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 290,
+    "question": "Có thể áp dụng phương pháp đặt câu hỏi (questing-asking protocol) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định tính.",
+      "* Áp dụng ở giai đoạn kiểm thử... định lượng",
+      "Áp dụng ở bất cứ giai đoạn nào...",
+      "Áp dụng ở giai đoạn phân tích yêu cầu...",
+      "Áp dụng ở giai đoạn thiết kế..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 291,
+    "question": "Có thể áp dụng phương pháp kiểm thử từ xa (remote testing) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng.",
+      "* Áp dụng ở giai đoạn thiết kế...",
+      "Áp dụng ở bất cứ giai đoạn nào...",
+      "Áp dụng ở giai đoạn phân tích...",
+      "Áp dụng ở giai đoạn thiết kế..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 292,
+    "question": "Có thể áp dụng phương pháp kiểm thử hồi tưởng (retrospective testing) vào giai đoạn nào...",
+    "chapter": null,
+    "options": [
+      "* Áp dụng ở giai đoạn kiểm thử, kết quả là định lượng.",
+      "* Áp dụng ở giai đoạn thiết kế...",
+      "Áp dụng ở bất cứ giai đoạn nào...",
+      "Áp dụng ở giai đoạn phân tích...",
+      "Áp dụng ở giai đoạn thiết kế...",
+      "---"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 293,
+    "question": "Câu nào sau đây đúng về phương pháp cùng khám phá (co-discovery learning)?",
+    "chapter": null,
+    "options": [
+      "* Phương pháp này có thể áp dụng trong bất kỳ giai đoạn nào của quy trình phát triển hệ tương tác.",
+      "* Người tham gia sẽ làm việc dưới sự giám sát của chuyên gia",
+      "Phương pháp này chỉ áp dụng cho giai đoạn thiết kế",
+      "Người dùng được yêu cầu viết ra cảm tưởng...",
+      "Người tham gia sẽ được chuyên gia kèm cặp hỗ trợ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 294,
+    "question": "Câu nào sau đây đúng về phương pháp kèm cặp (coaching method)?",
+    "chapter": null,
+    "options": [
+      "* Người tham gia sẽ được chuyên gia kèm cặp hỗ trợ.",
+      "* Phương pháp này có thể áp dụng trong bất kỳ giai đoạn nào...",
+      "Người dùng được yêu cầu viết ra cảm tưởng...",
+      "Người tham gia sẽ làm việc dưới sự giám sát của chuyên gia",
+      "Phương pháp này chỉ áp dụng cho giai đoạn thiết kế."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 295,
+    "question": "Câu nào sau đây đúng về phương pháp phát biểu suy nghĩ (think aloud protocol)?",
+    "chapter": null,
+    "options": [
+      "* Người dùng được yêu cầu viết ra cảm tưởng, suy nghĩ và ý kiến cá nhân khi sử dụng hệ thống. *(Lưu ý: Thực tế Think Aloud là nói bằng miệng, nhưng đây là đáp án được đánh dấu đúng trong hệ thống của bạn).*",
+      "* Người tham gia sẽ được chuyên gia kèm cặp hỗ trợ",
+      "Phương pháp này chỉ áp dụng cho giai đoạn thiết kế",
+      "Phương pháp này có thể áp dụng trong bất kỳ giai đoạn nào...",
+      "Người tham gia sẽ làm việc dưới sự giám sát của chuyên gia."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 296,
+    "question": "Mô hình nào cho phép dự báo dãy các thao tác và thời gian thực hiện theo mô hình xử lý của con người?",
+    "chapter": null,
+    "options": [
+      "* CMN GOMS.",
+      "* BNF",
+      "HTA",
+      "KLM GOMS",
+      "TAG."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Các mô hình GOMS (Goals, Operators, Methods, Selection rules) dùng để tính toán và dự báo xem người dùng sẽ mất bao nhiêu thời gian để hoàn thành 1 tác vụ. CMN GOMS là một trong những biến thể đó."
+  },
+  {
+    "id": 297,
+    "question": "Cách tổ chức của một website được quy định bởi cái gì? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "* * Sơ đồ web site (Site map)",
+      "Luồng duyệt giữa các trang trong một website (User flow)",
+      "Bố cục trang web (Layout)",
+      "* Kiểu chữ",
+      "Tiêu đề các nội dung."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: * Kiến trúc thông tin (Information Architecture) quyết định sự \"tổ chức\" của web. Kiểu chữ (Font) và tiêu đề thuộc về khâu thiết kế UI bề mặt và nội dung content."
+  },
+  {
+    "id": 298,
+    "question": "Kỹ thuật tạo mẫu thử nào cho phép tạo ra cách hoạt động chi tiết cho một số tính năng được chọn?",
+    "chapter": null,
+    "options": [
+      "* Vertical prototypes (Mẫu thử chiều dọc).",
+      "* Pencils and papers mockups",
+      "Wizard of Oz",
+      "Horizontal prototypes",
+      "Scenario."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: * Prototype \"chiều dọc\" (Vertical) cắt sâu vào hệ thống: chỉ làm 1 chức năng nhưng làm tới bến (gõ phím được, lưu data được). Prototype \"chiều ngang\" (Horizontal) thì làm dàn trải toàn bộ các màn hình nhưng chỉ xem được vỏ ngoài, không có chức năng thực.\nTÀI LIỆU ÔN TẬP UI/UX (TỪ CÂU 187 ĐẾN 253)"
+  },
+  {
+    "id": 299,
+    "question": "Đâu là những nhân tố ảnh hưởng đến thành công của thiết kế giao diện web? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Tính dùng được (Usability)",
+      "Tính tiện lợi (Utility).",
+      "Các kỹ thuật hiện thị trực quan",
+      "Bố cục trang web",
+      "Hướng dẫn sử dụng."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Sự thành công cốt lõi của một sản phẩm số dựa trên hai yếu tố: Nó có dễ dùng không (Tính dùng được) và nó có giải quyết được việc/có ích cho người dùng không (Tính tiện lợi/hữu dụng)."
+  },
+  {
+    "id": 300,
+    "question": "Tính hữu dụng (usefulness) của một hệ tương tác được hiểu là sự phối hợp giữa: (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Tính dùng được (usability)",
+      "Tính tiện lợi (Utility).",
+      "Tính phù hợp",
+      "Tính chấp nhận được",
+      "Tính dễ học."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Theo công thức chuẩn của Nielsen: Usefulness (Tính hữu dụng) = Utility (cung cấp đúng các tính năng cần thiết) + Usability (các tính năng đó dễ dàng sử dụng)."
+  },
+  {
+    "id": 301,
+    "question": "Các hành động nào sau đây không thuộc về quy trình phát triển website?",
+    "chapter": null,
+    "options": [
+      "Tạo nội dung.",
+      "Chạy thử",
+      "Bảo trì",
+      "Cài đặt",
+      "Tạo bản tinh chỉnh."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Quy trình \"phát triển\" (Development) tập trung vào khía cạnh kỹ thuật phần mềm (code, test, deploy, maintain). Việc \"Tạo nội dung\" (Content creation - viết bài, chụp ảnh) thuộc về khía cạnh Marketing/Content, thường chạy song song hoặc tách biệt với quy trình Dev."
+  },
+  {
+    "id": 302,
+    "question": "Chúng ta sử dụng các phương thức nào sau đây để thu thập dữ liệu định lượng (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Performance measurement (Đo lường hiệu năng)",
+      "User testing (Kiểm thử người dùng).",
+      "Coaching",
+      "Shadowing",
+      "Teaching."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Dữ liệu định lượng (Quantitative) là các con số đếm được (thời gian hoàn thành, số lượt click, tỷ lệ lỗi). Đo lường hiệu năng và User testing cung cấp các số liệu này. Các phương pháp còn lại (theo dõi, kèm cặp) cho ra dữ liệu định tính (Qualitative - cảm xúc, hành vi)."
+  },
+  {
+    "id": 303,
+    "question": "Chúng ta sử dụng các kỹ thuật nào sau đây để đánh giá hình thành? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Pencils and papers mockups (Mẫu thử giấy bút)",
+      "Walkthrough (Duyệt qua).",
+      "Logging and tracking",
+      "Retrospective testing",
+      "User testing."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Đánh giá hình thành (Formative evaluation) diễn ra ở giai đoạn đầu để tìm hướng thiết kế. Do đó, việc dùng bản vẽ nháp trên giấy hoặc duyệt qua các bước (Walkthrough) là phù hợp nhất, vừa nhanh vừa rẻ."
+  },
+  {
+    "id": 304,
+    "question": "Hành động nào sau đây không thuộc về quy trình phát triển website?",
+    "chapter": null,
+    "options": [
+      "Khám phá",
+      "Kết xuất nội dung",
+      "Thăm dò.",
+      "Tạo bản tinh chỉnh",
+      "Cài đặt.",
+      "(Ghi chú: Câu hỏi này có vẻ sử dụng một framework từ vựng riêng của giáo trình. Các bước Khám phá/Thăm dò thuộc về khâu UX Research ban đầu, không phải khâu \"Phát triển\" (Development) code kỹ thuật)."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 307,
+    "question": "Những gì không là mục tiêu của HTA (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Đặc tả hội thoại người dùng / máy tính",
+      "Đo hiệu năng thực hiện của máy tính.",
+      "Mô tả các hành động người dùng cần thực hiện",
+      "Đặt các hành động này trong cấu trúc phân cấp nhiệm vụ / nhiệm vụ con",
+      "Mô tả thứ tự thực hiện các nhiệm vụ con."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: HTA (Hierarchical Task Analysis) chuyên dùng để chia nhỏ một \"công việc\" thành các \"tác vụ con\" theo sơ đồ hình cây. Nó KHÔNG đo lường tốc độ xử lý của chip máy tính, cũng không viết kịch bản hội thoại."
+  },
+  {
+    "id": 309,
+    "question": "Để dự đoán thời gian thực hiện của người dùng, cần sử dụng mô hình nào?",
+    "chapter": null,
+    "options": [
+      "KLM GOMS (Keystroke-Level Model).",
+      "HTA",
+      "TAG",
+      "PIE",
+      "BNF."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: KLM là một biến thể của họ mô hình GOMS, dùng để tính toán chính xác người dùng sẽ mất bao nhiêu giây (hoặc mili-giây) để ấn một phím, rê chuột, hoặc suy nghĩ trước khi hành động."
+  },
+  {
+    "id": 311,
+    "question": "Lựa chọn nào sau đây không phải vấn đề thường gặp khi thiết kế giao diện di động?",
+    "chapter": null,
+    "options": [
+      "Thỏa mãn sự thay đổi nhu cầu người dùng một cách linh hoạt.",
+      "Xác định trạng thái chờ hành động...",
+      "Xác định thiết bị đang sử dụng trong môi trường có nhiều thiết bị",
+      "Cách thiết kế để tránh dẫn đến thao tác sai",
+      "Xác định được việc thực hiện các thao tác là đúng hay sai."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Việc \"đáp ứng thay đổi nhu cầu linh hoạt\" là mục tiêu chung của quản lý dự án phần mềm (ví dụ mô hình Agile), không phải là một \"vấn đề rào cản\" cụ thể của thiết kế UI trên màn hình điện thoại (như ngón tay to dễ bấm nhầm, môi trường bên ngoài mất tập trung)."
+  },
+  {
+    "id": 312,
+    "question": "Khi thiết kế giao diện di động, chúng ta phải bảo đảm những gì? (Ghi chú: Mặc dù ảnh không hiện dấu check rõ ràng, nhưng dựa trên nguyên tắc HCI, đáp án hợp lý nhất là:)",
+    "chapter": null,
+    "options": [
+      "Hỗ trợ tạm dừng và lưu đối với trò chơi di động.",
+      "Người dùng luôn có kết nối mạng (Sai, di động hay rớt mạng)",
+      "Hỗ trợ nhiều tiềm năng thay vì tính đơn giản (Sai, di động cần tối giản)",
+      "Các thành phần được thu nhỏ lại để vừa với màn hình (Sai, tuyệt đối không được thu nhỏ web desktop bê vào điện thoại, phải thiết kế lại từ đầu)",
+      "Các thành phần trong các lớp khác nhau có bóng đổ khác nhau (Đây là luật của Material Design, không phải nguyên tắc bắt buộc cho mọi thiết kế di động)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 313,
+    "question": "Phát biểu nào sau đây là sai với thiết kế vật chất (Material design)?",
+    "chapter": null,
+    "options": [
+      "Material design là thiết kế phẳng.",
+      "Các phần tử... có các độ cao khác nhau",
+      "Các biểu tượng nên thiết kế giống như chúng ta gấp từ giấy",
+      "Các thành phần nằm trong các lớp khác nhau có bóng đổ khác nhau",
+      "Material design sử dụng màu sắc rực rỡ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Google tạo ra Material Design để mô phỏng \"thế giới vật lý\" (giấy và mực). Nó sử dụng trục Z (độ cao) và đổ bóng để phân tầng thông tin, do đó nó không phải là thiết kế phẳng (Flat Design) hoàn toàn 2D."
+  },
+  {
+    "id": 316,
+    "question": "Đâu không phải là nguyên tắc heuristic đồ thị phân rã HTA?",
+    "chapter": null,
+    "options": [
+      "Tái cấu trúc",
+      "Cân bằng",
+      "Khái quát hóa",
+      "Dựa vào cặp hành động.",
+      "Chia để trị (Divide and Conquer). (Ghi chú: Trong đề tích vào \"Chia để trị\" nhưng câu hỏi là \"Đâu KHÔNG PHẢI\". Có thể đề bị lỗi logic từ ngữ. Theo cốt lõi HTA, chia để trị là nguyên tắc ĐÚNG. Hãy theo sát đáp án thầy cô cung cấp)."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 318,
+    "question": "Có mấy loại ứng dụng di động, là những loại nào?",
+    "chapter": null,
+    "options": [
+      "3 loại: hybrid app, mobile web app, native app.",
+      "2 loại: native app, hybrid app",
+      "1 loại: native app",
+      "2 loại: mobile web app, hybrid app",
+      "2 loại: native app, mobile web app."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 322,
+    "question": "Thiết kế luồng duyệt màn hình di động có thể đem đến các loại trải nghiệm nào sau đây cho người dùng:",
+    "chapter": null,
+    "options": [
+      "Adequate experience (Trải nghiệm vừa đủ).",
+      "Native experience",
+      "Intensive experience",
+      "Mobile experience",
+      "Broadcast experience."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 323,
+    "question": "Định nghĩa của ACM SIGCHI về tương tác người máy không đề cập đến các đối tượng nào sau đây? (chọn 3) (Ghi chú: Định nghĩa gốc của ACM SIGCHI: \"HCI là bộ môn liên quan đến thiết kế, đánh giá và triển khai CÁC HỆ THỐNG TÍNH TOÁN TƯƠNG TÁC cho CON NGƯỜI sử dụng, và nghiên cứu CÁC HIỆN TƯỢNG XUNG QUANH chúng\". Căn cứ vào file đề, hệ thống đã chấm các đáp án sau):",
+    "chapter": null,
+    "options": [
+      "Môi trường phát triển",
+      "Máy tính (như một vật thể phần cứng độc lập)",
+      "Các hệ thống tương tác được con người sử dụng. (Lưu ý: Đáp án cuối có thể là bẫy chữ, SIGCHI dùng cụm từ \"interactive computing systems\" - hệ thống tính toán tương tác)."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 325,
+    "question": "Môi trường và ngữ cảnh của hệ tương tác không bị giới hạn bởi yếu tố tổ chức, xã hội, công việc, lĩnh vực ứng dụng nào?",
+    "chapter": null,
+    "options": [
+      "Thiết bị đầu cuối.",
+      "Cá nhân hoặc nhóm",
+      "Giao tiếp hướng thông điệp",
+      "Giao tiếp hướng văn bản",
+      "Trợ giúp trực tuyến hoặc điều khiển hệ thống liên tục..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Thiết bị đầu cuối\" thuộc về hệ thống máy tính/phần cứng, nó không thuộc về các yếu tố \"môi trường xã hội/tổ chức\"."
+  },
+  {
+    "id": 326,
+    "question": "Bối cảnh xã hội ảnh hưởng như thế nào đến thiết kế hệ thống tương tác điều khiển các thiết bị trên xe hơi?",
+    "chapter": null,
+    "options": [
+      "Chức năng, kênh tương tác, giao diện, khả năng điều khiển (Ảnh hưởng đến tất cả).",
+      "Kênh tương tác người dùng / xe hơi",
+      "Khả năng điều khiển các thiết bị trên xe hơi",
+      "Chức năng điều khiển",
+      "Giao diện người dùng / xe hơi."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 327,
+    "question": "Mệnh đề nào sau đây nói về mục tiêu của màu sắc trong tiếp nhận thông tin trực quan của con người (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Màu sắc được sử dụng để gợi nhớ các dữ liệu đặc biệt",
+      "Màu sắc được sử dụng để tạo ra giao diện thu hút",
+      "Màu sắc được sử dụng để tăng số lượng mã hóa dữ liệu.",
+      "Màu sắc được sử dụng để tăng cường sự gợi nhớ, ghi nhớ",
+      "Màu sắc được sử dụng để cá nhân hóa giao diện."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Màu sắc trong UI chủ yếu để: Highlighting (làm nổi bật cảnh báo), Aesthetics (thẩm mỹ), và Color-coding (phân loại biểu đồ, mã hóa)."
+  },
+  {
+    "id": 331,
+    "question": "Các kỹ thuật thu thập dữ liệu có thể được phối hợp với nhau KHÔNG dựa trên yếu tố nào?",
+    "chapter": null,
+    "options": [
+      "Các tài nguyên hiện có.",
+      "Đối tượng tham gia",
+      "Bản chất của kỹ thuật",
+      "Định hướng thu thập dữ liệu",
+      "Mục tiêu thu thập dữ liệu."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Về mặt lý thuyết luận khoa học, việc chọn phương pháp nghiên cứu phải đi từ Mục tiêu, Định hướng và Đối tượng. Việc đổ lỗi cho \"Tài nguyên hạn hẹp\" không phải là cơ sở học thuật để phối hợp kỹ thuật."
+  },
+  {
+    "id": 332,
+    "question": "Đặt câu hỏi là một trong các kỹ thuật thu thập dữ liệu. Trong số các mệnh đề sau đây về thiết kế câu hỏi, mệnh đề nào sai? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Không cần các phiên bản khác nhau của bảng câu hỏi cho các tập người dùng khác nhau.",
+      "Người dùng quyết định nội dung bảng câu hỏi thiên về tích cực, tiêu cực hay đan xen.",
+      "Tác động của một câu hỏi có thể bị ảnh hưởng bởi trật tự câu hỏi",
+      "Phải cung cấp hướng dẫn rõ ràng về cách hoàn thành bản câu hỏi",
+      "Cân bằng giữa sử dụng dòng trống và giữ cho bảng câu hỏi nhỏ gọn."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Mỗi tệp người dùng (người trẻ vs người già, chuyên gia vs nghiệp dư) cần một bảng câu hỏi được \"may đo\" ngôn ngữ riêng. Nhà nghiên cứu (Researcher) mới là người quyết định nội dung câu hỏi, không phải người dùng."
+  },
+  {
+    "id": 335,
+    "question": "Vấn đề nào sau đây không phải là vấn đề chính của việc thu thập yêu cầu người dùng?",
+    "chapter": null,
+    "options": [
+      "Quan hệ giữa những người tham gia.",
+      "Mục tiêu",
+      "Lựa chọn người tham gia",
+      "Bản chất của kỹ thuật",
+      "Dẫn dắt yêu cầu."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 336,
+    "question": "...được thực hiện theo kịch bản nhưng những vấn đề thú vị có thể được khám phá sâu hơn. Loại phỏng vấn này có thể duy trì sự cân bằng...",
+    "chapter": null,
+    "options": [
+      "Phỏng vấn bán cấu trúc (Semi-structured interview).",
+      "Phỏng vấn có cấu trúc",
+      "Phỏng vấn qua điện thoại",
+      "Phỏng vấn không có cấu trúc",
+      "Phỏng vấn trực tuyến."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 337,
+    "question": "...được thực hiện theo một kịch bản chặt chẽ, thường giống như một bảng câu hỏi...",
+    "chapter": null,
+    "options": [
+      "Phỏng vấn có cấu trúc (Structured interview).",
+      "Phỏng vấn trực tuyến",
+      "Phỏng vấn bán cấu trúc",
+      "Phỏng vấn qua điện thoại",
+      "Phỏng vấn không có cấu trúc."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 338,
+    "question": "Yếu tố nào không ảnh hưởng đến việc lựa chọn phương pháp thu thập yêu cầu của người dùng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Quy trình, nguyên tắc và tiêu chuẩn thu thập thông tin.",
+      "Nhóm người dùng trọng tâm (Focus group).",
+      "Loại thông tin cần thu thập",
+      "Nguồn thông tin cần thu thập",
+      "Vị trí và khả năng tiếp cận."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Focus group bản thân nó là một \"phương pháp\" chứ không phải một \"yếu tố\" ảnh hưởng đến việc chọn phương pháp."
+  },
+  {
+    "id": 339,
+    "question": "Phát biểu nào sau đây về mẫu thử và quá trình tạo mẫu thử là ĐÚNG? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Trong thiết kế tương tác, mẫu thử giao diện có thể được sử dụng để kiểm tra các phần có thể nhìn thấy của thiết kế.",
+      "Trong mẫu thử tương tác độ tin cậy cao, sơ đồ điều hướng được định nghĩa rõ ràng.",
+      "Trong mẫu thử giao diện độ tin cậy thấp, có thể phát hiện các vấn đề về bố cục màn hình.",
+      "Tạo mẫu thử không phải là cách làm rẻ và dễ dàng để nhận phản hồi",
+      "Mẫu thử độ tin cậy thấp là công việc tốn nhiều thời gian."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 347,
+    "question": "Giám đốc công ty ABC quyết định sử dụng phần mềm... giao diện command-line. Điều gì sẽ xảy ra...",
+    "chapter": null,
+    "options": [
+      "Hầu hết nhân viên sẽ cảm thấy mất tinh thần và không muốn sử dụng phần mềm này.",
+      "Tất cả nhân viên đều thích...",
+      "Hầu hết nhân viên sẽ muốn trở thành chuyên gia...",
+      "Tất cả nhân viên sẽ thích... sau khi thành thạo...",
+      "Tất cả các nhân viên đều có thể sử dụng... mà không cần đào tạo."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Giao diện dòng lệnh (Command-line) yêu cầu người dùng phải học thuộc lòng hàng chục câu lệnh. Bắt nhân viên văn phòng thông thường sử dụng CLI thay vì giao diện đồ họa (GUI) sẽ tạo ra sự sụp đổ về mặt trải nghiệm và tâm lý."
+  },
+  {
+    "id": 348,
+    "question": "Lý do nào sau đây là lý do chính đáng để đưa âm thanh vào giao diện?",
+    "chapter": null,
+    "options": [
+      "So với tín hiệu hình ảnh, người dùng phản ứng với tín hiệu âm thanh nhanh hơn.",
+      "So với tín hiệu hình ảnh, người dùng phản ứng chậm hơn",
+      "Âm thanh luôn truyền đạt ý nghĩa",
+      "Máy tính phản ứng với âm thanh giống con người",
+      "Người dùng phản ứng với âm thanh và hình ảnh như nhau..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Các nghiên cứu sinh học thần kinh chứng minh rằng thời gian phản xạ của con người với âm thanh (khoảng 140-160ms) nhanh hơn so với hình ảnh (180-200ms). Đó là lý do còi báo động luôn dùng âm thanh."
+  },
+  {
+    "id": 350,
+    "question": "Lý do nào sau đây là lý do chính đáng để bạn quan tâm đến việc thiết kế một giao diện tốt cho phần mềm?",
+    "chapter": null,
+    "options": [
+      "Không phải mọi người dùng đều là chuyên gia máy tính.",
+      "Đó là nhiệm vụ chính của đội phát triển",
+      "Phần mềm có giao diện thiết kế tốt sẽ sử dụng ít tài nguyên hơn",
+      "Phần mềm có giao diện tốt sẽ chạy nhanh hơn",
+      "Sẽ bán được với giá tốt hơn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: UX/UI ra đời vì mục đích \"bình dân hóa\" công nghệ, làm cầu nối giúp những người không biết code vẫn có thể điều khiển được cỗ máy tính phức tạp."
+  },
+  {
+    "id": 353,
+    "question": "...cung cấp sự hiểu biết về các nhiệm vụ mà người dùng cần thực hiện để đạt được các mục tiêu nhất định.",
+    "chapter": null,
+    "options": [
+      "Biểu đồ HTA (Hierarchical Task Analysis).",
+      "Mô hình người dùng",
+      "Đặc tả yêu cầu",
+      "Bảng câu hỏi phỏng vấn",
+      "Thiết kế giao diện."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 354,
+    "question": "...tham chiếu tới cách đối tượng nên được sử dụng, một manh mối trực quan về chức năng và công dụng...",
+    "chapter": null,
+    "options": [
+      "Tính thế chỗ (Affordance - Tính chi trả).",
+      "Tính ánh xạ (Mapping)",
+      "Tính phản hồi (Feedback)",
+      "Tính trực quan (Visibility)",
+      "Tính nhất quán (Consistency)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 355,
+    "question": "...là cách biểu diễn cấu trúc của website.",
+    "chapter": null,
+    "options": [
+      "Site map (Sơ đồ trang web).",
+      "Header",
+      "FAQ",
+      "Site flow",
+      "Wireframe."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 356,
+    "question": "Bảng câu hỏi thực hiện sau khi kiểm thử tính dùng được thường được sử dụng để đo:",
+    "chapter": null,
+    "options": [
+      "Mức độ hài lòng của người dùng.",
+      "Tính an toàn",
+      "Tính dễ học",
+      "Tính năng suất",
+      "Sự ưa chuộng của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Các bài test cuối quy trình (như SUS - System Usability Scale) sinh ra để đo lường định lượng xem người dùng có \"thỏa mãn/hài lòng\" (Satisfaction) với hệ thống sau khi đã trải nghiệm hay không."
+  },
+  {
+    "id": 357,
+    "question": "Phương pháp tạo kịch bản (storyboarding):",
+    "chapter": null,
+    "options": [
+      "Thường được thực hiện trong thiết kế độ tin cậy thấp (Low-fidelity).",
+      "Cần nhiều bản thiết kế thay thế",
+      "Thường được thực hiện vào cuối quy trình phát triển",
+      "Đòi hỏi mẫu thử đầy đủ chức năng",
+      "Thường được thực hiện trong thiết kế độ tin cậy cao."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Storyboarding giống như vẽ truyện tranh nháp để mô tả luồng thao tác của người dùng. Nó được vẽ rất thô (low-fi) và được làm ở ngay những bước đầu tiên của dự án."
+  },
+  {
+    "id": 358,
+    "question": "Cung cấp các tiện ích giá trị gia tăng, ví dụ như các phím tắt nhằm nâng cao:",
+    "chapter": null,
+    "options": [
+      "Tính năng suất (Efficiency).",
+      "Tính tiện ích",
+      "Tính dễ học",
+      "Tính trực quan",
+      "Sự ưa chuộng của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Phím tắt (Ctrl+C, Ctrl+V) sinh ra không phải để dễ học (thậm chí nó còn khó nhớ), mà sinh ra để cho những chuyên gia đã quen tay có thể thao tác với tốc độ cực nhanh (Năng suất)."
+  },
+  {
+    "id": 360,
+    "question": "Luồng thông tin của một website thường chỉ ra:",
+    "chapter": null,
+    "options": [
+      "Thứ tự các hành động người dùng cần làm để hoàn thành một nhiệm vụ.",
+      "Lý do tại sao người dùng cần 1 số nhiệm vụ đặc biệt",
+      "Cấu trúc giao diện",
+      "Những phần tử điều khiển nào cần đặt trên giao diện",
+      "Bảng màu của giao diện."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Luồng duyệt (User Flow/Task Flow) là bản đồ vạch ra đường đi của user từ điểm A (Mở app) đến điểm B (Thanh toán thành công)."
+  },
+  {
+    "id": 362,
+    "question": "Theo các nguyên lý thiết kế của Norman, bánh xe giữa 2 phím chuột phải/trái là... của thao tác lăn.",
+    "chapter": null,
+    "options": [
+      "Thế chỗ (Affordance).",
+      "Ánh xạ",
+      "Hỗ trợ",
+      "Ràng buộc",
+      "Ghi nhớ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Hình dáng tròn và có rãnh cao su của bánh xe chuột đã tự nó \"chi trả/gợi ý\" cho con người biết rằng: \"Hãy đặt ngón tay lên đây và lăn đi\". Đó chính là Affordance."
+  },
+  {
+    "id": 363,
+    "question": "Hệ tương tác cần cung cấp các phản hồi chính xác và phù hợp để tránh trường hợp người dùng:",
+    "chapter": null,
+    "options": [
+      "Hiểu nhầm cách hoạt động thực tế của hệ thống.",
+      "Đánh giá sai",
+      "Nhớ nhiều",
+      "Gặp nhiều tình huống phát sinh lỗi",
+      "Không rõ phải làm gì."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Nếu bạn bấm nút \"Xóa\" nhưng hệ thống không phản hồi gì (không chớp màn hình, không báo xóa thành công), bạn sẽ hiểu nhầm là hệ thống bị treo, rồi bấm thêm 5 lần nữa. Phản hồi (Feedback) giải quyết hiểu lầm này."
+  },
+  {
+    "id": 364,
+    "question": "Hệ tương tác cần quan tâm đến khả năng sai sót và sơ suất của người dùng để tránh trường hợp người dùng:",
+    "chapter": null,
+    "options": [
+      "Gặp nhiều tình huống phát sinh lỗi.",
+      "Đánh giá sai",
+      "Không rõ phải làm gì",
+      "Hiểu nhầm cách hoạt động...",
+      "Nhớ nhiều."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 365,
+    "question": "Hệ tương tác cần có tính ánh xạ (mapping) để tránh trường hợp người dùng:",
+    "chapter": null,
+    "options": [
+      "Nhớ nhiều.",
+      "Hiểu nhầm cách hoạt động...",
+      "Gặp nhiều tình huống...",
+      "Không rõ phải làm gì...",
+      "Đánh giá sai."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Ánh xạ tốt là sự tương quan tự nhiên (Ví dụ: Công tắc bên trái bật đèn bên trái). Nếu ánh xạ tồi (công tắc lộn xộn), người dùng sẽ phải tốn dung lượng não bộ để \"ghi nhớ học thuộc lòng\" xem công tắc nào bật đèn nào."
+  },
+  {
+    "id": 366,
+    "question": "Hệ tương tác cần có tính ràng buộc vật lý và thế chỗ (Affordance) để tránh trường hợp người dùng:",
+    "chapter": null,
+    "options": [
+      "Không rõ phải làm gì với hệ thống.",
+      "Gặp nhiều tình huống phát sinh lỗi",
+      "Hiểu nhầm cách hoạt động thực tế của hệ thống",
+      "Nhớ nhiều",
+      "Đánh giá sai."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Ràng buộc vật lý và \"Tính thế chỗ\" (Affordance - thiết kế tự gợi ý cách dùng, ví dụ nút lồi lên gợi ý để bấm) đóng vai trò như những \"biển chỉ đường\" trực quan. Nếu không có chúng, người dùng nhìn vào màn hình sẽ bối rối, không biết bắt đầu từ đâu hay thao tác như thế nào."
+  },
+  {
+    "id": 367,
+    "question": "Hệ tương tác cần có tính nhất quán (Consistency) để tránh trường hợp người dùng:",
+    "chapter": null,
+    "options": [
+      "Hiểu nhầm cách hoạt động thực tế của hệ thống.",
+      "Gặp nhiều tình huống phát sinh lỗi",
+      "Nhớ nhiều",
+      "Đánh giá sai",
+      "Không rõ phải làm gì với hệ thống."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tính nhất quán đảm bảo rằng một nút bấm/màu sắc có chung một ý nghĩa xuyên suốt toàn bộ hệ thống. Nếu thiếu nhất quán (ví dụ: nút Đỏ lúc thì là \"Xóa\", lúc khác lại là \"Lưu\"), người dùng sẽ dùng kinh nghiệm cũ áp dụng vào tình huống mới và \"hiểu nhầm\" tác dụng thực sự của chức năng đó."
+  },
+  {
+    "id": 370,
+    "question": "Yếu tố nào sau đây liên quan đến việc đo đánh giá tính dùng được? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Tốc độ thực hiện (Năng suất).",
+      "Tỉ lệ lỗi (Hiệu quả).",
+      "Sự thỏa mãn chủ quan (Sự hài lòng).",
+      "Khả năng duy trì theo thời gian",
+      "Khả năng chuyển tới hạn."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Theo tiêu chuẩn quốc tế ISO 9241, Tính dùng được (Usability) được cấu thành từ 3 thước đo cốt lõi: Effectiveness (làm đúng, tỷ lệ lỗi thấp), Efficiency (làm nhanh, tốc độ cao), và Satisfaction (mức độ thoải mái, thỏa mãn của người dùng)."
+  },
+  {
+    "id": 375,
+    "question": "Luồng thông tin của một website thường chỉ ra:",
+    "chapter": null,
+    "options": [
+      "Thứ tự các hành động người dùng cần làm để hoàn thành một nhiệm vụ.",
+      "Bảng màu của giao diện",
+      "Lý do tại sao người dùng cần 1 số nhiệm vụ đặc biệt",
+      "Cấu trúc giao diện",
+      "Những phần tử điều khiển nào cần đặt trên giao diện người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Luồng thông tin/Luồng duyệt (User Flow / Task Flow) là một sơ đồ dạng bước (Step-by-step), vạch ra hành trình đường đi cụ thể từ màn hình A sang màn hình B, C để user hoàn thành mục tiêu (ví dụ luồng Mua hàng, luồng Đăng nhập). Nó không liên quan đến màu sắc hay hình dáng thiết kế tĩnh."
+  },
+  {
+    "id": 376,
+    "question": "Khả năng tiếp nhận âm thanh của con người không phụ thuộc vào các yếu tố nào sau đây? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Độ vang",
+      "Tiếng vọng",
+      "Âm điệu (Timbre)",
+      "Cường độ âm thanh (Loudness)."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Thính giác của con người cảm nhận một âm thanh độc lập dựa trên 3 đặc tính vật lý cốt lõi: Tần số (Độ cao), Cường độ (Độ to), và Âm sắc (Âm điệu). \"Độ vang\" và \"Tiếng vọng\" là hiệu ứng phản xạ âm thanh của môi trường/phòng ốc, không phải là đặc tính tiếp nhận của màng nhĩ."
+  },
+  {
+    "id": 377,
+    "question": "Lập luận quy nạp (Induction) là:",
+    "chapter": null,
+    "options": [
+      "Dùng những chứng cứ thu thập trong quá trình quan sát để đi tới kết luận.",
+      "Từ những giả thiết có sẵn dẫn dắt để đi tới điều cần chứng minh là đúng",
+      "Tư duy trong trường hợp đối lập so với luận điểm...",
+      "Tư duy bằng các phương pháp luận giữa con người và thế giới tự nhiên",
+      "Sử dụng toán học để chứng minh."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Quy nạp là quá trình tư duy đi từ những trường hợp cụ thể (tiểu thuyết/quan sát thực tế) để rút ra một quy luật/kết luận mang tính tổng quát. Ví dụ: Quan sát thấy 100 con thiên nga có màu trắng -> Kết luận: Mọi con thiên nga đều màu trắng."
+  },
+  {
+    "id": 378,
+    "question": "Suy luận/Diễn dịch (Deduction) là:",
+    "chapter": null,
+    "options": [
+      "Từ những giả thiết có sẵn dẫn dắt để đi tới điều cần chứng minh là đúng.",
+      "Dùng những chứng cứ thu thập trong quá trình quan sát...",
+      "Tư duy trong trường hợp đối lập...",
+      "Sử dụng toán học...",
+      "Tư duy bằng các phương pháp luận..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Ngược lại với Quy nạp, Diễn dịch đi từ các nguyên lý/quy luật chung (đã được công nhận là đúng) để suy ra kết quả của một trường hợp cụ thể. Mệnh đề nổi tiếng nhất: \"Mọi con người đều phải chết. Socrates là con người. Suy ra: Socrates phải chết\"."
+  },
+  {
+    "id": 379,
+    "question": "Lập luận không phải là (chọn 2):",
+    "chapter": null,
+    "options": [
+      "Sử dụng toán học để chứng minh luận điểm.",
+      "Tư duy bằng các phương pháp luận giữa con người và thế giới tự nhiên.",
+      "Từ những giả thiết có sẵn dẫn dắt để đi tới điều cần chứng minh là đúng (Diễn dịch)",
+      "Dùng những chứng cứ thu thập trong quá trình quan sát để đi tới kết luận (Quy nạp)",
+      "Tư duy trong trường hợp đối lập so với luận điểm... (Phản chứng)."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Trong Tâm lý học nhận thức, cơ chế Lập luận (Reasoning) của con người chia làm 3 loại hình cơ bản: Diễn dịch, Quy nạp, và Loại suy/Phản chứng. Các thao tác tính toán toán học không thuộc định nghĩa này."
+  },
+  {
+    "id": 380,
+    "question": "Điều nào sau đây là đúng về tính dễ đọc của văn bản:",
+    "chapter": null,
+    "options": [
+      "Nếu dòng quá dài, văn bản sẽ khó đọc.",
+      "Viết hoa toàn bộ nội dung sẽ làm cải thiện tốc độ đọc",
+      "Kích thước phông chữ nên đặt khoảng 10 pt",
+      "Viết xen kẽ chữ hoa và chữ thường sẽ làm cải thiện tốc độ đọc",
+      "Sử dụng cùng phông chữ, kiểu chữ, kích thước phông chữ cho phần tiêu đề và phần thân bài."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Mắt người có giới hạn vùng quét. Nếu một dòng chữ quá dài (thường vượt quá 70-80 ký tự), mắt sẽ rất khó tìm được điểm bắt đầu của dòng tiếp theo, gây mỏi và mất tập trung. Việc viết HOA TOÀN BỘ (ALL CAPS) cũng triệt tiêu các đặc điểm nhô lên/thụt xuống của chữ, làm giảm nghiêm trọng tốc độ đọc."
+  },
+  {
+    "id": 381,
+    "question": "Kiểu chữ nào sau đây thường được sử dụng để nhấn mạnh nội dung văn bản?",
+    "chapter": null,
+    "options": [
+      "Đậm (Bold).",
+      "Gạch chân",
+      "Kết hợp nghiêng và gạch chân",
+      "Thường",
+      "Nghiêng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Chữ in đậm làm tăng \"trọng lượng thị giác\" (Visual weight), thu hút ánh mắt người dùng ngay lập tức. Cần tránh dùng \"Gạch chân\" để nhấn mạnh, vì trong môi trường Web, chữ gạch chân mặc định được não bộ người dùng hiểu là một Link liên kết (Hyperlink) có thể bấm vào."
+  },
+  {
+    "id": 382,
+    "question": "Để đảm bảo độ tương phản, thiết kế thường sử dụng màu ... cho nền và màu ... cho văn bản.",
+    "chapter": null,
+    "options": [
+      "Trắng, đen (Nền trắng, chữ đen).",
+      "Đen, trắng",
+      "Xanh, hồng",
+      "Hồng, xanh",
+      "Vàng, đen."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Positive text\" (Nền sáng, chữ tối) - đặc biệt là Nền trắng, Chữ đen hoặc xám đậm - tạo ra tỷ lệ tương phản cao nhất (21:1), giúp mắt người không bị chói và dễ dàng đọc các đoạn văn bản dài so với nền đen chữ trắng."
+  },
+  {
+    "id": 383,
+    "question": "Điều nào sau đây thể hiện tính nhất quán của giao diện? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Cơ chế đầu vào là giống nhau trong ứng dụng.",
+      "Thông tin trực quan được tổ chức theo một tiêu chuẩn thiết kế.",
+      "Mỗi ứng dụng phải có giao diện riêng biệt",
+      "Điều hướng theo ngữ cảnh",
+      "Giao diện thay đổi theo kích thước màn hình của thiết bị đầu cuối."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Tính nhất quán (Consistency) đòi hỏi sự đồng bộ cả về \"Chức năng\" (Thao tác vuốt/bấm ở mọi màn hình đều phản hồi logic giống nhau) và \"Thị giác\" (Mọi button, font chữ, icon đều tuân theo chung một hệ thống thiết kế - Design System)."
+  },
+  {
+    "id": 384,
+    "question": "Một ví dụ về câu hỏi trong phân tích nhiệm vụ là:",
+    "chapter": null,
+    "options": [
+      "Bạn sẽ thay đổi ảnh hồ sơ của mình trong ứng dụng này như thế nào?",
+      "Trong số các ứng dụng tương tự, bạn cảm thấy hài lòng với ứng dụng nào nhất?",
+      "Nghề nghiệp của bạn là gì?",
+      "Trong những tình huống nào bạn sẽ sử dụng một ứng dụng như thế này?",
+      "Bạn đã sử dụng một ứng dụng tương tự chưa?"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Phân tích nhiệm vụ\" (Task Analysis) nghiên cứu CÁCH THỨC người dùng tiến hành từng bước (step-by-step) để hoàn thành một mục tiêu cụ thể. Yêu cầu họ mô tả cách \"thay đổi ảnh hồ sơ\" chính là việc bắt họ trình bày luồng thực thi nhiệm vụ đó."
+  },
+  {
+    "id": 385,
+    "question": "Giao tiếp có cung cấp thêm chức năng tăng tốc (như phím tắt) nhằm mục đích:",
+    "chapter": null,
+    "options": [
+      "Tăng năng suất (efficiency) của tương tác.",
+      "Tăng khả năng học hỏi",
+      "Thay đổi thói quen của người dùng",
+      "Tăng hiệu quả (effectiveness) của tương tác",
+      "Ngăn ngừa sai sót của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Phím tắt (Accelerators - ví dụ: Ctrl C, Ctrl V) không dành cho người mới, vì nó ẩn và khó nhớ (Không tăng khả năng học hỏi). Nó được thiết kế dành cho các \"Chuyên gia\" (Expert users) để họ tiết kiệm số lần click chuột, qua đó đẩy nhanh tốc độ hoàn thành công việc (Năng suất)."
+  },
+  {
+    "id": 386,
+    "question": "Khi người dùng tham gia vào các nhiệm vụ phức tạp, yêu cầu về điều nào sau đây là quan trọng?",
+    "chapter": null,
+    "options": [
+      "Bộ nhớ ngắn hạn (Working memory / Short-term memory).",
+      "Các đối tượng trên màn hình",
+      "Phím tắt",
+      "Thông tin cung cấp cho người dùng",
+      "Bộ nhớ dài hạn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Các nhiệm vụ phức tạp nhiều bước (như checkout thanh toán) buộc người dùng phải nhớ thông tin ở bước 1 để đối chiếu sang bước 3. Điều này gây áp lực khổng lồ lên bộ nhớ ngắn hạn của não. UX tốt là phải cung cấp sẵn thông tin trên màn hình để giảm tải cho loại bộ nhớ này."
+  },
+  {
+    "id": 387,
+    "question": "Trong một thiết kế tương tác người - máy tốt, phát biểu nào sau đây là sai? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Các chức năng được khởi động độc lập.",
+      "Chức năng phức tạp nên được điều khiển theo quy trình (dưới dạng một chuỗi thao tác).",
+      "Cần có phím tắt (như ctrl + z) để khôi phục",
+      "Các biểu tượng có thể mang ý nghĩa cụ thể",
+      "Âm thanh có thể truyền tải ý nghĩa."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Ép buộc các chức năng phức tạp luôn phải chạy theo một \"quy trình tuần tự\" (Wizard) cứng nhắc sẽ triệt tiêu sự linh hoạt, làm người dùng chuyên nghiệp cảm thấy bị kìm hãm. Tương tác hiện đại khuyến khích thiết kế Không hộp thoại hóa (Non-modal) để người dùng tự do điều hướng."
+  },
+  {
+    "id": 388,
+    "question": "Phát biểu nào sau đây là đúng đối với một thiết kế tốt?",
+    "chapter": null,
+    "options": [
+      "Thiết kế tốt cần đến từ một quy trình lặp hướng đến người dùng.",
+      "Thiết kế tốt có thể đến từ việc chỉnh sửa giao diện ở bước cuối cùng",
+      "Thiết kế tốt chỉ cần giao diện đẹp",
+      "Thiết kế tốt là cung cấp đủ thông tin theo chức năng cho người dùng",
+      "Thiết kế tốt đáp ứng đủ những nhu cầu thông thường."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Thiết kế không phải là nghệ thuật vẽ 1 lần là xong. UI/UX tốt bắt buộc phải ra đời từ quá trình \"Iterative Design\": Thiết kế -> Làm mẫu thử -> Đưa người dùng Test -> Thu thập feedback -> Sửa lại thiết kế. Vòng lặp này phải diễn ra liên tục."
+  },
+  {
+    "id": 389,
+    "question": "Nguyên tắc thiết kế giao diện nào sau đây làm giảm tải bộ nhớ của người dùng? (chọn 3) (Ghi chú: Theo nguyên lý HCI)",
+    "chapter": null,
+    "options": [
+      "Thiết lập các giá trị mặc định có ý nghĩa (Default values).",
+      "Cung cấp thông tin theo sự tiến bộ (Progressive disclosure).",
+      "Cung cấp hướng dẫn trực tuyến (Contextual help/Tooltips)."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Nguyên tắc \"Nhận biết thay vì nhớ lại\" (Recognition rather than recall): Điền sẵn các giá trị mặc định giúp não không phải lôi dữ liệu cũ ra; Tiết lộ thông tin dần dần giúp màn hình bớt rác; Cung cấp hướng dẫn tại chỗ giúp user không phải đi mò mẫm tài liệu học."
+  },
+  {
+    "id": 390,
+    "question": "Loại giao diện người dùng nào cung cấp đầu vào bằng cách nhập một chuỗi kí tự từ bàn phím?",
+    "chapter": null,
+    "options": [
+      "Giao diện người dùng dòng lệnh (CLI - Command Line Interface).",
+      "Giao diện người dùng đồ họa (GUI)",
+      "Giao diện menu",
+      "Giao diện người dùng sử dụng giọng nói hoặc dòng lệnh",
+      "Giao diện ngôn ngữ tự nhiên."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 391,
+    "question": "Ưu điểm khi sử dụng bảng câu hỏi (Questionnaires) so với phỏng vấn là gì? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Dễ phân tích và so sánh.",
+      "Dễ lặp lại.",
+      "Có thể tiếp cận một nhóm chủ đề rộng (lượng người dùng lớn).",
+      "Khai thác thông tin của các nhóm người dùng đặc trưng",
+      "Kết quả tổng hợp mang tính định tính."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Khảo sát trực tuyến qua bảng câu hỏi thu về dữ liệu bằng con số (định lượng), vì thế có thể gửi cho hàng ngàn người (tiếp cận diện rộng), cực kỳ dễ đưa vào biểu đồ để so sánh và làm lại nhiều lần với chi phí siêu rẻ."
+  },
+  {
+    "id": 392,
+    "question": "Điều nào sau đây là vấn đề với việc tạo mẫu thử độ tin cậy thấp (Low-Fi prototype)? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Không kiểm chứng được tính dùng được và các thao tác.",
+      "Không chắc chắn trong quá trình thử nghiệm.",
+      "Người kiểm tra có xu hướng nhận xét các khía cạnh có lợi...",
+      "Người phát triển mất quá nhiều thời gian để xây dựng mẫu thử",
+      "Kỳ vọng của người dùng có thể được đặt quá cao."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Bản vẽ tay nháp (Low-Fi) thì không thể \"bấm\" (click) được thực sự. Do đó, rất khó để đo lường chính xác tốc độ thao tác hay hiệu quả tương tác (Usability) vì người dùng phần lớn phải tự \"tưởng tượng\" ra màn hình chuyển tiếp theo, dẫn đến sự không chắc chắn về kết quả test."
+  },
+  {
+    "id": 393,
+    "question": "Đặc tính quan trọng nhất mà một mẫu thử (prototype) cần phải có là gì?",
+    "chapter": null,
+    "options": [
+      "Cho phép người dùng thử nghiệm các thiết kế chính.",
+      "Biểu diễn thông tin giao tiếp",
+      "Hỗ trợ các thử nghiệm của người dùng",
+      "Giống hệt sản phẩm cuối cùng",
+      "Dễ dàng loại bỏ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Lý do sinh ra Prototype không phải để ngắm, mà là để tạo ra một môi trường giả lập nhằm TEST (thử nghiệm) xem luồng tính năng và bố cục thiết kế cốt lõi có phù hợp với người dùng thực tế hay không trước khi tốn tiền đưa cho lập trình viên code."
+  },
+  {
+    "id": 394,
+    "question": "Trong thiết kế giao diện người dùng, bố cục màn hình thể hiện: (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Thiết kế đồ họa và vị trí của các phần tử giao diện.",
+      "Xác định đặc điểm kỹ thuật của các cửa sổ.",
+      "Các menu chính và menu con.",
+      "Các nội dung văn bản cần loại bỏ trên màn hình",
+      "Cách thức kiểm tra thao tác của người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: \"Bố cục\" (Layout) là việc hoạch định không gian hiển thị: Nút này to hay nhỏ, lưới đặt ở đâu, vùng nào dành cho Menu, vùng nào dành cho Cửa sổ pop-up."
+  },
+  {
+    "id": 395,
+    "question": "Sản phẩm của thiết kế giao diện người dùng là? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Kịch bản người dùng (User Scenario/Flow).",
+      "Bố cục màn hình (Layout/Wireframe).",
+      "Một nguyên mẫu giao diện được phát triển và sửa đổi theo kiểu lặp đi lặp lại (Iterative Prototype).",
+      "Nghiệp vụ của hệ tương tác",
+      "Yêu cầu người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: \"Yêu cầu hệ thống\" và \"Nghiệp vụ\" là thứ BA (Business Analyst) hoặc Khách hàng cung cấp ĐẦU VÀO cho UI Designer. Từ những dữ liệu đó, Designer mới xuất ra ĐẦU RA (Sản phẩm) là: kịch bản trải nghiệm, bản vẽ bố cục và bản Prototype tương tác."
+  },
+  {
+    "id": 396,
+    "question": "Lĩnh vực nào sau đây có ảnh hưởng đến tương tác người - máy?",
+    "chapter": null,
+    "options": [
+      "Tâm lý học nhận thức, công thái học, khoa học máy tính.",
+      "(Các tổ hợp thiếu 1 trong 3 ngành kể trên)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Cội nguồn của ngành HCI (Tương tác Người - Máy) được xây dựng trên thế chân vạc: Công nghệ (Khoa học máy tính để lập trình), Tư duy (Tâm lý học để hiểu cách não người xử lý thông tin), và Thể chất (Công thái học để hiểu thao tác vận động của tay, mắt)."
+  },
+  {
+    "id": 397,
+    "question": "Loại mẫu thử nào sau đây cho phép kiểm tra tính trực quan của các chức năng của một ứng dụng:",
+    "chapter": null,
+    "options": [
+      "Mẫu thử giao diện độ tin cậy cao (Hi-Fi Prototype).",
+      "Mẫu thử tương tác độ tin cậy thấp",
+      "Mẫu thử tương tác độ tin cậy cao",
+      "Mẫu thử nhanh",
+      "Mẫu thử giao diện độ tin cậy thấp."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Tính trực quan\" (Aesthetics/Visuals) đòi hỏi sự trau chuốt về thẩm mỹ: Font chữ thật, đổ bóng, màu sắc gradient, hình ảnh rõ nét. Chỉ có Mẫu thử độ tin cậy cao (thiết kế chi tiết trên Figma/XD) mới thể hiện được điều này."
+  },
+  {
+    "id": 398,
+    "question": "Loại mẫu thử nào sau đây cho phép kiểm tra bảng màu (color scheme) của một ứng dụng:",
+    "chapter": null,
+    "options": [
+      "Mẫu thử giao diện độ tin cậy cao.",
+      "(Các loại mẫu thử thấp, nhanh, tương tác)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tương tự câu trên, Mẫu thử thấp (Low-Fi) thường chỉ vẽ bằng bút chì đen trắng. Muốn test xem hệ thống màu Đỏ - Xanh có bị chói mắt hay vi phạm độ tương phản không, bắt buộc phải dùng Hi-Fi Prototype."
+  },
+  {
+    "id": 399,
+    "question": "Đâu là ưu điểm của mẫu thử độ tin cậy cao (Hi-Fi)? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Người dùng có thể có rất nhiều phản hồi về các chức năng của ứng dụng (do nó chạy giống ứng dụng thật).",
+      "Người dùng sẽ tập trung rất nhiều vào các chi tiết thiết kế, như logo, phông chữ, bảng màu.",
+      "So với các loại mẫu thử khác, cần ít nỗ lực và thời gian hơn...",
+      "Người dùng không sa đà vào việc bình luận về màu sắc...",
+      "So với các loại mẫu thử khác, cần nhiều nỗ lực và thời gian hơn... (Đây là ĐẶC ĐIỂM/NHƯỢC ĐIỂM, không phải \"ưu điểm\")."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 400,
+    "question": "Đâu là ưu điểm của mẫu thử độ tin cậy thấp (Low-Fi)? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "So với các loại mẫu thử khác, cần ít nỗ lực và thời gian hơn để tạo ra mẫu thử sẵn sàng để kiểm thử...",
+      "Người dùng không sa đà vào việc bình luận về màu sắc, phông chữ, hay các phần tử giao diện.",
+      "Người dùng có thể có rất nhiều phản hồi về các chức năng (luồng logic) của ứng dụng.",
+      "Người dùng sẽ tập trung rất nhiều vào các chi tiết thiết kế, như logo, phông chữ...",
+      "So với các loại mẫu thử khác, cần nhiều nỗ lực và thời gian hơn..."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 401,
+    "question": "Paper and pen based sketches (Phác thảo bằng bút và giấy) thuộc loại mẫu thử nào dưới đây?",
+    "chapter": null,
+    "options": [
+      "Mẫu thử giao diện độ tin cậy thấp.",
+      "Mẫu thử giao diện độ tin cậy cao",
+      "Mẫu thử nhanh",
+      "Mẫu thử độ phân giải thấp",
+      "Mẫu thử tương tác độ tin cậy thấp."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 404,
+    "question": "Dạng suy luận logic để rút ra kết luận cần thiết từ các tiền đề đã cho được gọi là:",
+    "chapter": null,
+    "options": [
+      "Suy diễn (Deduction).",
+      "Suy diễn (Deduction) và quy nạp (Induction)",
+      "Phản chứng (Abduction)",
+      "Suy diễn (Deduction) và phản chứng (Abduction)",
+      "Quy nạp (Induction)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Giống với giải thích ở Câu 266. Từ \"Tiền đề\" -> \"Kết luận\" là cốt lõi của diễn dịch/suy diễn."
+  },
+  {
+    "id": 405,
+    "question": "Cho 2 phát biểu sau: ... (Luật Fitts) ... (Người gõ phím nhanh mắc lỗi thấp)...",
+    "chapter": null,
+    "options": [
+      "Cả hai phát biểu đều Đúng.",
+      "Chỉ có Phát biểu 1 là Đúng",
+      "Chỉ có Phát biểu 2 là Đúng",
+      "Phát biểu 2 chỉ đúng với những người dùng chưa quen...",
+      "Cả hai phát biểu đều Sai."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Luật Fitts (thời gian trỏ chuột đến mục tiêu phụ thuộc vào kích thước nút và khoảng cách) là định lý toán học chuẩn xác trong HCI. Phát biểu 2 cũng đúng vì những người đánh máy siêu tốc (chuyên gia) thường dùng \"Muscle memory\" (Trí nhớ cơ bắp) chuẩn xác hơn hẳn so với người gõ mổ cò (chậm và hay sai)."
+  },
+  {
+    "id": 406,
+    "question": "Một phần mềm có thể cho phép người dùng tương tác qua (chọn 3):",
+    "chapter": null,
+    "options": [
+      "Lệnh bàn phím.",
+      "Bàn phím và chuột.",
+      "Giọng nói.",
+      "Trực giác",
+      "Giọng nói và trực giác."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Kênh đầu vào (Input) của máy tính bắt buộc phải là các tín hiệu vật lý/âm thanh tác động lên các thiết bị ngoại vi. \"Trực giác\" thuộc về tư duy trừu tượng trong não bộ, máy tính không thể đọc được trực giác của bạn."
+  },
+  {
+    "id": 407,
+    "question": "Yếu tố nào sau đây là quan trọng trong thiết kế giao diện? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Yêu cầu của người dùng, thao tác kiểm tra.",
+      "Có sự tham gia của người dùng, trải nghiệm của người dùng.",
+      "Xây dựng sản phẩm",
+      "Tổng hợp yêu cầu và thử nghiệm sản phẩm",
+      "Thực thi chương trình và đánh giá."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: UX/UI Design là về \"Trải nghiệm\" và \"Người dùng\". Những yếu tố liên quan đến \"Xây dựng/Thực thi chương trình (Code)\" là phần việc của khâu phát triển phần mềm (Software Development)."
+  },
+  {
+    "id": 408,
+    "question": "Thiết kế lấy người dùng làm trung tâm rất quan trọng vì:",
+    "chapter": null,
+    "options": [
+      "Thiết kế phải phục vụ cho nhu cầu cụ thể của người sử dụng.",
+      "Hài hòa lợi ích giữa người thiết kế và người dùng",
+      "Người dùng cần được dạy cách sử dụng thiết kế",
+      "Cần phải biết môi trường người dùng trong khi xây dựng thiết kế",
+      "Thiết kế phải đủ trực quan cho người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Bản chất của thiết kế sản phẩm không phải là tạo ra một thứ trông thật nghệ thuật, mà là cung cấp một CÔNG CỤ để phục vụ/giải quyết tận gốc vấn đề (nhu cầu) của những người sẽ trực tiếp sử dụng nó."
+  },
+  {
+    "id": 409,
+    "question": "Quy trình thiết kế lặp (Iterative Design Process) là:",
+    "chapter": null,
+    "options": [
+      "Thiết kế - Tạo mẫu thử - Đánh giá.",
+      "Thiết kế - Mã hóa - Đánh giá",
+      "Phân tích - Thiết kế - Mã hóa",
+      "Thiết kế - Tạo mẫu thử - Thực thi",
+      "Thiết kế - Mã hóa - Thực thi."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Vòng lặp UX Design chuẩn mực diễn ra theo 3 khâu: Thiết kế (Đưa ra ý tưởng) -> Tạo mẫu thử (Prototype giả lập) -> Đánh giá (Đưa người dùng test). Vòng lặp này tuyệt đối chưa có sự can thiệp của việc \"Mã hóa\" (Code) hay \"Thực thi\" (Implement)."
+  },
+  {
+    "id": 411,
+    "question": "Trong quy trình thiết kế lặp, bước tạo mẫu thử:",
+    "chapter": null,
+    "options": [
+      "Cần được thực hiện theo yêu cầu của người dùng.",
+      "Sẽ được thực hiện sau bước đánh giá",
+      "Được tiến hành lặp đi lặp lại với bước xây dựng ứng dụng",
+      "Nhằm tạo sản phẩm cuối cùng của quy trình thiết kế",
+      "Có thể không cần thiết đối với các sản phẩm đơn giản."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Mẫu thử (Prototype) được vẽ ra dựa trên việc chuyển đổi các \"Yêu cầu người dùng\" đã thu thập ban đầu thành dạng hình ảnh trực quan. Nó luôn đi trước bước đánh giá, và mẫu thử chỉ là đồ giả lập, vĩnh viễn không bao giờ là \"Sản phẩm cuối cùng\"."
+  },
+  {
+    "id": 413,
+    "question": "Mệnh đề nào sau đây đúng với khái niệm trải nghiệm người dùng (viết tắt là \"UX\")? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Bao gồm các vấn đề về hiệu suất, ảnh hưởng và sự hài lòng của người dùng.",
+      "Tập trung vào cảm giác hoặc trải nghiệm khi sử dụng giao diện.",
+      "Chỉ về tốc độ của người dùng trong việc học một giao diện được thiết kế",
+      "Chỉ được quan sát trực tiếp thông qua các hành vi của người dùng",
+      "Chỉ tính đến những trải nghiệm của chuyên gia."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Theo định nghĩa chuẩn của ISO 9241-210, Trải nghiệm người dùng (UX) bao gồm nhận thức, cảm xúc (sự hài lòng, vui vẻ, bực bội), niềm tin, sở thích, và các phản ứng vật lý/tâm lý (hiệu suất) xảy ra trước, trong, và sau khi tương tác với sản phẩm."
+  },
+  {
+    "id": 414,
+    "question": "So với email không có ảnh GIF động, các email có GIFS động được người dùng cảm nhận:",
+    "chapter": null,
+    "options": [
+      "Ít tích cực hơn.",
+      "Đáng tin cậy hơn",
+      "Rối mắt hơn",
+      "Có giá trị hơn",
+      "Bột buon te (Lỗi OCR của đề, có thể là \"Bớt buồn tẻ\")."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Các nghiên cứu UX về Email Marketing chỉ ra rằng ảnh GIF động thường khiến email tải chậm hơn, dễ bị các bộ lọc đánh dấu là thư rác (spam), và thường tạo cảm giác kém chuyên nghiệp hoặc gây mất tập trung (phân tán thị giác) so với văn bản và hình ảnh tĩnh. Do đó, người dùng thường có ấn tượng \"ít tích cực hơn\"."
+  },
+  {
+    "id": 415,
+    "question": "Điều nào sau đây mô tả đánh giá hình thành trải nghiệm người dùng?",
+    "chapter": null,
+    "options": [
+      "Kiểm tra khả năng sử dụng một cách định tính trên một mẫu thử nghiệm để tìm ra những thay đổi nào cần được thực hiện.",
+      "Điều hành một nhóm tập trung để hiểu nhu cầu của đối tượng mục tiêu",
+      "Kiểm tra trên website đã được khách hàng nghiệm thu và triển khai chính thức từ 2020",
+      "Kiểm tra khả năng sử dụng (ví dụ trên một trang web) trực tiếp để hiểu nó so với các đối thủ như thế nào",
+      "Kiểm tra khả năng sử dụng trên phiên bản hiện tại để thiết lập đường cơ sở cho việc đo lường một cách định lượng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Đánh giá hình thành (Formative Evaluation) diễn ra trong quá trình thiết kế. Mục tiêu của nó là thu thập dữ liệu định tính (lý do tại sao user gặp khó khăn) thông qua các bản mẫu (prototype) để chỉnh sửa, uốn nắn (tìm ra thay đổi cần thực hiện) trước khi code."
+  },
+  {
+    "id": 416,
+    "question": "Bản đồ thấu cảm (empathy map) là gì?",
+    "chapter": null,
+    "options": [
+      "Tự tưởng tượng nếu mình là người dùng thì nghĩ gì làm gì nói gì cảm thấy gì khi sử dụng một sản phẩm cụ thể.",
+      "Quá trình mà một người trải qua để hoàn thành mục tiêu gắn liền với một sản phẩm cụ thể",
+      "Hình ảnh tổng hợp trình bày những gì chúng ta biết về một kiểu người dùng (Đây là Persona)",
+      "Hình dung về toàn bộ trải nghiệm mà một người chung chung trải qua để đạt được mục tiêu",
+      "Một sơ đồ trực quan hóa các mối quan hệ giữa các thành phần dịch vụ... (Đây là Service Blueprint)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Bản đồ thấu cảm (Empathy Map) là một công cụ chia làm 4 góc phần tư: Thấy gì (See), Nói & Làm gì (Say & Do), Nghe gì (Hear), và Nghĩ & Cảm thấy gì (Think & Feel). Nó giúp team thiết kế \"nhập vai\" và thấu hiểu sâu sắc tâm lý người dùng."
+  },
+  {
+    "id": 417,
+    "question": "Wireframes là cách thức hữu ích để chỉ ra:",
+    "chapter": null,
+    "options": [
+      "Cách bố trí các phần tử điều khiển trên giao diện người dùng.",
+      "Bảng màu của giao diện người dùng",
+      "Lý do tại sao người dùng cần các tác vụ cụ thể",
+      "Thiết kế kiểu chữ, phông chữ trên giao diện người dùng",
+      "Thứ tự các hành động của người dùng cần thiết để hoàn thành một tác vụ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Wireframe là bản vẽ khung xương (thường là đen trắng/xám). Nó KHÔNG chứa màu sắc, phông chữ đẹp (những cái này thuộc về UI Mockup/Hi-Fi). Nó chỉ dùng để chốt bố cục (layout): nút bấm nằm đâu, hình ảnh to nhường nào."
+  },
+  {
+    "id": 421,
+    "question": "Trong số các lựa chọn sau đây, đâu là các mẫu thử (prototype)? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Bản phác thảo tương tác (sketch).",
+      "Bản phác thảo giấy (mock-ups).",
+      "Mô hình khái niệm (conceptual models)",
+      "Phiên bản beta (beta versions)",
+      "Khung tương tác (Interaction framework)."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Mẫu thử (Prototype) có thể tồn tại ở độ tin cậy rất thấp (vẽ trên giấy) đến mức độ cao (bản vẽ có thể click tương tác trên máy tính). Mô hình khái niệm hay khung tương tác là lý thuyết, phiên bản beta là sản phẩm đã code xong phần mềm."
+  },
+  {
+    "id": 423,
+    "question": "Tính chất nào sau đây mô tả người dùng đã xác định đúng mục tiêu tương tác và hoàn thành đúng việc cần làm trong một bối cảnh cụ thể?",
+    "chapter": null,
+    "options": [
+      "Độ hiệu quả (Effectiveness).",
+      "Tính tiện lợi (Utility)",
+      "Tính dùng được (Usability)",
+      "Năng suất (Efficiency)",
+      "Độ hài lòng (Satisfaction)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Theo định nghĩa Usability, \"Effectiveness\" (Tính hiệu quả) đo lường việc người dùng có hoàn thành được chính xác mục tiêu hay không (Làm đúng việc). Còn \"Efficiency\" (Năng suất) đo lường việc họ làm điều đó nhanh cỡ nào (Làm việc đúng cách)."
+  },
+  {
+    "id": 424,
+    "question": "Loại menu nào sau đây tối ưu hóa thời gian di chuyển dự kiến từ con trỏ (được đặt trên nhân menu) đến một tùy chọn tùy ý bên trong menu?",
+    "chapter": null,
+    "options": [
+      "Menu bánh số hoặc menu vòng cung (pie or radial menu).",
+      "Menu kéo xuống (pulldown menu)",
+      "Menu tuyến tính (linear menu)",
+      "Menu phân cấp (hierarchical menu)",
+      "Menu hình chữ nhật hoặc hình vuông (rectangle or square menu)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Theo Luật Fitts (Fitts's Law), thời gian trỏ chuột phụ thuộc vào khoảng cách. Ở menu vòng cung (Radial menu), khoảng cách từ tâm (chỗ nhấp chuột) đến TẤT CẢ các tùy chọn xung quanh là bằng nhau và rất ngắn, giúp tốc độ thao tác cực kỳ nhanh và tạo thành trí nhớ cơ bắp."
+  },
+  {
+    "id": 425,
+    "question": "Mục tiêu của thiết kế hệ thống tương tác là:",
+    "chapter": null,
+    "options": [
+      "Tối đa tính dùng được (Usability).",
+      "Giảm giá thành",
+      "Giảm công sức lập trình",
+      "Giảm thời gian thiết kế",
+      "Đảm bảo các chức năng chạy đúng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tương tác Người - Máy (HCI/UX) sinh ra không phải để tối ưu cho code (Dev) hay túi tiền của doanh nghiệp (Business), mà mục tiêu duy nhất của nó là tối ưu trải nghiệm và sự dễ dùng (Usability) cho người dùng cuối."
+  },
+  {
+    "id": 429,
+    "question": "Trong giai đoạn đầu của thiết kế tương tác, cách thức sử dụng màu tốt nhất là:",
+    "chapter": null,
+    "options": [
+      "Không sử dụng màu.",
+      "Sử dụng màu càng nhiều càng tốt",
+      "Tránh dùng màu đen",
+      "Tránh dùng màu tương phản",
+      "Tránh dùng màu sáng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Giai đoạn đầu (Vẽ Wireframe/Low-Fi), các Designer thường chỉ dùng dải màu xám (Grayscale). Lý do là để người dùng và các bên liên quan (Stakeholders) tập trung 100% vào luồng logic và bố cục, tránh bị phân tâm bởi việc tranh cãi xem \"Nút này màu xanh hay màu đỏ thì đẹp hơn\"."
+  },
+  {
+    "id": 432,
+    "question": "Tính dùng được cho phép:",
+    "chapter": null,
+    "options": [
+      "Xác định cách thức người dùng sử dụng sản phẩm.",
+      "Xác định xem có nên đồng ý trả tiền cho sản phẩm hay không",
+      "Xác định cách mà con người quan sát và đánh giá sản phẩm",
+      "Xác định cách thức người phát triển dùng sản phẩm",
+      "Xác định cách sử dụng sản phẩm."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 433,
+    "question": "Trên Windows Explorer, để di chuyển một tập / thư mục (nguồn) đến một thư mục đích, người dùng có thể chọn biểu tượng tên thư mục nguồn và thực hiện thao tác kéo thả chúng vào thư mục đích. Đây là một ví dụ về (chọn 3):",
+    "chapter": null,
+    "options": [
+      "Nguyên tắc nhận biết (recognition).",
+      "Biểu diễn thao tác (Direct manipulation).",
+      "Mô tả ý định của người dùng.",
+      "Mô phỏng hoạt động của máy tính",
+      "Sự đáp ứng của máy tính đối với người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Thao tác \"Kéo thả\" (Drag & Drop) là đỉnh cao của Thao tác trực tiếp (Direct manipulation). Thay vì phải gõ lệnh \"Move C:\\Folder A to D:\\Folder B\" (phải nhớ), người dùng chỉ cần nhìn thấy thư mục (nhận biết) và dùng chuột cầm nó thả sang chỗ khác (mô tả ý định vật lý y như ngoài đời thực)."
+  },
+  {
+    "id": 434,
+    "question": "Khi thực hiện thao tác kéo một thư mục sang một thư mục khác, trên màn hình xuất hiện một ảnh động thể hiện thao tác copy/move thư mục này sang thư mục khác. Đây là một ví dụ về:",
+    "chapter": null,
+    "options": [
+      "Tính phản hồi (feedback).",
+      "Tính ánh xạ (mapping)",
+      "Tính ánh xạ (mapping) và tính phản hồi (feedback)",
+      "Sự mô phỏng (simulation)",
+      "Tính trực quan (visibility)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Hình ảnh động (animation) chiếc tài liệu bay từ thư mục này sang thư mục kia là cách máy tính \"nói\" với người dùng rằng: \"Tôi đã nhận được lệnh của bạn và hệ thống đang xử lý việc sao chép đây\". Đó chính là Phản hồi."
+  },
+  {
+    "id": 435,
+    "question": "Một mô hình khái niệm (conceptual model) là gì?",
+    "chapter": null,
+    "options": [
+      "Mô tả ở mức độ trừu tượng cao về cách hệ thống được tổ chức và cách nó hoạt động.",
+      "Tập hợp các thành phần trong hệ thống",
+      "Mô hình tương tác",
+      "Thể hiện chế độ tương tác",
+      "Không gian vấn đề khi thu thập các yêu cầu của người dùng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Mô hình khái niệm là cách những nhà thiết kế \"đơn giản hóa\" một hệ thống máy tính phức tạp thành một hình tượng dễ hiểu cho con người. Ví dụ: Máy tính không có \"thư mục\" hay \"thùng rác\" thật, đó chỉ là các Mô hình khái niệm trừu tượng để con người dễ hình dung cách file được lưu trữ và xóa đi."
+  },
+  {
+    "id": 437,
+    "question": "Chọn phương án có thứ tự tối ưu nhất để thu thập yêu cầu người dùng:",
+    "chapter": null,
+    "options": [
+      "Khảo sát -> Thảo luận nhóm tập trung -> Phỏng vấn.",
+      "Khảo sát -> Phỏng vấn -> Thảo luận nhóm tập trung",
+      "Thảo luận nhóm tập trung -> Phỏng vấn -> Khảo sát",
+      "Khảo sát -> Phỏng vấn -> Kiểm thử tính dùng được",
+      "Phỏng vấn -> Thảo luận nhóm tập trung -> Khảo sát."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Trình tự nghiên cứu kinh điển đi từ Rộng đến Hẹp:\nKhảo sát (Survey): Phát diện rộng để lấy số liệu định lượng, tìm ra \"Trend\" hoặc vấn đề nổi cộm.\nNhóm tập trung (Focus Group): Mời 5-7 người để thảo luận chung, lọc ra các nhóm vấn đề chuyên sâu.\nPhỏng vấn (Interview 1-1): Đào sâu vào tâm lý, động cơ cá nhân của từng người để lấy Insight chất lượng nhất."
+  },
+  {
+    "id": 438,
+    "question": "Trong mô hình HTA mối quan hệ giữa nhiệm vụ (tasks), hành động (actions) và mục tiêu (goals) thể hiện như thế nào?",
+    "chapter": null,
+    "options": [
+      "Một nhiệm vụ bao gồm các mục tiêu và hành động để hoàn thành các mục tiêu đó.",
+      "Một mục tiêu bao gồm một tập hợp các hành động để hoàn thành một nhiệm vụ",
+      "Các hành động chỉ phục vụ cho mục tiêu cụ thể",
+      "Một hành động biến một nhiệm vụ thành một mục tiêu",
+      "Các nhiệm vụ đảm bảo việc hoàn thành một mục tiêu nào đó."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: HTA (Hierarchical Task Analysis) chia nhỏ công việc theo cấu trúc cây. Từ Nhiệm vụ chính, chẻ ra thành các Mục tiêu con, và dưới Mục tiêu con là các Hành động vật lý cụ thể (ví dụ: bấm nút, di chuột) để đạt được chúng."
+  },
+  {
+    "id": 439,
+    "question": "Mục tiêu của phân tích nhiệm vụ (Task Analysis) là gì?",
+    "chapter": null,
+    "options": [
+      "Để xác định các tác vụ mà người dùng có nhiều khả năng thực hiện nhất.",
+      "Để xác định các giới hạn thời gian cho các nhiệm vụ",
+      "Để biết các công việc cần phải thực hiện khi xây dựng sản phẩm",
+      "Để xác định các nhiệm vụ mà các nhà phát triển đã thiết kế",
+      "Để xác định tần suất các tác vụ được thực hiện."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Task Analysis giúp chúng ta biết được trong một quy trình, người dùng thực tế đang làm gì, bước nào là quan trọng và hay được dùng nhất. Từ đó thiết kế luồng (flow) xoay quanh các tác vụ trọng tâm này."
+  },
+  {
+    "id": 442,
+    "question": "Đâu là nhược điểm của việc tạo mẫu thử có độ tin cậy cao (Hi-Fi Prototype)?",
+    "chapter": null,
+    "options": [
+      "Xây dựng các nguyên mẫu có độ trung thực cao tốn nhiều thời gian.",
+      "Mẫu thử chỉ phù hợp với người thiết kế",
+      "Người dùng không thích các nguyên mẫu có độ trung thực cao",
+      "Người dùng tập trung quá nhiều vào các chi tiết nhỏ như logo",
+      "Người dùng đưa ra nhiều phản hồi về chức năng của ứng dụng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Hi-Fi Prototype nhìn giống hệt app thật (đầy đủ màu sắc, hiệu ứng bóng đổ, font chữ, animation). Để vẽ và nối luồng cho nó tốn rất nhiều công sức. Nếu làm sai và phải đập đi thiết kế lại, chi phí thời gian bỏ ra là cực kỳ lớn."
+  },
+  {
+    "id": 443,
+    "question": "Điều nào sau đây là phù hợp cho việc tạo mẫu thử độ tin cậy thấp (Low-Fi)? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Chỉ bố cục đen trắng.",
+      "Phác thảo trên giấy.",
+      "Tạo một biểu trưng đầy màu sắc cho ứng dụng của bạn",
+      "Quyết định cách phối màu",
+      "Thể hiện các tương tác cần thiết."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Low-fi là bản phác thảo thô ráp, rẻ tiền, nhanh chóng. Do đó nó vứt bỏ toàn bộ yếu tố mỹ thuật (màu sắc, logo) và các tương tác click chuột phức tạp."
+  },
+  {
+    "id": 445,
+    "question": "Một ... có thể được thêm vào bản trình bày (slide) để đi đến nhiều vị trí khác nhau (ví dụ: địa chỉ web, địa chỉ e-mail, chương trình hoặc tài liệu).",
+    "chapter": null,
+    "options": [
+      "Siêu liên kết (Hyperlink).",
+      "Liên kết công cụ (Tool link)",
+      "Liên kết trong trình bày (Slide link)",
+      "Liên kết menu (Menu link)",
+      "Tất cả các đáp án trên."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 446,
+    "question": "Đâu là một nhiệm vụ khó khăn khi điều hướng trên một trang web thương mại điện tử?",
+    "chapter": null,
+    "options": [
+      "Hủy mua hàng.",
+      "Tìm một sản phẩm và thêm vào giỏ hàng",
+      "Tạo tài khoản / Đăng nhập",
+      "Thanh toán và tiến hành mua hàng",
+      "Cập nhật đơn hàng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Về mặt kinh doanh, các công ty muốn giữ chân khách hàng và dòng tiền. Do đó, nút \"Mua hàng\" luôn to và rõ ràng, trong khi các tính năng như \"Hủy đơn hàng\" hay \"Xóa tài khoản\" thường bị giấu kỹ trong nhiều lớp menu. Trong UX, điều này đôi khi bị gọi là \"Dark Patterns\" (Giao diện hắc ám)."
+  },
+  {
+    "id": 447,
+    "question": "Hình thức trợ giúp tốt nhất là:",
+    "chapter": null,
+    "options": [
+      "Không cần trợ giúp.",
+      "Sử dụng trợ giúp trực tiếp",
+      "Tìm hiểu các ứng dụng tương tự",
+      "Xem tài liệu",
+      "Tra cứu online."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"The best interface is no interface\" hoặc \"Thiết kế tốt thì không cần sách hướng dẫn\". Một giao diện hoàn hảo là giao diện tuân theo trực giác của con người (Intuitive), người dùng nhìn vào là tự biết cách dùng ngay mà không cần đọc Help hay FAQs."
+  },
+  {
+    "id": 448,
+    "question": "So với những người dùng bỏ qua hướng dẫn để sử dụng một ứng dụng game trên thiết bị di động, những người dùng xem qua hướng dẫn sẽ:",
+    "chapter": null,
+    "options": [
+      "Cảm thấy nhiệm vụ trong ứng dụng ít thú vị hơn.",
+      "Sẽ sử dụng ứng dụng nhiều hơn",
+      "Thực hiện một tác vụ trong ứng dụng nhanh hơn",
+      "Ít có khả năng hoàn thành nhiệm vụ trong ứng dụng",
+      "Có trải nghiệm tốt hơn."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Tâm lý học trò chơi (Gamification) chỉ ra rằng, niềm vui của việc chơi game đến từ sự \"khám phá\" và vượt qua \"thử thách\". Nếu bắt user đọc một bản hướng dẫn dài ngoằng (Tutorial) dạy họ mọi thứ, sự tò mò và cảm giác thành tựu sẽ biến mất."
+  },
+  {
+    "id": 449,
+    "question": "Sự khác biệt giữa bản đồ hành trình của khách hàng (customer journey map) và bản đồ trải nghiệm (experience map) là gì?",
+    "chapter": null,
+    "options": [
+      "Bản đồ trải nghiệm không phù hợp với thời kỳ sản phẩm cụ thể nào, trong khi Bản đồ hành trình của khách hàng gắn liền với một sản phẩm hoặc dịch vụ cụ thể.",
+      "Cả hai loại bản đồ trên không phân biệt với nhau",
+      "Bản đồ hành trình tập trung vào khách hàng, trong khi bản đồ trải nghiệm tập trung vào nhân viên",
+      "Bản đồ hành trình cung cấp góc nhìn chung... không dành cho đối tượng cụ thể",
+      "Bản đồ hành trình mô tả sự kiện theo thời gian, nhưng trải nghiệm không theo thời gian..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \nExperience Map: Rất chung chung. Ví dụ: Trải nghiệm \"Việc đi sinh con của một bà bầu\" (không gắn với bệnh viện nào).\nCustomer Journey Map: Cụ thể. Ví dụ: Hành trình \"Bà bầu A sử dụng dịch vụ sinh con trọn gói tại Bệnh viện Vinmec\"."
+  },
+  {
+    "id": 450,
+    "question": "Một user persona trong bối cảnh thiết kế tương tác: (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Được sử dụng để nhập vai thông qua một thiết kế giao diện.",
+      "Đại diện cho một kiểu người dùng cụ thể.",
+      "Là người thật",
+      "Đại diện cho một người dùng bình thường",
+      "Mô tả cho thói quen của người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Persona (Chân dung người dùng) là một nhân vật giả tưởng (không phải người thật) được đúc kết từ dữ liệu nghiên cứu, đại diện cho một tập hợp/kiểu khách hàng mục tiêu. Nó giúp team thiết kế hình dung cụ thể họ đang làm sản phẩm cho ai để \"nhập vai\" thiết kế cho chuẩn."
+  },
+  {
+    "id": 451,
+    "question": "Luật Fitts về sự dịch chuyển chỉ ra:",
+    "chapter": null,
+    "options": [
+      "Thời gian đến mục tiêu phụ thuộc vào khoảng cách và kích thước của mục tiêu đó.",
+      "Thời gian đưa ra quyết định tăng lên phụ thuộc vào số lượng và sự phức tạp... (Đây là Luật Hick)",
+      "Người sử dụng dễ dàng nhớ được vị trí đầu tiên và cuối cùng... (Đây là Hiệu ứng vị trí nối tiếp - Serial Position Effect)",
+      "Cảm nhận của thị giác phụ thuộc vào kích thước hay khoảng cách tương đối...",
+      "Năng suất làm việc tăng khi máy tính và người dùng tương tác dưới 400ms..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": ""
+  },
+  {
+    "id": 452,
+    "question": "Thông tin về các kích thích (stimulus) đi qua bộ nhớ con người theo thứ tự như thế nào?",
+    "chapter": null,
+    "options": [
+      "(1) Sensory memory -> (2) Short-term memory -> (3) Long-term memory.",
+      "Các trình tự sắp xếp ngược hoặc lộn xộn khác."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \nThông tin từ môi trường đập vào mắt/tai (Bộ nhớ cảm giác - Sensory).\nNếu ta chú ý đến nó, nó vào Não bộ xử lý tạm thời (Bộ nhớ ngắn hạn - Short-term).\nNếu ta ôn tập/nhắc lại, nó được khắc sâu vĩnh viễn (Bộ nhớ dài hạn - Long-term)."
+  },
+  {
+    "id": 453,
+    "question": "Khái niệm nào sau đây KHÔNG nằm trong lý thuyết Gestalt:",
+    "chapter": null,
+    "options": [
+      "Tính nhất quán (consistency).",
+      "Tính gần nhau (proximity)",
+      "Tính tương tự (similarity)",
+      "Tính đóng (closure)",
+      "Tính liên tục (continuation)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Lý thuyết Gestalt mô tả cách não bộ con người gom nhóm các vật thể thị giác (gần nhau thì thành nhóm, giống nhau thì thành nhóm, đường đứt nét thì tự nối lại thành hình). \"Tính nhất quán\" là nguyên tắc thiết kế UI của Nielsen/Shneiderman, không phải là định luật tâm lý học Gestalt."
+  },
+  {
+    "id": 454,
+    "question": "Hai kiểu bộ nhớ có ý thức (Explicit/Declarative) của bộ nhớ dài hạn là:",
+    "chapter": null,
+    "options": [
+      "Rời rạc (Episodic) và Ngữ nghĩa (Semantic).",
+      "Có cấu trúc và Thủ tục",
+      "Rời rạc và Cấu trúc",
+      "Thủ tục và Ngữ nghĩa",
+      "Rời rạc và Liên tục."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Trí nhớ dài hạn chia làm 2 loại:\nTrí nhớ Không ý thức (Implicit): Kỹ năng/Thủ tục (Ví dụ: cách đi xe đạp).\nTrí nhớ Có ý thức (Explicit): Gồm Trí nhớ sự kiện/rời rạc (Episodic - Nhớ về ngày sinh nhật năm ngoái) và Trí nhớ ngữ nghĩa/sự thật (Semantic - Nhớ thủ đô Việt Nam là Hà Nội)."
+  },
+  {
+    "id": 455,
+    "question": "Hình ảnh minh họa khái niệm gì trong lý thuyết Gestalt? (Một chuỗi chấm tròn đen và xám xếp thành 2 đường chéo nhau).",
+    "chapter": null,
+    "options": [
+      "Tính liên tục (Continuity).",
+      "Tính gần nhau (Proximity)",
+      "Tính tương đồng (Similarity)",
+      "Tính đối xứng (Symmetry)",
+      "Tính đóng (Closure)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Luật Liên tục chỉ ra rằng mắt người có xu hướng tự động theo dõi và kết nối các vật thể xếp theo một đường thẳng hoặc đường cong mượt mà, coi chúng là một luồng chảy duy nhất."
+  },
+  {
+    "id": 456,
+    "question": "Trong điều kiện ánh sáng tối, chúng ta khó cảm nhận được màu sắc do:",
+    "chapter": null,
+    "options": [
+      "Các tế bào hình nón kém nhạy cảm với ánh sáng.",
+      "Võng mạc mắt",
+      "Các tế bào hình que nhạy cảm với ánh sáng",
+      "Xử lý về màu sắc trong não bộ",
+      "Ba loại tế bào hình que cảm nhận ánh sáng với các bước sóng khác nhau."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Mắt người có 2 loại tế bào: Tế bào hình Nón (Cones) cảm nhận MÀU SẮC nhưng cần ánh sáng mạnh để hoạt động. Tế bào hình Que (Rods) chỉ thấy ĐEN/TRẮNG nhưng hoạt động rất tốt trong bóng tối. Do đó, vào ban đêm, tế bào Nón bị \"vô hiệu hóa\" nên ta thấy mọi thứ chỉ có màu xám xịt."
+  },
+  {
+    "id": 457,
+    "question": "Cái nào sau đây không phải là một kiểu tương tác (interaction style)?",
+    "chapter": null,
+    "options": [
+      "Nhận dạng giọng nói.",
+      "Dòng lệnh",
+      "Menu",
+      "Hỏi đáp truy vấn",
+      "Ngôn ngữ tự nhiên."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Kiểu tương tác\" là triết lý/cách thức thiết kế phần mềm để giao tiếp với người. \"Nhận dạng giọng nói\" (Voice Recognition) chỉ là một công nghệ đầu vào (Input technology). Ngôn ngữ tự nhiên (Natural language) mới là kiểu tương tác khai thác công nghệ đó."
+  },
+  {
+    "id": 458,
+    "question": "Thành phần nào sau đây không được sử dụng để điều hướng?",
+    "chapter": null,
+    "options": [
+      "Thanh tiến trình (Progress bar).",
+      "Thanh trượt (slider)",
+      "Menu",
+      "Biểu tượng (Icon)",
+      "Tập hợp những liên kết giúp người dùng xác định vị trí hiện tại (Breadcrumb)."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Điều hướng (Navigation) là việc di chuyển từ trang này sang trang khác (Menu, Breadcrumb) hoặc di chuyển trong 1 trang (Thanh cuộn/slider). \"Thanh tiến trình\" chỉ dùng để thông báo Trạng thái hệ thống (đang tải được 50%), nó không di chuyển bạn đi đâu cả."
+  },
+  {
+    "id": 460,
+    "question": "Những yếu tố nào là quan trọng trong việc thiết kế giao diện? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Thực hành thiết kế lặp.",
+      "Hiểu người dùng và các tác vụ của họ.",
+      "Sử dụng các công cụ tự động trong thiết kế giao diện người dùng",
+      "Đưa ra các giả thuyết về cách thức người dùng tương tác với hệ thống",
+      "Nắm rõ cách thức hệ thống hoạt động."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Cốt lõi của UI/UX là phải thấu hiểu User (Research) và không ngừng tạo mẫu - test - sửa chữa liên tục (Iterative Design). Việc tự \"đưa ra giả thuyết\" (đoán mò) là điều tối kỵ."
+  },
+  {
+    "id": 461,
+    "question": "Kỹ thuật thu thập yêu cầu người dùng nào là phù hợp nhất để hiểu ngữ cảnh các hoạt động của người dùng?",
+    "chapter": null,
+    "options": [
+      "Quan sát tự nhiên.",
+      "Nghiên cứu tài liệu",
+      "Bảng câu hỏi",
+      "Phỏng vấn",
+      "Nhóm tập trung và hội thảo."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Để hiểu \"Ngữ cảnh\" (Context - môi trường xung quanh ồn ào hay yên tĩnh, user làm việc một tay hay hai tay), không gì tốt bằng việc xuống tận hiện trường để Quan sát người dùng làm việc (Field study / Naturalistic observation) thay vì ngồi trong phòng thí nghiệm hỏi."
+  },
+  {
+    "id": 462,
+    "question": "Các yêu cầu chức năng chỉ ra những gì hệ thống phải làm trong khi các yêu cầu phi chức năng chỉ ra:",
+    "chapter": null,
+    "options": [
+      "Ràng buộc hệ thống.",
+      "Thiết kế dữ liệu",
+      "Độ đậm nhạt",
+      "Ràng buộc người dùng",
+      "Các bảo đảm."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \nYêu cầu chức năng: Hệ thống \"phải\" làm gì? (Ví dụ: phải cho phép đăng nhập).\nYêu cầu phi chức năng: Hệ thống phải làm điều đó \"như thế nào\" (Các ràng buộc chất lượng/kỹ thuật - Ví dụ: Tốc độ load không quá 2 giây, chịu được 10.000 người truy cập cùng lúc)."
+  },
+  {
+    "id": 463,
+    "question": "Mô hình nào mô tả giao diện người dùng cùng với tất cả thông tin hỗ trợ?",
+    "chapter": null,
+    "options": [
+      "Mô hình thực hiện (Implementation Model).",
+      "Mô hình của người dùng",
+      "Mô hình người dùng",
+      "Mô hình kỹ thuật xã hội OSTA",
+      "Nhận thức hệ thống."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Mô hình thực hiện (System/Implementation model) là mô hình miêu tả chính xác cách hệ thống máy tính thực sự hoạt động ở tầng kỹ thuật (code, database, giao diện) theo góc nhìn của Developer."
+  },
+  {
+    "id": 464,
+    "question": "Trong kịch bản sau: \"Kỹ sư điều khiển một cánh tay robot thông qua một phần mềm điều khiển mô phỏng trên thiết bị di động\", đâu là tương tác?",
+    "chapter": null,
+    "options": [
+      "Điều khiển cánh tay robot.",
+      "Thiết bị di động",
+      "Robot",
+      "Phần mềm mô phỏng",
+      "Kỹ sư."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Kỹ sư là \"Con người\". Thiết bị/Robot/Phần mềm là \"Hệ thống\". Tương tác (Interaction) chính là hành động/động từ diễn ra giữa người và hệ thống đó (hành động Điều khiển)."
+  },
+  {
+    "id": 466,
+    "question": "Trong các mô thức đánh giá thiết kế, mô thức nào có vai trò của người dùng trong đánh giá là thấp nhất?",
+    "chapter": null,
+    "options": [
+      "Dự đoán (Predictive Evaluation).",
+      "Vai trò của người dùng trong các mô thức đánh giá là như nhau",
+      "Nhanh",
+      "Kiểm tra tính dùng được",
+      "Nghiên cứu thực địa."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: Đánh giá dự đoán (Ví dụ: Heuristic) do chuyên gia UX tự thực hiện dựa trên kinh nghiệm của họ để soi lỗi UI, hoàn toàn không cần sự tham gia của người dùng thực tế."
+  },
+  {
+    "id": 498,
+    "question": "Phát biểu nào sau đây là sai về đánh giá tính dùng được? (Lưu ý: Đề yêu cầu tìm phát biểu SAI. Dựa trên lý thuyết UX, 3 phát biểu đầu tiên là sai kiến thức, 2 phát biểu sau là đúng kiến thức).",
+    "chapter": null,
+    "options": [
+      "Không nên sử dụng hình thức đặt câu hỏi trực tiếp.",
+      "Đảm bảo tách biệt về không gian và thời gian giữa tester và người dùng.",
+      "Chỉ nên sử dụng một phương pháp phù hợp.",
+      "Dữ liệu kiểm tra có thể được lấy từ nhật ký (log).",
+      "Có thể sử dụng kinh nghiệm trong quá khứ của người dùng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Trong đánh giá UX, việc \"đặt câu hỏi trực tiếp\" (phỏng vấn, think-aloud) là vô cùng phổ biến. Tester và User thường ngồi ngay cạnh nhau (không tách biệt không gian) trong phòng lab để quan sát. Và nguyên tắc vàng là phải \"kết hợp nhiều phương pháp\" (Triangulation) chứ không bao giờ chỉ dùng một phương pháp duy nhất."
+  },
+  {
+    "id": 507,
+    "question": "Khẳng định nào là đúng đối với kỹ thuật kiểm thử người dùng trong phòng thí nghiệm (lab-based testing)? (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Dùng để kiểm tra giả thiết cụ thể.",
+      "Được thực hiện nhanh với các dữ liệu giống nhau.",
+      "Với một nhiệm vụ cụ thể cho trước khả năng xảy ra lỗi là ít.",
+      "Xác định rõ ràng bối cảnh thực hiện.",
+      "Có thể thực hiện tự nhiên mà không bị gián đoạn."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Kiểm thử trong phòng thí nghiệm (Lab testing) là môi trường được kiểm soát chặt chẽ. Ưu điểm là test được các giả thuyết hẹp, ép nhiều user làm cùng một kịch bản với dữ liệu chuẩn hóa, từ đó hạn chế các lỗi nhiễu từ môi trường. Nhược điểm của nó là \"thiếu tự nhiên\" và \"không phản ánh được bối cảnh thực tế\" (đây lại là ưu điểm của Field Studies - Nghiên cứu thực địa)."
+  },
+  {
+    "id": 512,
+    "question": "Điều nào sau đây KHÔNG phải là ví dụ về tăng tốc (accelerator)?",
+    "chapter": null,
+    "options": [
+      "Các phần tử trong menu \"Insert\" của ứng dụng soạn thảo văn bản Microsoft Word.",
+      "Phím F1 trên bàn phím",
+      "Thao tác vuốt để xóa trong iOS",
+      "Phím tắt Siri của hệ điều hành iOS",
+      "Tổ hợp phím Ctrl-S để lưu file."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Giải thích: \"Tăng tốc\" (Accelerators) là những phím tắt, cử chỉ ẩn (vuốt), hoặc tổ hợp phím được thiết kế để giúp người dùng chuyên nghiệp bỏ qua các bước menu rườm rà, tiết kiệm thời gian. Một danh mục hiển thị lù lù trên thanh công cụ như tab \"Insert\" là đường dẫn điều hướng cơ bản dành cho người mới, không phải là tính năng tăng tốc."
+  },
+  {
+    "id": 513,
+    "question": "Đâu là các yếu tố ảnh hưởng tới khả năng cảm nhận bằng thị giác của con người? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Khoảng cách.",
+      "Kích thước và chiều cao.",
+      "Chuyển động",
+      "Thay đổi về ánh sáng",
+      "Hành động."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: Khả năng nhìn rõ to/nhỏ của vật thể phụ thuộc vào Góc nhìn (Visual Angle) trên võng mạc. Góc này được quyết định bởi 2 biến số vật lý: Kích thước thật của vật thể đó, và Khoảng cách từ mắt đến vật thể."
+  },
+  {
+    "id": 514,
+    "question": "Luật Fitts được dùng để: (chọn 3)",
+    "chapter": null,
+    "options": [
+      "Dự báo rằng thời gian cần thiết để nhanh chóng di chuyển đến một vị trí đích phụ thuộc vào khoảng cách tới đích và kích thước đích.",
+      "Mô hình hóa thời gian chuyển động đủ để lựa chọn một đối tượng.",
+      "Mô tả hiệu năng của các thiết bị vào.",
+      "Đánh giá hệ thống mà thời gian cần thiết để định vị một đối tượng là không quan trọng.",
+      "Mô hình hóa thời gian chuyển động đủ để vẽ một đối tượng."
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Giải thích: Định luật Fitts là công thức toán học tính toán thời gian trỏ chuột (chọn/click). Nó sinh ra dành cho các tác vụ mang tính \"thời gian là quan trọng\", thường dùng để so sánh xem Chuột, Trackpad hay Màn hình cảm ứng (các thiết bị đầu vào) cái nào cho hiệu năng click nhanh hơn. Nó không dùng cho các thao tác \"Vẽ\" (Drawing) liên tục."
+  },
+  {
+    "id": 515,
+    "question": "Xác định các sơ suất (slips/lapses) của con người trong các tình huống sau: (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Bạn cài đặt phần mềm MySQL, để lưu trữ các dữ liệu cần khai thác bằng truy vấn SQL, nhưng bạn quên mất mật khẩu quản trị để cài đặt.",
+      "Khi bạn soạn một văn bản, bạn gõ sai một từ tiếng Anh dù bạn biết từ đó đánh vần như thế nào.",
+      "Bạn cài đặt phần mềm MS Excel trên máy tính để lưu trữ các dữ liệu cần khai thác bằng truy vấn SQL.",
+      "Bạn cho rằng câu lệnh printf(\"%d\", a)",
+      "trong ngôn ngữ C sẽ in ra màn hình được xóa a.",
+      "Đặt máy tính lên trên bàn phủ khăn nỉ với hi vọng máy tính thoát nhiệt tốt hơn."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: \nSơ suất (Slips/Lapses): Xảy ra khi bạn biết cách làm đúng nhưng lúc thực hiện lại bị trượt tay (gõ sai phím) hoặc quên ngang (lỗi bộ nhớ ngắn hạn - quên pass). Đây là lỗi ở tầng thực thi.\nSai lầm (Mistakes): Xảy ra khi kiến thức/suy luận của bạn bị sai ngay từ đầu (Ví dụ: nghĩ Excel chạy được SQL, không thuộc cú pháp C, hoặc không hiểu nguyên lý tản nhiệt vật lý). Các đáp án sai ở trên đều là Mistakes, không phải Slips."
+  },
+  {
+    "id": 516,
+    "question": "Các phát biểu nào sau đây là đúng? (chọn 2)",
+    "chapter": null,
+    "options": [
+      "Chất lượng giao tiếp phụ thuộc chất lượng tương tác.",
+      "Xét chức năng \"gọi điện thoại\" trên điện thoại di động. Khi có nhiều lớp người dùng khác nhau về năng lực, hành vi, trình độ, lứa tuổi... cần cung cấp nhiều kiểu tương tác khác nhau để thực hiện chức năng này.",
+      "Sự có mặt của người lạ trong môi trường làm việc thường không làm ảnh hưởng đến hiệu quả công việc của người sử dụng máy tính.",
+      "Trong khung tương tác Abowd và Beale, phép dịch từ đầu ra đến người dùng thay còn gọi là quan sát tương ứng với bước \"Đánh giá trong thời hệ thống theo mục đích và chú ý\" của chu trình Norman.",
+      "Material design là phương pháp thiết kế dành riêng cho các ứng dụng desktop."
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "explanation": "Giải thích: \nTheo nguyên tắc \"Linh hoạt\" (Flexibility), một chức năng tốt phải có nhiều cách thao tác để phục vụ người mới (thích dùng menu) và chuyên gia (thích phím tắt).\nTại sao các câu kia sai: Sự có mặt của người lạ (yếu tố xã hội) ảnh hưởng cực mạnh đến tâm lý và hiệu suất UX. Material Design ban đầu được Google tạo ra tập trung cho Mobile (Android), không phải \"dành riêng\" cho Desktop.\ncontext Đó, đây là toàn bộ nội dung trong cái file đề thi cuối kỳ, giờ thì bro làm, sửa web, cho đống câu hỏi nó đúng chuẩn với ngần này câu hỏi, đáp án đúng, khi mà chọn sai ở trên web thì phải hiển thị là sai nếu chọn đúng hiển thị là dúng, nói chung là bro cứ làm từ từ thong thả nhé :>, tôi tin bạn :>\ncontext"
+  }
+]
